@@ -2,4 +2,4 @@
 
 Personal website for Andre Duvoisin.
 
-[andreduvoisin.com](andreduvoisin.com)
+[andreduvoisin.com](https://andreduvoisin.com)
