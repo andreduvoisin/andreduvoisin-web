@@ -1,0 +1,17 @@
+proc /proc proc rw,relatime,gid=496,hidepid=2 0 0
+sysfs /sys sysfs rw,relatime 0 0
+devtmpfs /dev devtmpfs rw,relatime,size=131915592k,nr_inodes=32978898,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,noexec,relatime 0 0
+/dev/sda3 / ext4 rw,relatime,barrier=1,data=ordered,jqfmt=vfsv0,usrjquota=quota.user 0 0
+/proc/bus/usb /proc/bus/usb usbfs rw,relatime 0 0
+/dev/sda1 /boot ext2 rw,relatime,errors=continue,user_xattr,acl 0 0
+/dev/sdb1 /home ext4 rw,relatime,barrier=1,data=ordered,jqfmt=vfsv0,usrjquota=quota.user 0 0
+/dev/sda4 /tmp ext4 rw,nosuid,noexec,relatime,barrier=1,data=ordered 0 0
+/dev/sda5 /usr ext4 rw,relatime,barrier=1,data=ordered,jqfmt=vfsv0,usrjquota=quota.user 0 0
+/dev/sda6 /var ext4 rw,relatime,barrier=1,data=ordered,jqfmt=vfsv0,usrjquota=quota.user 0 0
+tmpfs /tmp/.mysql tmpfs rw,nosuid,noexec,relatime,size=8388608k,mpol=interleave:0-1 0 0
+none /proc/sys/fs/binfmt_misc binfmt_misc rw,relatime 0 0
+/dev/sda4 /var/tmp ext4 rw,nosuid,noexec,relatime,barrier=1,data=ordered 0 0
+sunrpc /var/lib/nfs/rpc_pipefs rpc_pipefs rw,relatime 0 0
+10.24.0.1:/ncbackup/nfs/server229/ /backup nfs rw,noatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,soft,nolock,proto=tcp,timeo=200,retrans=2,sec=sys,mountaddr=10.24.0.1,mountvers=3,mountport=892,mountproto=tcp,local_lock=all,addr=10.24.0.1 0 0

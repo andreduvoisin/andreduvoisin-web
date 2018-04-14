@@ -1,0 +1,449 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201412 will be lost/reset.
+# Last config file used to build this data file was /home/andrygzc/tmp/awstats/awstats.andreduvoisin.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2011                
+POS_TIME 2689                
+POS_VISITOR 8622                
+POS_DAY 10558               
+POS_DOMAIN 3510                
+POS_LOGIN 3828                
+POS_ROBOT 3983                
+POS_WORMS 4293                
+POS_EMAILSENDER 4424                
+POS_EMAILRECEIVER 4567                
+POS_SESSION 11396               
+POS_SIDER 11603               
+POS_FILETYPES 4702                
+POS_DOWNLOADS 4938                
+POS_OS 5008                
+POS_BROWSER 5149                
+POS_SCREENSIZE 5597                
+POS_UNKNOWNREFERER 5671                
+POS_UNKNOWNREFERERBROWSER 6091                
+POS_ORIGIN 6457                
+POS_SEREFERRALS 6597                
+POS_PAGEREFS 6752                
+POS_SEARCHWORDS 6936                
+POS_KEYWORDS 7088                
+POS_MISC 2352                
+POS_ERRORS 7147                
+POS_CLUSTER 3684                
+POS_SIDER_404 7268                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150101025739 15 2370 7321034836804
+FirstTime 20141201055554
+LastTime 20141231231829
+LastUpdate 20150101070714 15 0 14 0 0
+TotalVisits 591                 
+TotalUnique 46                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 48                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 30 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 14986 21 24 130014
+1 4 4 33723 13 26 296625
+2 21 54 558083 15 25 191517
+3 96 222 3724743 20 30 79580
+4 160 477 2652383 23 29 126543
+5 199 375 5804724 21 24 45562
+6 31 31 127033 11 16 64102
+7 3 3 26341 13 16 51394
+8 29 29 217541 18 22 145412
+9 18 18 127714 12 20 243752
+10 34 50 651689 16 21 64205
+11 16 16 119651 8 10 56252
+12 16 32 516402 14 21 162430
+13 37 50 612354 11 16 42395
+14 62 62 243734 9 24 405662
+15 165 260 5412883 32 44 214710
+16 253 398 5112395 14 25 144016
+17 345 550 7756082 64 75 235444
+18 403 548 8275490 48 71 601122
+19 61 147 1046045 23 25 96203
+20 29 31 216750 15 16 85420
+21 126 195 3131931 22 27 228219
+22 160 179 4961055 33 46 61502
+23 79 121 1042490 16 21 84444
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 2335 3840 52296589
+ru 3 3 23557
+pl 3 3 22368
+fi 2 2 13736
+de 2 2 14986
+eu 2 2 0
+ua 1 1 7530
+in 1 1 7456
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 280 3431871 20141231000909 25
+bot[\s_+:,\.\;\/\\-] 11 82960 20141230084436 5
+unknown 5 190 20141227094046 5
+robot 5 0 20141228203112 0
+netcraft 1 7530 20141210043859 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 555 3305624 0 0
+png 215 1729217 0 0
+php 1281 30628757 0 0
+html 1066 12138552 0 0
+js 679 4442128 0 0
+jpg 6 37440 0 0
+Unknown 2 17812 0 0
+gif 48 83650 0 0
+svg 2 3042 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 35 0 1330
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+linuxandroid 16
+blackberry 1
+winlong 1
+winxp 9
+winvista 26
+linux 413
+win7 2713
+macosx 536
+Unknown 139
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 25
+safari7.0 24
+chrome39.0.2171.93 16
+msie6.0 7
+firefox28.0 390
+blackberry 1
+chrome34.0.1847.137 3
+firefox18.0 2
+chrome39.0.2171.95 2640
+firefox34.0 7
+safari6.1.6 34
+firefox2.0.0.13 1
+msie8.0 2
+firefox33.0 238
+mozilla 53
+firefox14.0.1 6
+firefox23.0 1
+chrome27.0.1453 17
+firefox6.0 17
+firefox3.6.3 1
+safari8.0 234
+chrome41.0.2228.0 2
+chrome11.0.696.71 1
+firefox3.5 1
+Unknown 138
+chrome39.0.2171.71 18
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+WordPress/4.0.1;_http://andreduvoisin.com 20141231173837
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20141213154259
+Python-urllib/1.17 20141213103243
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20141229174803
+Mozilla/4.0_(compatible;_Synapse) 20141212081355
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WordPress/4.0.1;_http://andreduvoisin.com 20141231173837
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20141213154259
+Python-urllib/1.17 20141213103243
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20141229174803
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 644 644
+From1 0 0
+From2 6 6
+From3 1 1
+From4 1698 3203
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://andrebrasilierartist.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 2 7494
+302 161 0
+301 79 944
+404 85 325536
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 32
+/drupal 1 http://andreduvoisin.com/drupal
+/ 8 -
+/robots.txt 31 -
+/admin.php 1 -
+/sample-page/ 6 -
+/wp-admin/admin-ajax.php 1 -
+/about/asdf 1 -
+/wp-content/plugins/slideshow-gallery/readme.txt 1 -
+/portfolioasdf 1 -
+/wp/ 4 -
+/joomla 1 http://andreduvoisin.com/joomla
+/wordpress 1 http://andreduvoisin.com/wordpress
+/blog 1 http://andreduvoisin.com/blog
+/portfolio/feed/ 2 -
+/browserconfig.xml 1 -
+/404 1 -
+/hello-world/ 6 -
+/portfolio/polyseum/feed/ 1 -
+/user/ 1 -
+/portfoliosafdsaf 1 -
+/administrator/index.php 1 -
+/cgi-bin/ 1 -
+/wp-content/plugins/google-document-embedder/readme.txt 2 -
+/ajax.list.search.php 1 -
+/wp-content/plugins/wp-symposium/readme.txt 1 -
+/admin 1 -
+/administrator/ 1 -
+/wp-content/plugins/wpdatatables/assets/js/wpdatatables/wpdatatables.min.js 1 -
+/wp/wp-content/plugins/showbiz/ 1 http://andreduvoisin.com/wp/wp-content/plugins/showbiz/index.php
+/wp-login.php 2 http://andreduvoisin.com/wp-login.php
+/wp/wp-content/plugins/revslider/ 1 http://andreduvoisin.com/wp/wp-content/plugins/revslider/index.php
+/wp/admin 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 48
+23.241.41.192 1678 2998 43213286 20141216020545
+107.152.186.218 388 388 2912371 20141231231829
+198.187.31.192 135 135 0 20141231173837
+76.187.235.234 55 96 1806143 20141217214330
+184.38.211.83 11 26 477706 20141219172322
+68.181.88.195 10 26 474187 20141215223101
+69.58.178.59 7 7 53382 20141221132642
+66.249.84.165 5 5 37650 20141211231907
+166.137.136.64 4 20 427968 20141226232404
+162.244.13.104 4 4 45420 20141211071052
+70.196.0.228 3 3 21755 20141231212434
+70.196.128.75 3 19 418660 20141227200041
+66.249.84.177 3 3 22516 20141214235606
+67.248.173.171 3 18 452462 20141213154240
+185.72.244.38 2 2 0 20141222065023
+216.3.101.62 2 18 410591 20141216103050
+38.229.70.44 2 2 14912 20141224202912
+66.249.83.165 2 2 14912 20141227123243
+192.99.40.137 2 2 13736 20141214194655
+89.69.56.179 2 2 14912 20141224094435
+66.249.84.171 2 2 15060 20141208034520
+93.92.217.228 2 2 16101 20141230103631
+66.102.6.153 1 1 7456 20141217171525
+68.181.88.21 1 6 222466 20141212165357
+184.72.64.81 1 1 7530 20141209105320
+66.249.93.181 0 5 144169 
+64.233.172.147 1 1 7456 20141219220516
+204.124.183.98 1 1 11355 20141211190353
+24.142.76.16 1 14 341579 20141227132654
+64.233.172.155 1 1 7456 20141221012134
+114.143.81.241 1 1 7456 20141228000014
+5.9.53.251 1 1 7456 20141222085547
+162.213.24.18 1 1 11355 20141204143537
+66.249.83.171 1 1 7456 20141226012356
+66.249.93.178 0 4 115424 
+176.102.38.148 1 1 7530 20141212081355
+66.102.6.144 1 1 7456 20141218174536
+76.164.223.119 1 1 7530 20141213103243
+5.9.11.122 1 1 7530 20141206194025
+130.211.85.67 1 1 7456 20141217043939
+31.11.237.31 1 1 7456 20141223081912
+188.226.232.205 1 1 7456 20141229174803
+68.181.40.19 1 1 5882 20141215171438
+173.252.73.117 1 1 2693 20141213154259
+54.174.32.29 1 1 7456 20141231220459
+70.196.135.160 1 17 403748 20141230120503
+66.249.93.184 1 8 144155 20141217193644
+198.101.238.203 1 1 7530 20141208073102
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20141201 18 18 112950 18
+20141202 17 17 105420 17
+20141203 19 19 124305 19
+20141204 20 25 346771 20
+20141205 20 30 550352 20
+20141206 19 19 120480 19
+20141207 20 20 124305 20
+20141208 16 16 90360 16
+20141209 19 19 120480 19
+20141210 19 19 116775 19
+20141211 21 21 135660 21
+20141212 15 20 305296 14
+20141213 786 1313 20978709 25
+20141214 930 1681 21795060 22
+20141215 31 73 614822 21
+20141216 35 69 1025342 20
+20141217 62 117 2216156 22
+20141218 18 18 96928 18
+20141219 29 44 574634 19
+20141220 18 18 96928 18
+20141221 25 25 150310 19
+20141222 19 19 96928 19
+20141223 19 19 104384 19
+20141224 19 19 104384 18
+20141225 17 17 89472 17
+20141226 24 56 936100 20
+20141227 20 33 445963 19
+20141228 17 17 96928 17
+20141229 18 18 96928 18
+20141230 20 36 509321 20
+20141231 19 19 103771 18
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 4
+2mn-5mn 1
+30s-2mn 3
+15mn-30mn 2
+0s-30s 572
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 42
+/wp/wp-admin/admin-ajax.php 693 228747 2 6
+/ 681 6596109 455 444
+/wp/wp-cron.php 135 0 129 129
+/wp/wp-admin/edit.php 109 4823169 0 0
+/wp/wp-admin/post.php 109 12717136 0 0
+/portfolio/ 94 1292603 0 1
+/contact/ 89 1189943 2 5
+/about/ 76 1139021 0 1
+/resume/ 75 1003445 0 1
+/wp/wp-admin/themes.php 43 2546669 0 0
+/wp/wp-admin/theme-editor.php 38 1222630 0 0
+/wp/wp-admin/load-scripts.php 36 2069319 0 0
+/wp/wp-admin/nav-menus.php 33 2029267 0 0
+/portfolio/polyseum/ 30 378716 1 3
+/wp/wp-admin/post-new.php 19 2080586 0 0
+/wp/wp-admin/ 10 355958 1 0
+/wp/wp-admin/index.php 9 378871 0 0
+/wp/wp-login.php 8 19588 1 1
+/wp/wp-admin/customize.php 8 647848 0 0
+/wp/wp-admin/load-styles.php 7 517961 0 0
+/wp/wp-admin/edit-comments.php 5 253021 0 0
+/wp/wp-admin/widgets.php 5 295725 0 0
+/hello-world/ 4 78331 0 0
+/wp/wp-admin/options-general.php 3 153589 0 0
+/wp/wp-admin/options-reading.php 3 73910 0 0
+/wp/wp-admin/options-permalink.php 2 51306 0 0
+/wp/wp-admin/async-upload.php 1 1796 0 0
+/sample-page/ 1 17652 0 0
+/wp/ 1 7530 0 0
+/wp/wp-admin/tools.php 1 23349 0 0
+/wp/wp-admin/profile.php 3 96393 0 0
+/wp/wp-includes/js/tinymce/wp-tinymce.php 1 134760 0 0
+/wp/wp-admin/update-core.php 1 23709 0 0
+/author/admin/ 2 31144 0 0
+/category/uncategorized/ 2 31606 0 0
+/wp/wp-admin/edit-tags.php 1 31170 0 0
+/cpanel 2 17812 0 0
+/wp/wp-admin/update.php 3 51875 0 0
+/wp/wp-admin/theme-install.php 3 96321 0 0
+/wp/wp-admin/options-writing.php 1 27689 0 0
+/wp/wp-admin/plugins.php 1 32353 0 0
+/2014/11/ 1 16494 0 0
+END_SIDER

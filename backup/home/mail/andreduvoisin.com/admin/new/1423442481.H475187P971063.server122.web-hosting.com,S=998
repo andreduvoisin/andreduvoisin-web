@@ -1,0 +1,29 @@
+Return-path: <andrygzc@server122.web-hosting.com>
+Envelope-to: admin@andreduvoisin.com
+Delivery-date: Sun, 08 Feb 2015 19:41:21 -0500
+Received: from andrygzc by server122.web-hosting.com with local (Exim 4.82)
+	(envelope-from <andrygzc@server122.web-hosting.com>)
+	id 1YKcPg-0044bt-3g
+	for admin@andreduvoisin.com; Sun, 08 Feb 2015 19:41:20 -0500
+To: admin@andreduvoisin.com
+Subject: Test
+Date: Mon, 9 Feb 2015 00:41:20 +0000
+From: Mom <admin@andreduvoisin.com>
+Message-ID: <76d9a90c8a662e834b5da2e9fb36d547@andreduvoisin.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+Reply-To: sduv700@gmail.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Sender:  <andrygzc@server122.web-hosting.com>
+
+From: Mom <sduv700@gmail.com>
+Subject: Test
+
+Message Body:
+tried to sent this without entering my email as a test.  it wouldn't send
+
+--
+This e-mail was sent from a contact form on Andre Duvoisin (http://andreduvoisin.com)
+

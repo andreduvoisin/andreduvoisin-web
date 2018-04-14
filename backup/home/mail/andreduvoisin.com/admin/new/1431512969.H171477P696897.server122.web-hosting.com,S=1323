@@ -1,0 +1,32 @@
+Return-path: <andrygzc@server122.web-hosting.com>
+Envelope-to: admin@andreduvoisin.com
+Delivery-date: Wed, 13 May 2015 06:29:29 -0400
+Received: from andrygzc by server122.web-hosting.com with local (Exim 4.82)
+	(envelope-from <andrygzc@server122.web-hosting.com>)
+	id 1YsTuq-002vHY-EV
+	for admin@andreduvoisin.com; Wed, 13 May 2015 06:29:28 -0400
+To: admin@andreduvoisin.com
+Subject: [Andre Duvoisin] WordPress 4.2.2 is available. Please update!
+Date: Wed, 13 May 2015 10:29:28 +0000
+From: WordPress <wordpress@andreduvoisin.com>
+Message-ID: <899ce9e4b90b0572d628f60388f5cf69@andreduvoisin.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Sender:  <andrygzc@server122.web-hosting.com>
+X-From-Rewrite: unmodified, already matched
+
+Please update your site at http://andreduvoisin.com to WordPress 4.2.2.
+
+Updating is easy and only takes a few moments:
+http://andreduvoisin.com/wp/wp-admin/update-core.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+Keeping your site updated is important for security. It also makes the internet a safer place for you and your readers.
+
+The WordPress Team
+

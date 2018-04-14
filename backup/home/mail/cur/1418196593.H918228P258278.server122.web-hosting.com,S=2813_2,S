@@ -1,0 +1,57 @@
+Return-path: <>
+Envelope-to: andrygzc@server122.web-hosting.com
+Delivery-date: Wed, 10 Dec 2014 02:29:53 -0500
+Received: from mailnull by server122.web-hosting.com with local (Exim 4.82)
+	id 1Xybib-0015BZ-RK
+	for andrygzc@server122.web-hosting.com; Wed, 10 Dec 2014 02:29:53 -0500
+X-Failed-Recipients: admin@andreduvoisin.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server122.web-hosting.com>
+To: andrygzc@server122.web-hosting.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1Xybib-0015BZ-RK@server122.web-hosting.com>
+Date: Wed, 10 Dec 2014 02:29:53 -0500
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  admin@andreduvoisin.com
+    No Such User Here
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <andrygzc@server122.web-hosting.com>
+Received: from andrygzc by server122.web-hosting.com with local (Exim 4.82)
+	(envelope-from <andrygzc@server122.web-hosting.com>)
+	id 1Xybib-0015BR-Nz
+	for admin@andreduvoisin.com; Wed, 10 Dec 2014 02:29:53 -0500
+To: admin@andreduvoisin.com
+Subject: [Andre Duvoisin] Please moderate: "Hello world!"
+Date: Wed, 10 Dec 2014 07:29:53 +0000
+From: WordPress <wordpress@andreduvoisin.com>
+Message-ID: <8fcf39a116de5c257681da90fffd7b3e@andreduvoisin.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Sender:  <andrygzc@server122.web-hosting.com>
+
+A new comment on the post "Hello world!" is waiting for your approval
+http://andreduvoisin.com/?p=1
+
+Author : Jenny (IP: 192.69.255.172 , 192.69.255.172)
+E-mail : neuowembrh@aol.com
+URL    : http://tonisphere.com/sl/grx
+Whois  : http://whois.arin.net/rest/ip/192.69.255.172
+Comment: 
+This is a message to the webmaster. Your Hello world! | Andre Duvoisin website is missing out on at least 300 visitors per day. I have found a company which offers to dramatically increase your traffic to your website: http://doo.lu/u6r8w They offer 500 free visitors during their free trial period and I managed to get over 15,000 visitors per month using their services, you could also get lot more targeted traffic than you have now. Hope this helps :) Take care.
+
+Approve it: http://andreduvoisin.com/wp/wp-admin/comment.php?action=approve&c=4
+Trash it: http://andreduvoisin.com/wp/wp-admin/comment.php?action=trash&c=4
+Spam it: http://andreduvoisin.com/wp/wp-admin/comment.php?action=spam&c=4
+Currently 3 comments are waiting for approval. Please visit the moderation panel:
+http://andreduvoisin.com/wp/wp-admin/edit-comments.php?comment_status=moderated
+

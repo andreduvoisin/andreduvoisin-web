@@ -1,0 +1,874 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201601 will be lost/reset.
+# Last config file used to build this data file was /home/andrygzc/tmp/awstats/awstats.andreduvoisin.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2697                
+POS_VISITOR 19287               
+POS_DAY 28973               
+POS_DOMAIN 3609                
+POS_LOGIN 4325                
+POS_ROBOT 4480                
+POS_WORMS 5098                
+POS_EMAILSENDER 5229                
+POS_EMAILRECEIVER 5372                
+POS_SESSION 29857               
+POS_SIDER 30070               
+POS_FILETYPES 5507                
+POS_DOWNLOADS 5798                
+POS_OS 5884                
+POS_BROWSER 6124                
+POS_SCREENSIZE 7263                
+POS_UNKNOWNREFERER 7337                
+POS_UNKNOWNREFERERBROWSER 7818                
+POS_ORIGIN 8550                
+POS_SEREFERRALS 8695                
+POS_PAGEREFS 8863                
+POS_SEARCHWORDS 9310                
+POS_KEYWORDS 9462                
+POS_MISC 2360                
+POS_ERRORS 9521                
+POS_CLUSTER 4181                
+POS_SIDER_404 9669                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160201025558 175 25799 11134407469694
+FirstTime 20160101001306
+LastTime 20160131231915
+LastUpdate 20160201071302 175 0 174 0 0
+TotalVisits 662                 
+TotalUnique 236                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 241                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 10 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 63 159 3904600 23 36 630205
+1 105 176 3644415 84 92 517596
+2 112 124 1862340 132 154 946749
+3 169 220 3431790 188 210 1707373
+4 85 154 2762030 105 143 1607759
+5 38 59 629191 36 80 1523394
+6 88 124 1809310 108 132 1274226
+7 94 104 1563113 136 172 2010624
+8 80 109 2181713 73 98 981856
+9 70 98 1926911 79 94 932649
+10 75 125 2491511 112 148 1656222
+11 85 107 1942505 195 210 3528820
+12 91 153 2937067 110 145 1542667
+13 65 94 1865640 65 102 1116658
+14 91 116 1637969 109 134 1449092
+15 43 88 1706528 42 70 880723
+16 122 153 2595805 137 161 1551612
+17 142 294 6941527 132 160 1343745
+18 91 166 3518675 92 107 763705
+19 118 163 3258013 128 162 1159397
+20 152 169 3035025 160 199 1485259
+21 154 234 5123076 126 156 1107590
+22 78 84 1118132 100 136 896199
+23 110 187 4338375 80 119 804038
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 32
+us 1143 1482 23262702
+ru 225 559 11549936
+nl 210 237 4122948
+fr 150 159 3358452
+ee 110 125 2081705
+es 88 100 1665364
+it 71 124 2594169
+pl 71 80 1388292
+gb 32 74 1895804
+ca 32 60 1535127
+br 26 187 6106473
+de 25 25 701082
+co 24 54 1362022
+my 23 45 796304
+hu 22 22 312407
+lt 22 25 416341
+ua 13 13 379509
+cn 7 9 396981
+in 5 46 1317354
+cz 4 4 110704
+lu 4 5 209143
+kr 2 2 58386
+mx 2 2 55155
+ro 2 2 58386
+dk 1 1 29193
+hk 1 1 29193
+lr 1 1 29193
+md 1 1 29175
+jp 1 1 29193
+at 1 1 29193
+vn 1 1 29193
+ar 1 12 286182
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+bot[\s_+:,\.\;\/\\-] 468 8800269 20160131162109 129
+googlebot 410 4204067 20160131211819 55
+slurp 138 999441 20160130061801 23
+spider 103 3029227 20160131160911 0
+robot 53 493803 20160129102823 12
+crawl 47 709563 20160129042348 3
+unknown 25 950 20160130095844 25
+no_user_agent 14 290135 20160128085327 0
+ia_archiver 2 29231 20160117232732 1
+googlebot\-image 2 0 20160116052643 0
+curl 2 58386 20160122031404 0
+[\s_+:,\.\;\/\\-]bot 1 0 20160130221842 0
+netcraft 1 29193 20160111101500 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 96 2105200 0 0
+css 324 5258484 0 0
+png 116 11357269 0 0
+ttf 33 789624 0 0
+pdf 13 1252095 0 0
+woff 18 297264 0 0
+php 570 52671 0 0
+html 1554 29458979 0 0
+jpg 3 415026 0 0
+xml 50 52250 0 0
+js 681 15184705 0 0
+gif 2 1694 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/AndreDuvoisinResume.pdf 34 0 3274710
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+winxp 428 292
+winlong 2 2
+ios_iphone 63 9
+winnt 4 4
+java 1244 1100
+linux 75 49
+win7 779 196
+macosx 42 11
+macosx9 1 1
+linuxdebian 1 1
+win8 149 53
+win8.1 81 24
+Unknown 591 579
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 58
+firefox28.0 1 1
+chrome44.0.2403.125 1 1
+msie6.0 142 142
+firefox5.0 2 2
+chrome40.0.2214.115 17 12
+chrome32.0.1725.52 1 1
+firefox15.0 34 34
+firefox3.6 1 1
+firefox4.0.1 5 4
+chrome34.0.1847.137 1 1
+firefox26.0 67 4
+chrome29.0.1547.0 1 1
+firefox3.6.6 1 1
+firefox4.0 2 2
+chrome31.0.1650.57 23 2
+opera26.0.1656.60 1 1
+firefox34.0 14 14
+chrome36.0.1985.125 4 4
+lynx 2 2
+firefox31.0 2 2
+msie8.0 139 49
+firefox6.0.2 8 6
+chrome47.0.2526.111 29 4
+firefox43.0 31 6
+msie7.0 1 1
+firefox23.0 3 3
+chrome37.0.2062.120 19 19
+chrome32.0.1744.48 1 1
+chrome40.0.2214.85 1 1
+wget 1 1
+msie9.0 8 8
+Unknown 1811 1667
+firefox3.5.6 1 1
+firefox40.0 4 4
+chrome48.0.2564.82 42 13
+chrome44.0.2403.155 1 1
+firefox29.0 1 1
+firefox38.0 1 1
+firefox30.0 1 1
+firefox12.0 1 1
+chrome32.0.1700.107 31 6
+msie11.0 122 38
+chrome36.0.1985.143 388 46
+safari9.0 63 9
+mozilla 24 12
+firefox1.0 1 1
+chrome47.0.2526.106 39 9
+chrome35.0.1916.153 12 1
+firefox14.0.1 11 11
+msie10.0 238 64
+chrome46.0.2490.86 9 9
+opera8.50 88 88
+firefox3.6.3 1 1
+opera19.0.1326.63 2 2
+firefox15.0.1 1 1
+safari9.0.2 2 2
+chrome48.0.2564.97 1 0
+firefox3.6.13 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Moniterra.com 20160128232927
+WordPress/4.3.2;_http://andreduvoisin.com 20160131231916
+python-requests/2.9.0 20160107074748
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20160130015627
+WordPress/4.3.1;_http://andreduvoisin.com 20160107015048
+WWW-Mechanize/1.73 20160105011715
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20160103120029
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 20
+Java/1.7.0_51 20160130204635
+Java/1.8.0_60 20160116160727
+Java/1.8.0_25 20160124030338
+Java/1.8.0_71 20160127200030
+WordPress/4.3.1;_http://andreduvoisin.com 20160107015048
+Java/1.8.0_40 20160129110108
+WordPress/4.3.2;_http://andreduvoisin.com 20160131231916
+Java/1.8.0_66 20160122041712
+Java/1.4.1_04 20160131100142
+WWW-Mechanize/1.73 20160105011715
+Java/1.8.0_31 20160114210142
+Java/1.7.0_79 20160129182044
+Moniterra.com 20160128232927
+python-requests/2.9.0 20160107074748
+Java/1.6.0_03 20160127201229
+Java/1.6.0_31 20160111165500
+Java/1.8.0_51 20160124170945
+Java/1.6.0_04 20160131044311
+Java/1.8.0_65 20160126021519
+Java/1.6.0_05 20160119034839
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1957 2123
+From1 1 1
+From2 21 25
+From3 32 32
+From4 310 1279
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 4 8
+yandex 17 17
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+http://top1-seo-service.com/try.php 11 11
+http://buttons-for-website.com 7 7
+http://burger-imperia.com 7 7
+http://pizza-tycoon.com 1 1
+http://pizza-imperia.com 1 1
+http://hvd-store.com 1 1
+http://chambaragame.com 1 1
+http://hundejo.com 1 1
+http://pizza-tycoon.com 1 1
+http://burger-imperia.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 190 3309077
+302 83 0
+500 1 0
+405 58 2436
+404 388 9311520
+301 1224 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 158
+/ 2 -
+/wp-includes/bookmark.php 1 http://andreduvoisin.com/
+/wp-includes/compat.php 1 http://andreduvoisin.com/
+/wp-includes/author-template.php 1 http://andreduvoisin.com/
+/wp-includes/update.php 1 http://andreduvoisin.com/
+/admin.php 5 -
+/wp-includes/class-wp-http-ixr-client.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-theme.php 1 http://andreduvoisin.com/
+/wp-includes/registration.php 1 http://andreduvoisin.com/
+/wp-includes/class.wp-scripts.php 1 http://andreduvoisin.com/
+/wp-includes/functions.wp-scripts.php 1 http://andreduvoisin.com/
+/www.youtube.com/embed/d1st2DY-Z_c 48 -
+/wp-includes/session.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-embed.php 1 http://andreduvoisin.com/
+/wp-includes/media-template.php 1 http://andreduvoisin.com/
+/wp-includes/class-IXR.php 1 http://andreduvoisin.com/
+/editor/editor/ 1 -
+/wp-includes/post-template.php 1 http://andreduvoisin.com/
+/wp-includes/widgets.php 1 http://andreduvoisin.com/
+/wp-includes/class-feed.php 1 http://andreduvoisin.com/
+/wp-inorms.php 3 http://andreduvoisin.com/wp-inorms.php
+/dccgd17094.txt 1 -
+/xmlrpc.php 15 http://andreduvoisin.com/
+/wp-includes/ms-functions.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-xmlrpc-server.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-customize-section.php 1 http://andreduvoisin.com/
+/plus/mytag_js.php 1 http://andreduvoisin.com/plus/mytag_js.php
+/wp-includes/atomlib.php 1 http://andreduvoisin.com/
+/wp-includes/pluggable.php 1 http://andreduvoisin.com/
+/wp-includes/feed-atom-comments.php 1 http://andreduvoisin.com/
+/wp-includes/class-pop3.php 1 http://andreduvoisin.com/
+/wp-includes/ms-default-constants.php 1 http://andreduvoisin.com/
+/wp-includes/class-snoopy.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-ajax-response.php 1 http://andreduvoisin.com/
+/feedback/uploadfile_save.php 1 -
+/wp-includes/post-thumbnail-template.php 1 http://andreduvoisin.com/
+/wp-content/themes/oxygen-theme/functions/upload-handler.php 1 http://andreduvoisin.com/wp-content/themes/oxygen-theme/functions/upload-handler.php
+/wp-includes/admin-bar.php 1 http://andreduvoisin.com/
+/wp-includes/class-simplepie.php 1 http://andreduvoisin.com/
+/wp-includes/comment-template.php 1 http://andreduvoisin.com/
+/wp-includes/ms-files.php 1 http://andreduvoisin.com/
+/wp-includes/vars.php 1 http://andreduvoisin.com/
+/wp-includes/load.php 1 http://andreduvoisin.com/
+/wp-includes/feed-rss.php 1 http://andreduvoisin.com/
+/administrator/ 7 http://andreduvoisin.com/administrator/
+/wp-includes/category-template.php 1 http://andreduvoisin.com/
+/wp-includes/date.php 1 http://andreduvoisin.com/
+/wp-includes/pluggable-deprecated.php 1 http://andreduvoisin.com/
+/plus/img/wbg.gif 1 -
+/wp-includes/default-constants.php 1 http://andreduvoisin.com/
+/wp-includes/locale.php 1 http://andreduvoisin.com/
+/wp-content/themes/radial-theme/functions/upload-handler.php 1 http://andreduvoisin.com/wp-content/themes/radial-theme/functions/upload-handler.php
+/wp-includes/link-template.php 1 http://andreduvoisin.com/
+/wp-includes/taxonomy.php 1 http://andreduvoisin.com/
+/wp-includes/class-phpass.php 1 http://andreduvoisin.com/
+/wp-includes/feed-rss2-comments.php 1 http://andreduvoisin.com/
+/admin/include/uploadify.php 1 -
+/wp-includes/rewrite.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-image-editor-imagick.php 1 http://andreduvoisin.com/
+/wp-content/plugins/revslider/release_log.txt 1 -
+/plugins/content/s5_media_player/s5_media_player.php 1 -
+/wp-includes/deprecated.php 1 http://andreduvoisin.com/
+/wp-includes/registration-functions.php 1 http://andreduvoisin.com/
+/wp-includes/post.php 1 http://andreduvoisin.com/
+/wp-content/plugins/sexy-contact-form/readme.txt 1 -
+/wp-includes/general-template.php 1 http://andreduvoisin.com/
+/wp/wp-includes/js/jquery/).length,k.htmlSerialize=!!b.getElementsByTagName( 1 -
+/wp-includes/az1.php 1 -
+/wp-admin/admin-ajax.php 7 -
+/wp/wp-includes/js/jquery/,data:b}).done(function(a){e=arguments,g.html(d 1 -
+/wp-includes/default-filters.php 1 http://andreduvoisin.com/
+/wp-includes/post-formats.php 1 http://andreduvoisin.com/
+/wp-content/plugins/website-contact-form-with-file-upload/readme.txt 1 http://andreduvoisin.com/wp-content/plugins/website-contact-form-with-file-upload/readme.txt
+/wp-includes/wp-diff.php 1 http://andreduvoisin.com/
+/wp-includes/class.wp-dependencies.php 1 http://andreduvoisin.com/
+/wp-includes/class.wp-styles.php 1 http://andreduvoisin.com/
+/wp-cache.php 1 -
+/wp-includes/wp-db.php 1 http://andreduvoisin.com/
+/wp-trackback.php 6 -
+/player.vimeo.com/video/90607851 47 -
+/wp-content/themes/project10-theme/functions/upload-handler.php 1 http://andreduvoisin.com/wp-content/themes/project10-theme/functions/upload-handler.php
+/wp-includes/ms-deprecated.php 1 http://andreduvoisin.com/
+/bitrix/admin/ 1 http://ANDREDUVOISIN.COM/bitrix/admin/
+/wp-includes/class-wp-image-editor-gd.php 1 http://andreduvoisin.com/
+/wp/wp-includes/js/jquery/).length,k.html5Clone= 48 -
+/wp-includes/class-wp-customize-widgets.php 1 http://andreduvoisin.com/
+/wp-includes/class-smtp.php 1 http://andreduvoisin.com/
+/wp-includes/comment.php 1 http://andreduvoisin.com/
+/wp-includes/feed.php 1 http://andreduvoisin.com/
+/wp-includes/default-widgets.php 1 http://andreduvoisin.com/
+/wp-includes/media.php 1 http://andreduvoisin.com/
+/wp-includes/query.php 1 http://andreduvoisin.com/
+/wp-includes/feed-rdf.php 1 http://andreduvoisin.com/
+/user 2 -
+/wp-content/plugins/html5avmanager/readme.txt 1 http://andreduvoisin.com/wp-content/plugins/html5avmanager/readme.txt
+/wp-includes/meta.php 1 http://andreduvoisin.com/
+/wp-includes/script-loader.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-error.php 1 http://andreduvoisin.com/
+/wp-content/themes/madidus-themes/functions/upload-handler.php 1 http://andreduvoisin.com/wp-content/themes/madidus-themes/functions/upload-handler.php
+/wp-includes/http.php 1 http://andreduvoisin.com/
+/wp-content/plugins/wp-symposium/server/get_profile_avatar.php 1 -
+/wp-includes/class-wp-admin-bar.php 1 http://andreduvoisin.com/
+/wp-includes/l10n.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-customize-panel.php 1 http://andreduvoisin.com/
+/wp-includes/category.php 1 http://andreduvoisin.com/
+/www.youtube.com/embed/ynaGn57ZiN0 48 -
+/wp-includes/ms-settings.php 1 http://andreduvoisin.com/
+/wp-insorsm.php 1 http://andreduvoisin.com/wp-insorsm.php
+/wp-includes/user.php 1 http://andreduvoisin.com/
+/wp-content/plugins/akismet/akismet.php 1 -
+/wp-includes/functions.wp-styles.php 1 http://andreduvoisin.com/
+/wp-includes/canonical.php 1 http://andreduvoisin.com/
+/wp-includes/feed-rss2.php 1 http://andreduvoisin.com/
+/wp-includes/class-oembed.php 1 http://andreduvoisin.com/
+/wp-includes/ms-load.php 1 http://andreduvoisin.com/
+/wp-content/plugins/wptouch/readme.txt 3 -
+/wp-includes/capabilities.php 1 http://andreduvoisin.com/
+/wp-includes/cron.php 1 http://andreduvoisin.com/
+/wp-includes/theme.php 1 http://andreduvoisin.com/
+/wp-includes/ms-default-filters.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-walker.php 1 http://andreduvoisin.com/
+/wp-includes/rss-functions.php 1 http://andreduvoisin.com/
+/editor/fckeditor/editor/ 1 -
+/wp-content/plugins/fast-image-adder/readme.txt 1 http://andreduvoisin.com/wp-content/plugins/fast-image-adder/readme.txt
+/wp-includes/version.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-customize-setting.php 1 http://andreduvoisin.com/
+/wp-includes/class-http.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-editor.php 1 http://andreduvoisin.com/
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/fileuploader.js 1 -
+/wp-includes/kses.php 1 http://andreduvoisin.com/
+/wp-includes/plugin.php 1 http://andreduvoisin.com/
+/wp-includes/feed-atom.php 1 http://andreduvoisin.com/
+/wp-includes/shortcodes.php 1 http://andreduvoisin.com/
+/wp-includes/option.php 1 http://andreduvoisin.com/
+/wp-content/themes/piccione-theme/functions/upload-handler.php 2 http://andreduvoisin.com/wp-content/themes/piccione-theme/functions/upload-handler.php
+/wp-includes/functions.php 1 http://andreduvoisin.com/
+/wp-includes/nav-menu.php 1 http://andreduvoisin.com/
+/wp-includes/cache.php 1 http://andreduvoisin.com/
+/wp-includes/rss.php 1 http://andreduvoisin.com/
+/fckeditor/editor/ 1 -
+/wp-includes/bookmark-template.php 1 http://andreduvoisin.com/
+/wp-includes/ms-blogs.php 1 http://andreduvoisin.com/
+/wp-includes/template-loader.php 1 http://andreduvoisin.com/
+/wp-includes/class-wp-image-editor.php 1 http://andreduvoisin.com/
+/wp-includes/class-json.php 1 http://andreduvoisin.com/
+/wp-content/plugins/nextgen-gallery/license.txt 1 -
+/wp-includes/class-wp-customize-manager.php 1 http://andreduvoisin.com/
+/resume/ 2 -
+/wp-includes/sample.php 1 -
+/wp-includes/class-wp-customize-control.php 1 http://andreduvoisin.com/
+/wp-includes/nav-menu-template.php 1 http://andreduvoisin.com/
+/wp-content/plugins/mailcwp/readme.txt 1 http://andreduvoisin.com/wp-content/plugins/mailcwp/readme.txt
+/wp-includes/template.php 1 http://andreduvoisin.com/
+/wp-includes/class-phpmailer.php 1 http://andreduvoisin.com/
+/wp-includes/formatting.php 1 http://andreduvoisin.com/
+/wp-includes/revision.php 1 http://andreduvoisin.com/
+/wp-content/uploads/wps.php 1 http://www.googlebot.com/bot.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 241
+198.187.31.192 564 564 1 20160131231916
+146.185.234.48 100 100 2769290 20160130001000
+70.35.201.19 88 100 1665364 20160131074900
+178.216.49.147 66 75 1249023 20160131044309
+213.127.107.236 66 75 1249023 20160131100140
+195.154.53.30 47 47 1296084 20160131054652
+198.101.10.208 44 50 832682 20160114210141
+178.217.187.11 44 50 832682 20160118070224
+80.56.114.145 44 50 832682 20160130204634
+91.108.176.134 44 50 832682 20160120020857
+212.225.198.143 44 50 832682 20160122041711
+80.57.141.198 44 50 832682 20160114200202
+79.32.157.20 44 50 832682 20160116160726
+149.202.7.202 44 50 832682 20160124124317
+167.88.35.187 22 25 416341 20160131032611
+190.159.240.92 22 25 416341 20160120143207
+178.255.42.251 22 25 416341 20160111103521
+50.248.21.25 22 25 416341 20160129182042
+74.208.45.74 22 25 416341 20160124195712
+104.167.217.95 22 22 312407 20160129110108
+70.35.205.34 22 25 416341 20160112084859
+208.104.18.254 22 25 416341 20160124170944
+46.166.169.58 22 25 416341 20160130171632
+12.186.45.2 22 25 416341 20160124030337
+185.7.214.205 22 25 416341 20160122111652
+195.22.126.119 1 1 29193 20160131095900
+159.203.75.59 2 2 55485 20160130015627
+172.245.124.196 1 1 27636 20160130061437
+195.154.237.196 1 1 835 20160111045613
+191.5.175.253 1 12 286182 20160103114623
+192.241.172.96 1 1 29175 20160117214740
+66.45.244.213 1 1 27519 20160129110704
+108.186.192.44 12 12 335177 20160128075544
+69.58.178.58 11 11 305762 20160119093634
+123.125.71.33 1 1 29193 20160105074311
+54.166.108.145 1 1 29193 20160109200631
+195.28.183.161 1 1 29193 20160127020037
+189.11.97.40 4 29 965183 20160105134755
+52.0.89.236 1 1 29193 20160104021205
+188.42.240.119 4 5 209143 20160106084950
+75.98.233.200 2 2 55155 20160106015051
+186.233.223.76 4 29 965183 20160101152027
+71.218.67.12 6 34 1251848 20160123231002
+192.126.131.210 2 2 55155 20160121155817
+54.157.57.215 1 1 29193 20160129162327
+37.1.202.50 2 2 58386 20160123204625
+1.36.163.41 1 1 29193 20160128084211
+80.82.65.82 11 11 318190 20160125015539
+54.144.237.200 1 1 29193 20160106171303
+195.154.251.120 1 1 835 20160104144439
+54.157.217.217 1 1 29193 20160109200241
+123.125.71.80 0 1 96315 
+206.144.162.144 2 2 55155 20160102140920
+95.26.231.87 1 22 372081 20160106050138
+54.161.193.198 2 2 57026 20160131132117
+192.126.130.93 4 4 110310 20160120084858
+65.111.196.232 1 1 5220 20160120183835
+23.106.70.118 1 1 27519 20160123110619
+104.238.180.234 4 6 115630 20160114013433
+74.91.26.114 2 2 56712 20160107083246
+31.148.246.176 1 1 27833 20160126085801
+88.208.252.224 1 1 29193 20160112120242
+173.242.118.66 1 1 27211 20160110162909
+190.27.16.30 1 20 379963 20160102121752
+178.140.51.66 4 23 437420 20160113145529
+79.113.210.11 1 1 29193 20160115191503
+54.159.232.162 1 1 29193 20160129164454
+187.160.122.170 2 2 55155 20160122211135
+176.9.98.12 1 1 29193 20160128232927
+1.32.72.204 1 20 379963 20160102101136
+174.138.210.114 4 4 110310 20160104152450
+216.97.224.3 1 1 5220 20160121213210
+104.192.0.18 1 1 29193 20160130181135
+54.158.176.155 1 1 29193 20160106202110
+195.154.241.71 1 1 835 20160107124525
+180.97.221.79 1 1 29193 20160117214532
+91.200.12.91 4 4 116772 20160130224336
+72.37.141.123 9 39 1766923 20160116170116
+91.212.124.19 1 1 29193 20160108061654
+208.79.213.108 1 1 29193 20160122122746
+54.157.39.123 1 1 29193 20160107140918
+176.193.111.78 12 31 606448 20160113234247
+50.16.125.141 1 1 29193 20160128001436
+136.243.48.86 2 2 54284 20160114004458
+104.32.190.187 0 1 96315 
+197.231.221.211 1 1 29193 20160129234840
+77.37.223.41 4 23 437420 20160107045205
+93.56.182.30 4 29 965183 20160111043817
+93.81.84.230 1 22 371171 20160120172025
+189.60.13.220 4 29 965183 20160105171128
+173.208.177.59 1 1 29193 20160128122551
+73.232.111.153 4 29 965183 20160106191320
+54.197.156.49 1 1 29193 20160119200810
+176.77.86.40 3 23 432848 20160130172935
+146.120.158.124 1 1 27519 20160126085803
+188.32.136.171 1 1 29193 20160110080539
+62.210.37.113 5 5 145965 20160120173933
+190.25.102.56 1 9 565718 20160106114934
+62.109.7.46 1 1 29175 20160129065407
+149.202.98.161 1 1 29193 20160126102712
+54.145.155.0 1 1 29193 20160111133002
+37.130.227.133 1 1 29193 20160124054259
+176.195.243.228 12 31 606448 20160113010823
+68.170.78.108 13 42 1433288 20160127014201
+111.13.102.6 0 1 96315 
+54.145.255.95 1 1 29193 20160109200641
+62.24.181.134 0 2 9209 
+216.158.209.239 2 2 55155 20160108151137
+176.31.39.23 4 4 110076 20160130061434
+167.114.216.118 1 1 27519 20160119012517
+183.111.174.72 1 1 29193 20160112122020
+121.140.6.210 1 1 29193 20160104184346
+195.9.230.0 3 23 432848 20160119151453
+123.125.71.28 1 1 29193 20160127213911
+54.146.188.223 2 2 57026 20160126144807
+95.25.79.114 12 31 606448 20160108214644
+159.203.107.211 1 1 29193 20160122031402
+37.48.80.101 1 1 29193 20160129161244
+91.200.12.53 4 4 116772 20160127214522
+220.181.108.89 1 1 29193 20160105194920
+136.243.48.82 2 2 56404 20160117131630
+37.112.228.199 4 23 437420 20160106060328
+136.243.48.84 2 2 55574 20160115170202
+5.62.154.24 1 1 29193 20160118023127
+87.228.109.240 1 22 372081 20160107001814
+54.166.67.131 1 1 835 20160121111722
+5.61.40.20 1 1 29193 20160131231915
+45.32.131.61 2 3 57815 20160127171332
+157.7.188.212 1 1 29193 20160112171045
+195.154.38.230 1 1 29193 20160114200223
+143.208.16.85 4 29 965183 20160101184348
+195.154.146.225 1 1 29193 20160122124806
+94.23.217.201 7 7 204351 20160126190725
+193.171.202.150 1 1 29193 20160130092017
+162.13.138.155 1 1 27519 20160115094928
+54.205.12.147 1 1 29193 20160112123502
+94.11.151.2 22 25 416341 20160117231751
+54.166.82.225 1 1 29193 20160130133522
+52.34.225.163 1 1 29193 20160105011715
+117.196.48.171 1 17 352171 20160108013846
+178.140.233.142 12 31 606448 20160114030338
+220.181.108.184 1 1 29193 20160105075004
+188.32.9.140 4 23 437420 20160108163508
+195.154.235.92 1 1 835 20160120142010
+162.254.32.105 1 1 27636 20160115094930
+104.152.168.15 1 1 29193 20160113053032
+209.17.114.78 1 1 29193 20160112171106
+146.120.166.74 1 1 27519 20160126085804
+78.47.55.124 1 1 29193 20160105123201
+87.98.180.127 1 1 25049 20160111214551
+83.149.44.53 1 1 29193 20160125122448
+54.87.124.60 1 1 29193 20160121200636
+189.26.191.187 4 29 965183 20160104082459
+216.222.246.100 4 29 1107050 20160115100148
+62.212.73.49 1 1 29193 20160122235618
+62.210.37.82 1 1 29193 20160106092752
+93.115.95.201 1 1 29193 20160129171141
+54.158.189.51 1 1 29193 20160130163351
+92.3.30.228 4 29 965183 20160111183328
+5.164.206.75 2 2 28966 20160120035228
+173.232.125.157 2 2 55155 20160124090209
+54.157.211.245 1 1 29193 20160106175235
+54.159.132.87 2 2 57026 20160109201526
+173.254.216.66 1 1 29193 20160124143923
+87.16.2.98 1 20 379963 20160104043601
+192.126.131.218 2 2 55155 20160118184928
+112.78.2.55 1 1 29193 20160113053559
+91.121.100.66 2 2 58350 20160114222648
+220.181.108.87 1 1 29193 20160120174636
+45.32.129.200 2 2 58386 20160122162833
+87.222.220.156 22 25 416341 20160130140557
+54.204.212.147 1 1 29193 20160117151705
+85.93.89.74 14 14 388855 20160123164423
+54.205.212.98 4 4 113839 20160118151950
+37.1.218.125 1 1 29193 20160117043923
+107.172.0.41 1 1 27636 20160122211807
+166.137.126.90 4 32 1046177 20160110173220
+70.211.130.214 4 30 1033633 20160123213105
+54.163.139.78 2 2 57026 20160111114053
+80.61.57.89 21 24 415644 20160127200028
+97.74.215.107 1 1 5221 20160120213249
+89.133.128.112 22 22 312407 20160117033415
+193.189.117.121 2 2 55038 20160119193750
+210.195.131.157 22 25 416341 20160116212228
+24.172.44.146 22 25 416341 20160119034836
+54.159.176.247 1 1 29193 20160130162008
+128.69.157.170 12 32 620716 20160128030517
+81.68.74.143 22 25 416341 20160114182528
+206.183.1.74 10 22 440512 20160103120029
+158.69.201.229 1 1 29193 20160130234145
+50.16.22.170 2 2 57026 20160109173443
+95.213.143.103 4 4 108484 20160124024247
+92.222.25.220 2 2 58386 20160131115954
+62.210.162.48 1 1 137 20160108144359
+24.106.193.78 22 25 416341 20160111165459
+186.39.153.169 1 12 286182 20160102062752
+54.87.73.121 1 1 29193 20160111094143
+188.143.232.26 11 11 304310 20160114194919
+208.73.205.107 13 13 358449 20160119225153
+195.154.226.90 1 1 29193 20160106160622
+176.77.28.179 12 31 606448 20160113172137
+54.145.175.8 1 1 29193 20160124183126
+104.194.196.1 0 1 96315 
+195.154.237.92 1 1 835 20160113054428
+203.76.184.196 4 29 965183 20160101001315
+209.159.153.44 1 1 27519 20160122184451
+191.179.149.55 4 29 965183 20160107123028
+191.205.159.8 4 29 965183 20160107214846
+37.146.94.153 4 23 437420 20160109182624
+216.189.148.177 22 25 416341 20160124120433
+195.154.251.17 1 1 835 20160115211103
+93.80.85.21 1 22 372081 20160108004506
+216.21.164.136 1 1 29193 20160115143456
+87.255.87.54 1 1 29175 20160131080903
+46.4.69.163 1 1 29193 20160130130244
+104.140.215.221 2 2 55155 20160115193015
+87.11.47.189 22 25 416341 20160116132452
+104.45.150.193 1 1 29193 20160107074748
+195.154.227.118 1 1 29193 20160102040854
+186.202.127.187 1 1 29193 20160118061323
+5.196.219.112 1 1 29193 20160119183200
+195.154.240.146 1 1 835 20160121143004
+84.127.27.97 22 25 416341 20160126021518
+76.79.114.2 22 25 416341 20160127201229
+77.66.30.209 1 1 29193 20160112171156
+217.160.62.13 1 1 29193 20160112171102
+45.32.129.1 4 6 115630 20160131071458
+54.158.142.178 1 1 29193 20160109173731
+95.79.218.162 2 2 28966 20160120083549
+78.47.248.18 1 1 29193 20160116233710
+70.35.195.142 22 25 416341 20160102192544
+158.69.26.58 3 28 922571 20160131091959
+31.148.246.124 1 1 27833 20160126085800
+176.97.116.171 1 1 29193 20160112224956
+107.173.153.198 2 2 55272 20160126173823
+62.24.181.135 1 13 360780 20160111193438
+195.22.126.126 2 2 55038 20160108212946
+195.154.250.88 1 1 835 20160120132548
+70.119.116.96 17 73 2504199 20160129231201
+220.181.108.160 1 1 29193 20160128194807
+23.243.189.240 1 1 29200 20160123214435
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20160101 54 132 3398268 17
+20160102 44 96 1601952 17
+20160103 24 47 755887 13
+20160104 37 82 1575723 18
+20160105 59 112 2576089 23
+20160106 38 112 2750665 25
+20160107 42 132 2884994 21
+20160108 61 139 2323984 19
+20160109 79 105 1613896 23
+20160110 21 49 1158985 16
+20160111 77 147 3331267 21
+20160112 44 47 649885 18
+20160113 85 164 2816674 22
+20160114 158 193 3134938 23
+20160115 30 55 1333607 19
+20160116 118 160 3545828 18
+20160117 72 75 1014198 23
+20160118 69 72 1060015 23
+20160119 86 112 1824102 22
+20160120 85 112 1530469 25
+20160121 37 67 1609030 19
+20160122 77 83 1174862 23
+20160123 41 95 2760248 16
+20160124 192 210 3582013 27
+20160125 57 57 1055671 21
+20160126 56 60 988585 26
+20160127 117 153 3352789 20
+20160128 94 120 1987005 26
+20160129 77 108 2168830 24
+20160130 172 208 3790117 32
+20160131 118 156 2874685 22
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 43
+5mn-15mn 14
+2mn-5mn 12
+15mn-30mn 19
+30s-2mn 51
+0s-30s 440
+30mn-1h 83
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 46
+/wp/wp-cron.php 563 0 346 346
+/ 235 6856160 215 124
+/contact/ 189 5183673 57 65
+/about/ 79 2198807 3 10
+/simcity201/ 78 2163798 14 11
+/chambara/ 71 1931981 2 3
+/game-engine/ 68 1787856 5 3
+/polyseum/ 68 2012936 1 1
+/the-maestros/ 64 1791488 2 1
+/super-smash-skyrim/ 64 1717184 1 2
+/spirit/ 62 1687950 0 0
+/starfox-65/ 62 1666002 0 0
+/feed/ 60 50100 9 9
+/comments/feed/ 51 35445 0 0
+/wp/wp-includes/wlwmanifest.xml 50 52250 0 0
+/spirit/feed/ 50 34250 0 0
+/starfox-65/feed/ 50 34650 0 1
+/polyseum/feed/ 50 34450 0 0
+/simcity201/feed/ 50 34650 0 0
+/contact/feed/ 50 34350 0 0
+/about/feed/ 50 34150 0 0
+/game-engine/feed/ 50 34750 0 0
+/the-maestros/feed/ 49 34153 0 48
+/wp/wp-content/themes/parabola/fonts/Oswald-Stencil-webfont.eot 16 436864 0 6
+/wp/wp-content/themes/parabola/fonts/OpenSans-Regular-webfont.eot 16 334048 0 0
+/wp/wp-content/themes/parabola/fonts/yanonekaffeesatz-light-webfont.eot 6 170406 0 0
+/wp/wp-content/themes/parabola/fonts/OpenSans-Regular-webfont.woff 6 83928 0 1
+/wp/wp-content/themes/parabola/fonts/yanonekaffeesatz-regular-webfont.eot 8 225440 0 0
+/wp/wp-content/themes/parabola/fonts/elusive.woff 2 29480 0 1
+/wp/wp-content/themes/parabola/fonts/yanonekaffeesatz-regular-webfont.woff 1 31180 0 0
+/wp/wp-admin/upgrade.php 1 1 1 1
+/wp/wp-content/themes/parabola/fonts/BebasNeue-webfont.eot 14 263760 0 4
+/wp/wp-login.php 5 23495 5 3
+/wp/wp-content/themes/parabola/fonts/propaganda-webfont.eot 6 23562 0 1
+/wp/wp-content/themes/parabola/fonts/Oswald-Stencil-webfont.ttf 11 298188 0 1
+/wp/wp-content/themes/parabola/fonts/OpenSans-Light-webfont.eot 6 125316 0 0
+/wp/wp-content/themes/parabola/fonts/OpenSans-Regular-webfont.ttf 11 227568 0 0
+/wp/wp-content/themes/parabola/fonts/Oswald-Stencil-webfont.woff 6 91104 0 1
+/wp/wp-content/themes/parabola/fonts/Oswald-Regular-webfont.eot 6 192504 0 0
+/wp-register.php 1 29175 1 1
+/author/admin/ 4 100196 0 4
+/wp/wp-content/themes/parabola/fonts/elusive.eot 6 144912 0 2
+/wp/wp-content/themes/parabola/fonts/elusive.ttf 11 263868 0 10
+/wp/wp-content/themes/parabola/fonts/Oswald-Light-webfont.eot 6 132264 0 0
+/wp/wp-content/themes/parabola/fonts/square-webfont.eot 6 56124 0 1
+/wp/wp-content/themes/parabola/fonts/BebasNeue-webfont.woff 3 61572 0 1
+END_SIDER

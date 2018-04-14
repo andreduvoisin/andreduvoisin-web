@@ -1,0 +1,32 @@
+Return-path: <andrygzc@server122.web-hosting.com>
+Envelope-to: admin@andreduvoisin.com
+Delivery-date: Tue, 21 Apr 2015 11:51:30 -0400
+Received: from andrygzc by server122.web-hosting.com with local (Exim 4.82)
+	(envelope-from <andrygzc@server122.web-hosting.com>)
+	id 1YkaSQ-0024Tb-57
+	for admin@andreduvoisin.com; Tue, 21 Apr 2015 11:51:30 -0400
+To: admin@andreduvoisin.com
+Subject: [Andre Duvoisin] Your site has updated to WordPress 4.1.2
+Date: Tue, 21 Apr 2015 15:51:30 +0000
+From: WordPress <wordpress@andreduvoisin.com>
+Message-ID: <7ac13ed5db6b6712d43bac48073e447a@andreduvoisin.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Sender:  <andrygzc@server122.web-hosting.com>
+
+Howdy! Your site at http://andreduvoisin.com has been updated automatically to WordPress 4.1.2.
+
+No further action is needed on your part. For more on version 4.1.2, see the About WordPress screen:
+http://andreduvoisin.com/wp/wp-admin/about.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+You also have some plugins or themes with updates available. Update them now:
+http://andreduvoisin.com/wp/wp-admin/
+
+The WordPress Team
+

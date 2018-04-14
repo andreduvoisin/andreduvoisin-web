@@ -1,0 +1,35 @@
+/*
+ Theme Name:   StanleyWP Child
+ Theme URI:    http://andreduvoisin.com/stanleywp-child/
+ Description:  StanleyWP Child Theme
+ Author:       Andre Duvoisin
+ Author URI:   http://andreduvoisin.com
+ Template:     stanleywp
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  stanleywp-child
+*/
+
+
+@import url('../stanleywp/style.css');
+
+
+/* Links */
+a {
+	color: #0000ff;
+}
+
+a:hover,
+a:focus { color: #ff0000; }
+
+
+.navbar-inverse { background-color: #8c1529; border-color: #7e1224; }
+
+.progress-bar-theme { background-color: #8c1529; }
+
+
+/* glyphicon Configuration */
+.glyphicon { color: #8c1529; }
+

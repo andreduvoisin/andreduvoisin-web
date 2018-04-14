@@ -1,0 +1,35 @@
+Return-Path: <andrygzc@server229.web-hosting.com>
+Delivered-To: admin@andreduvoisin.com
+Received: from server229.web-hosting.com
+	by server229.web-hosting.com (Dovecot) with LMTP id AfECNCqhoFhkOw4AG9O6jw
+	for <admin@andreduvoisin.com>; Sun, 12 Feb 2017 12:53:46 -0500
+Return-path: <andrygzc@server229.web-hosting.com>
+Envelope-to: admin@andreduvoisin.com
+Delivery-date: Sun, 12 Feb 2017 12:53:46 -0500
+Received: from andrygzc by server229.web-hosting.com with local (Exim 4.87)
+	(envelope-from <andrygzc@server229.web-hosting.com>)
+	id 1ccyLK-004Fql-Ov
+	for admin@andreduvoisin.com; Sun, 12 Feb 2017 12:53:46 -0500
+To: admin@andreduvoisin.com
+Subject: Account balance
+X-PHP-Script: andreduvoisin.com/index.php for unknown, 94.177.246.201, 94.177.246.201
+X-PHP-Filename: /home/andrygzc/public_html/index.php REMOTE_ADDR: 94.177.246.201
+Date: Sun, 12 Feb 2017 17:53:46 +0000
+From: John Brown <admin@andreduvoisin.com>
+Message-ID: <7381229b34e4fc8d78626fcc6089b251@andreduvoisin.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+X-WPCF7-Content-Type: text/plain
+Reply-To: John@intelcorp.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Sender:  <andrygzc@server229.web-hosting.com>
+
+From: John Brown <John@intelcorp.com>
+Subject: Account balance
+
+Message Body:
+Hi Mate,<br><br>Check your balance here: http://tinyurl.com/jxwuy9s
+
+--
+This e-mail was sent from a contact form on Andre Duvoisin (http://andreduvoisin.com)
+

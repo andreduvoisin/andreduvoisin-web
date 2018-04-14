@@ -1,0 +1,57 @@
+Return-path: <>
+Envelope-to: andrygzc@server122.web-hosting.com
+Delivery-date: Sun, 07 Dec 2014 01:03:07 -0500
+Received: from mailnull by server122.web-hosting.com with local (Exim 4.82)
+	id 1XxUvz-002PON-MR
+	for andrygzc@server122.web-hosting.com; Sun, 07 Dec 2014 01:03:07 -0500
+X-Failed-Recipients: admin@andreduvoisin.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server122.web-hosting.com>
+To: andrygzc@server122.web-hosting.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1XxUvz-002PON-MR@server122.web-hosting.com>
+Date: Sun, 07 Dec 2014 01:03:07 -0500
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  admin@andreduvoisin.com
+    No Such User Here
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <andrygzc@server122.web-hosting.com>
+Received: from andrygzc by server122.web-hosting.com with local (Exim 4.82)
+	(envelope-from <andrygzc@server122.web-hosting.com>)
+	id 1XxUvz-002POC-Il
+	for admin@andreduvoisin.com; Sun, 07 Dec 2014 01:03:07 -0500
+To: admin@andreduvoisin.com
+Subject: [Andre Duvoisin] Please moderate: "Hello world!"
+Date: Sun, 7 Dec 2014 06:03:07 +0000
+From: WordPress <wordpress@andreduvoisin.com>
+Message-ID: <175443c32c9b0add692f61feb2190892@andreduvoisin.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Sender:  <andrygzc@server122.web-hosting.com>
+
+A new comment on the post "Hello world!" is waiting for your approval
+http://andreduvoisin.com/?p=1
+
+Author : Angie (IP: 192.171.236.184 , 192.171.236.184)
+E-mail : tkicyayzofi@aol.com
+URL    : http://nrw.li/8
+Whois  : http://whois.arin.net/rest/ip/192.171.236.184
+Comment: 
+I discovered your Hello world! | Andre Duvoisin page and noticed you could have a lot more visitors. I have found that the key to running a website is making sure the visitors you are getting are interested in your niche. There is a company that you can get visitors from and they let you try their service for free. I managed to get over 300 targeted visitors to day to my site. Check it out here: http://tho.lu/42v
+
+Approve it: http://andreduvoisin.com/wp/wp-admin/comment.php?action=approve&c=3
+Trash it: http://andreduvoisin.com/wp/wp-admin/comment.php?action=trash&c=3
+Spam it: http://andreduvoisin.com/wp/wp-admin/comment.php?action=spam&c=3
+Currently 2 comments are waiting for approval. Please visit the moderation panel:
+http://andreduvoisin.com/wp/wp-admin/edit-comments.php?comment_status=moderated
+

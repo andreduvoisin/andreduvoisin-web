@@ -1,0 +1,29 @@
+Return-path: <andrygzc@server122.web-hosting.com>
+Envelope-to: admin@andreduvoisin.com
+Delivery-date: Fri, 30 Jan 2015 14:51:08 -0500
+Received: from andrygzc by server122.web-hosting.com with local (Exim 4.82)
+	(envelope-from <andrygzc@server122.web-hosting.com>)
+	id 1YHHau-0049Hm-2k
+	for admin@andreduvoisin.com; Fri, 30 Jan 2015 14:51:08 -0500
+To: admin@andreduvoisin.com
+Subject: Testing...
+Date: Fri, 30 Jan 2015 19:51:08 +0000
+From: Andre Duvoisin <admin@andreduvoisin.com>
+Message-ID: <7113fb443fc3e11edb68c01bb4a0bbbb@andreduvoisin.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+Reply-To: anduv13@gmail.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Sender:  <andrygzc@server122.web-hosting.com>
+
+From: Andre Duvoisin <anduv13@gmail.com>
+Subject: Testing...
+
+Message Body:
+Message!
+
+--
+This e-mail was sent from a contact form on Andre Duvoisin (http://andreduvoisin.com)
+

@@ -1,0 +1,39 @@
+Return-Path: <andrygzc@server229.web-hosting.com>
+Delivered-To: admin@andreduvoisin.com
+Received: from server229.web-hosting.com
+	by server229.web-hosting.com (Dovecot) with LMTP id 4XVbHOtHUVqcxQUAG9O6jw
+	for <admin@andreduvoisin.com>; Sat, 06 Jan 2018 17:04:27 -0500
+Return-path: <andrygzc@server229.web-hosting.com>
+Envelope-to: admin@andreduvoisin.com
+Delivery-date: Sat, 06 Jan 2018 17:04:27 -0500
+Received: from andrygzc by server229.web-hosting.com with local (Exim 4.89)
+	(envelope-from <andrygzc@server229.web-hosting.com>)
+	id 1eXwZd-001aoM-2i
+	for admin@andreduvoisin.com; Sat, 06 Jan 2018 17:04:17 -0500
+To: admin@andreduvoisin.com
+Subject: [Andre Duvoisin] Your site has updated to WordPress 4.4.13
+X-PHP-Script: andreduvoisin.com/wp/wp-cron.php for 198.54.116.240, 198.54.116.240
+X-PHP-Filename: /home/andrygzc/public_html/wp/wp-cron.php REMOTE_ADDR: 198.54.116.240
+Date: Sat, 6 Jan 2018 22:04:17 +0000
+From: WordPress <wordpress@andreduvoisin.com>
+Message-ID: <e306336f5cd36aca06e49a2e974a48b9@andreduvoisin.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Sender:  <andrygzc@server229.web-hosting.com>
+
+Howdy! Your site at http://andreduvoisin.com has been updated automatically to WordPress 4.4.13.
+
+For more on version 4.4.13, see the About WordPress screen:
+http://andreduvoisin.com/wp/wp-admin/about.php
+
+WordPress 4.9.1 is also now available. Updating is easy and only takes a few moments:
+http://andreduvoisin.com/wp/wp-admin/update-core.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+Keeping your site updated is important for security. It also makes the internet a safer place for you and your readers.
+
+The WordPress Team
+

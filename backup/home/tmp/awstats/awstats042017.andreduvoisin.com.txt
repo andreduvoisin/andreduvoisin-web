@@ -1,0 +1,1236 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201704 will be lost/reset.
+# Last config file used to build this data file was /home/andrygzc/tmp/awstats/awstats.andreduvoisin.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2693                
+POS_VISITOR 34512               
+POS_DAY 44177               
+POS_DOMAIN 3588                
+POS_LOGIN 4609                
+POS_ROBOT 4764                
+POS_WORMS 5319                
+POS_EMAILSENDER 5450                
+POS_EMAILRECEIVER 5593                
+POS_SESSION 44987               
+POS_SIDER 45199               
+POS_FILETYPES 5728                
+POS_DOWNLOADS 6009                
+POS_OS 6095                
+POS_BROWSER 6326                
+POS_SCREENSIZE 7528                
+POS_UNKNOWNREFERER 7602                
+POS_UNKNOWNREFERERBROWSER 8643                
+POS_ORIGIN 9262                
+POS_SEREFERRALS 9405                
+POS_PAGEREFS 9571                
+POS_SEARCHWORDS 9887                
+POS_KEYWORDS 10039               
+POS_MISC 2356                
+POS_ERRORS 10098               
+POS_CLUSTER 4465                
+POS_SIDER_404 10265               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170501022058 48 7492 11156049883021
+FirstTime 20170401000735
+LastTime 20170430225140
+LastUpdate 20170501081638 48 0 47 0 0
+TotalVisits 632                 
+TotalUnique 243                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 248                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 13 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 93 114 1758754 296 316 2268399
+1 43 43 137525 405 415 2846809
+2 52 74 979697 506 523 3100376
+3 50 51 633408 426 444 2694449
+4 43 43 282306 459 476 2509490
+5 55 55 134215 466 484 2497757
+6 59 59 118022 298 322 1910549
+7 45 45 269282 407 427 2521678
+8 54 54 116748 399 426 2496269
+9 80 82 1340680 476 488 2843910
+10 71 95 1373122 428 479 3507280
+11 39 65 1144402 396 438 2980938
+12 48 48 180538 456 472 2714456
+13 52 52 378669 408 451 2846463
+14 67 116 2185737 583 608 3451162
+15 49 49 127013 408 423 2365358
+16 74 120 2193910 381 402 2775200
+17 45 45 271303 683 699 9496949
+18 29 30 148325 289 304 1478647
+19 37 37 166585 271 293 2036218
+20 41 41 185520 279 307 2296315
+21 66 70 703466 343 363 2294750
+22 36 36 429174 280 299 2199225
+23 54 81 1441791 337 420 4514356
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 60
+us 884 986 6912633
+ru 52 136 2680599
+ro 31 35 559479
+ca 28 28 700996
+in 28 28 85467
+fr 26 26 620791
+ua 15 15 355605
+gb 14 14 334232
+no 12 12 347328
+pl 12 12 316035
+nl 10 10 238360
+kr 10 36 982554
+ph 10 10 30368
+se 7 7 154252
+br 7 7 21816
+tr 7 7 20573
+it 6 6 97930
+my 6 6 97566
+pk 6 6 17722
+id 6 6 17722
+au 6 6 18967
+dz 6 6 18344
+cn 5 5 147894
+ma 5 5 15805
+cz 5 5 93247
+jo 2 2 6322
+kh 3 3 9172
+de 4 4 89585
+qa 2 2 6323
+sc 2 2 32436
+be 2 2 5700
+ee 1 1 29586
+gh 2 2 6322
+sy 2 2 6322
+pf 0 1 292075
+jp 2 2 32701
+hu 3 3 34119
+ch 0 6 808874
+ir 2 2 32701
+sa 2 2 6322
+mk 2 2 6323
+mx 1 1 3115
+hk 1 1 29586
+mu 2 2 6322
+do 2 2 6322
+rs 2 2 5700
+lv 5 5 147912
+za 2 2 5700
+al 2 2 6322
+bg 4 4 12645
+lu 1 1 29586
+ar 4 4 12023
+il 2 2 6322
+sk 1 1 29586
+gr 2 2 6322
+vn 4 4 64872
+mm 2 2 5700
+np 4 4 12645
+bo 2 2 6322
+lk 4 4 12022
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+bot[\s_+:,\.\;\/\\-] 425 5013416 20170430225421 136
+crawl 237 3599849 20170429072408 42
+googlebot 175 2796509 20170430040831 18
+spider 157 3839982 20170430194842 4
+robot 60 572220 20170429041801 15
+unknown 48 8208 20170430225130 48
+checker 32 657495 20170427201030 9
+bingpreview 28 933800 20170410234234 0
+no_user_agent 25 198274 20170430142020 0
+slurp 14 260117 20170406040541 1
+[\s_+:,\.\;\/\\-]bot 8 0 20170424233727 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+ttf 5 183756 0 0
+woff 10 190924 0 0
+css 71 1150682 0 0
+Unknown 4 8736 0 0
+html 329 8497415 0 0
+png 23 2084301 0 0
+php 893 635585 0 0
+jpg 6 830052 0 0
+js 122 2306144 0 0
+gif 1 847 0 0
+xml 4 7236 0 0
+eot 37 804514 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/AndreDuvoisinResume.pdf 19 0 1733670
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+macosx7 1 1
+macosx6 3 0
+macosx 45 17
+Unknown 790 788
+winnt 107 83
+winlong 3 3
+win8 24 3
+java 27 23
+linux 77 29
+win7 290 263
+win8.1 2 2
+winxp 129 66
+linuxandroid 7 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 57
+chrome55.0.2883.95 1 1
+chrome27.0.1453.90 5 5
+firefox4.0 1 1
+firefox1.0 1 1
+chrome47.0.2526.111 1 1
+firefox47.0 1 1
+firefox40.1 172 172
+firefox7.0.1 20 20
+Unknown 761 755
+firefox46.0 1 1
+firefox3.6.3 2 2
+chrome53.0.2785.143 10 10
+chrome25.0.1364.172 1 1
+firefox5.0 3 3
+chrome45.0.2454.93 2 2
+chrome40.0.2214.115 1 1
+firefox40.0 1 1
+chrome51.0.2706.70 1 1
+chrome33.0.1750.154 1 1
+android 1 1
+mozilla 88 66
+chrome46.0.2490.80 7 7
+msie11.0 20 20
+chrome28.0.1500.71 2 2
+chrome49.0.2623.75 2 2
+chrome31.0.1650.57 5 5
+msie8.0 99 36
+chrome41.0.2228.0 25 25
+firefox14.0.1 1 1
+chrome50.0.2661.75 1 1
+firefox48.0 32 3
+chrome39.0.2171.95 4 4
+firefox49.0 1 1
+firefox22.0 2 2
+chrome34.0.1847.137 1 1
+msie9.0 74 48
+chrome51.0.2704.103 3 3
+firefox50.0 2 2
+firefox3.6.28 1 1
+chrome26.0.1410.63 1 1
+chrome45.0.2454.94 2 2
+chrome54.0.2840.99 1 1
+firefox19.0 1 1
+msie6.0 6 6
+chrome26.0.1410.58 1 1
+firefox33.0 4 4
+chrome44.0.2403.89 1 1
+chrome34.0.1847.116 1 1
+chrome57.0.2987.132 3 0
+chrome44.0.2403.125 1 1
+chrome57.0.2987.133 68 15
+chrome52.0.2743.116 12 12
+msie10.0 24 3
+opera36.0.2130.32 2 2
+chrome56.0.2924.87 8 8
+chrome51.0.2704.106 2 2
+chrome37.0.2062.120 10 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 17
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20170422140534
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170420100028
+HEADMasterSEO 20170419215700
+Python-urllib/2.7 20170417233250
+WordPress/4.4.8;_http://andreduvoisin.com 20170420151917
+python-requests/2.10.0 20170425231206
+WordPress/4.4.9;_http://andreduvoisin.com 20170430225104
+ROME 20170420181749
+Mozilla/4.0_(compatible;_Synapse) 20170426123201
+Mozilla/5.0_(compatible;_ips-agent) 20170419031823
+Seeker_v.1_http://LookSeek.com/seeker/ 20170413073401
+Mozilla/5.0_(compatible;_Qwantify/2.4w;__https://www.qwant.com/)/2.4w 20170428223945
+BUbiNG_(_http://law.di.unimi.it/BUbiNG.html) 20170430010334
+redback/v0-570-g26f8c96 20170427035910
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/55.0.2883.95_Safari/537.36 20170411175501
+UniversalFeedParser/5.2.1__https://code.google.com/p/feedparser/ 20170427201012
+Jetpack_by_WordPress.com 20170427174722
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 12
+Seeker_v.1_http://LookSeek.com/seeker/ 20170413073401
+Python-urllib/2.7 20170417233250
+HEADMasterSEO 20170419215700
+BUbiNG_(_http://law.di.unimi.it/BUbiNG.html) 20170430010334
+WordPress/4.4.8;_http://andreduvoisin.com 20170420151917
+python-requests/2.10.0 20170425231206
+redback/v0-570-g26f8c96 20170427035910
+Java/1.6.0_04 20170410212321
+WordPress/4.4.9;_http://andreduvoisin.com 20170430225104
+ROME 20170420181749
+UniversalFeedParser/5.2.1__https://code.google.com/p/feedparser/ 20170427201012
+Jetpack_by_WordPress.com 20170427174722
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1153 1162
+From1 5 5
+From2 6 12
+From3 11 11
+From4 107 315
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+yandex 4 4
+google 2 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://burger-imperia.com 4 4
+http://pizza-tycoon.com 3 3
+http://pizza-imperia.com 1 1
+http://hundejo.com 1 1
+http://hvd-store.com 1 1
+http://w3data.co/profile.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 2864 9934629
+302 3087 0
+404 1744 42497285
+405 10 420
+500 1214 138681
+104 7 0
+301 131 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 484
+/wp-content/plugins/jetpack/class.jetpack-ixr-client.php 2 -
+/dump.tgz 1 andreduvoisin.com
+/wp-content/themes/tm-theme/js/timthumb.php 1 -
+/wp-content/themes/shadow-block/thumb.php 1 -
+/install/index.php.bak 2 -
+/wp-content/plugins/simple-dropbox-upload-form/ 2 -
+/wp-content/themes/newspress/thumb.php 1 -
+/wp-content/themes/InterPhase/timthumb.php 1 -
+/wp-content/plugins/wp-homepage-slideshow/functions.php 2 -
+/wp-content/themes/bluemag/library/timthumb.php 1 -
+/wp-content/plugins/wp2android-turn-wp-site-into-android-app/readme.txt 1 -
+/wp-content/themes/deliciousmagazine/thumb.php 1 -
+/wp-content/plugins/wordpress-gallery-plugin/timthumb.php 1 -
+/wp-content/themes/life-style-free/thumb.php 1 -
+/wp-content/themes/MyProduct/timthumb.php 1 -
+/wp-content/plugins/igit-posts-slider-widget/timthumb.php 1 -
+/wp-content/themes/suffusion/timthumb.php 1 -
+/wp-content/themes/simple-tabloid/thumb.php 1 -
+/wp-content/themes/postcard/thumb.php 1 -
+/wp-content/themes/DelicateNews/timthumb.php 1 -
+/wp-content/plugins/contact-form-7/license.txt 4 -
+/wp-content/themes/pronto/cjl/pronto/uploadify/uploadify.php 1 -
+/wp-content/themes/mini-lab/functions/timthumb.php 1 -
+/wp-content/plugins/easyrotator-for-wordpress/b.php 1 -
+/wp-content/plugins/nivo-slider/timthumb.php 1 -
+/ss.php 1 -
+/wp-content/themes/cover-wp/scripts/timthumb.php 1 -
+/www.youtube.com/embed/ynaGn57ZiN0 1 -
+/dump.tar 1 andreduvoisin.com
+/wp-content/plugins/verve-meta-boxes/timthumb.php 1 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 2 http://andreduvoisin.com/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php
+/wp-content/themes/nuance 1 http://andreduvoisin.com/wp-content/themes/nuance
+/akism.php 1 http://andreduvoisin.com/akism.php
+/user/ 1 -
+/wp-content/themes/magazine-basic/thumb.php 1 -
+/wp-content/themes/modularity2/includes/timthumb.php 1 -
+/wp-content/themes/neofresh/timthumb.php 1 -
+/wralinstall/index.php.bak 1 -
+/wp-content/themes/slidette/timThumb/timthumb.php 1 -
+/wp-content/plugins/Login-wall-etgfb/login_wall.php 1 http://andreduvoisin.com/wp-content/plugins/Login-wall-etgfb/login_wall.php
+/wp-content/themes/amphion-lite/script/timthumb.php 1 -
+/wp-content/plugins/Premium_Gallery_Manager/timthumb.php 1 -
+/wp-content/themes/myjourney_3.1/thumb.php 1 -
+/wp-content/themes/greyzed/functions/efrog/lib/timthumb.php 1 -
+/user/register 4 -
+/user-info.php 1 -
+/wp-content/themes/business-turnkey/assets/js/timthumb.php 1 -
+/default.php 1 -
+/wp-content/themes/arthemix-bronze/scripts/timthumb.php 1 -
+/wp-content/themes/fliphoto/timthumb.php 1 -
+/wp-content/themes/premiumnews/thumb.php 1 -
+/admin.php 3 -
+/ckfinder/ckfinder.html 1 -
+/wp-content/themes/blue-news/scripts/timthumb.php 1 -
+/wp-content/plugins/1-flash-gallery/upload.php 1 -
+/11m.asp 2 -
+/wp-content/themes/true-blue-theme/timthumb.php 1 -
+/wp-content/themes/pearlie_14%20dec/scripts/timthumb.php 1 -
+/license.php 1 -
+/wp-config.php.save 1 -
+/dbdump.sql.gz 1 andreduvoisin.com
+/sftp-config.json 2 -
+/wp-content/themes/Chameleon/timthumb.php 1 -
+/wp-content/themes/aqua-blue/includes/timthumb.php 1 -
+/wp-content/themes/magup/timthumb.php 1 -
+/wp-content/plugins/social-profiles-widget/timthumb.php 1 -
+/wp-content/themes/eNews/timthumb.php 1 -
+/dede/login.php 1 -
+/wp-content/themes/the_dark_os/tools/timthumb.php 1 -
+/Mamha.php 1 -
+/wp-content/plugins/jquery-slider-for-featured-content/timthumb.php 1 -
+/wp-content/themes/gallant/thumb.php 1 -
+/wp-content/plugins/google-analyticator/includes_l.php 1 -
+/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php 1 http://andreduvoisin.com/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php
+/wp-content/themes/modularity/includes/timthumb.php 1 -
+/wp-content/themes/Reporter/timthumb.php 1 -
+/wp-content/themes/moi-magazine/timthumb.php 1 -
+/wp-content/themes/mobilephonecomparision/thumb.php 1 -
+/wp/wp-content/plugins/dropbox-backup/img/icon.png 1 -
+/wp-content/plugins/wp-slick-slider/timthumb.php 1 -
+/wp-admin/admin-ajax.php 7 http://andreduvoisin.com/wp-admin/admin-ajax.php
+/admin/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/wp-content/themes/bikes/thumb.php 1 -
+/wp-content/plugins/woo-tumblog/timthumb.php 1 -
+/wp-content/plugins/placid-slider/timthumb.php 1 -
+/wp-content/plugins/revslider/css/tipsy.css 1 -
+/test-for-404-page 1 -
+/wp-content/themes/mystique/extensions/auto-thumb/timthumb.php 1 -
+/wp-content/themes/epione/script/timthumb.php 1 -
+/wp-content/plugins/category-grid-view-gallery/timthumb.php 1 -
+/wp-content/plugins/ubh/up.php 1 http://andreduvoisin.com/wp-content/plugins/ubh/up.php
+/wp-content/themes/spotlight/timthumb.php 1 -
+/wp-content/themes/constructor/layouts/thumb.php 1 -
+/wp-content/plugins/custom-content-type-manager/index.html 2 -
+/wp-content/themes/xiando-one/thumb.php 1 -
+/admin_aspcms/login.asp 2 -
+/wp-content/plugins/cms-pack/timthumb.php 1 -
+/wp-content/themes/fordreporter/scripts/thumb.php 1 -
+/wp-content/themes/editorial/thumb.php 1 -
+/wp-content/plugins/cherry-plugin/admin/css/cherry-admin-plugin.css 1 -
+/wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php 1 http://andreduvoisin.com/wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php
+/xGSx.php 1 -
+/wp-content/themes/evr-green/scripts/timthumb.php 1 -
+/wp-content/themes/jcblackone/thumb.php 1 -
+/db.sql.bz2 1 andreduvoisin.com
+/wp-content/themes/digitalblue/thumb.php 1 -
+/wp-content/themes/redlight/includes/timthumb.php 1 -
+/wp-content/themes/arras-theme/library/timthumb.php 1 -
+/wp-content/themes/theory/thumb.php 1 -
+/wp-content/themes/wp-premium-orange/timthumb.php 1 -
+/wp-content/themes/featuring/timthumb.php 1 -
+/wp-content/themes/standout/thumb.php 1 -
+/wp-content/themes/impressio/timthumb/timthumb.php 1 -
+/xmlrpc.php 1126 -
+/wp-content/themes/whitemag/script/thumb.php 1 -
+/wp-content/plugins/user-photo/admin.css 2 -
+/wolf.php 1 -
+/wp-content/plugins/front-end-upload/upload.php 1 -
+/wp-json/oembed/1.0/%5C/%5C/andreduvoisin.com%5C/contact%5C/%5C%22 1 -
+/wp-content/themes/the-theme/core/libs/thumbnails/thumb.php 1 -
+/dump.sql.zip 1 andreduvoisin.com
+/wp-content/themes/brochure-melbourne/includes/timthumb.php 1 -
+/wp-content/themes/travelogue-theme/scripts/timthumb.php 1 -
+/wp/wp-login.php 14 -
+/wp-content/themes/simple-red-theme/timthumb.php 1 -
+/wp-content/plugins/meenews-newsletter/timthumb.php 1 -
+/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.php 1 http://andreduvoisin.com/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.php
+/wp-content/themes/snowblind/thumb.php 1 -
+/ewebeditor/admin/login.asp 1 -
+/wp-content/plugins/geotag/timthumb.php 1 -
+/wp-content/themes/Transcript/timthumb.php 1 -
+/access.php 1 -
+/wp-content/themes/dailyedition/thumb.php 1 -
+/wp-content/themes/famous/megaframe/megapanel/inc/upload.php 1 -
+/pasts.php 1 -
+/wp-content/themes/litepress/scripts/timthumb.php 1 -
+/wp-content/themes/CFWProfessional/timthumb.php 1 -
+/wp-content/plugins/photoria/timthumb.php 1 -
+/wp-content/themes/a-simple-business-theme/scripts/timthumb.php 1 -
+/wp-content/themes/backstage/thumb.php 1 -
+/wp/ 44 -
+/wp-content/themes/skeptical/thumb.php 1 -
+/wp-content/themes/typebased/thumb.php 1 -
+/wp-content/themes/totallyred/scripts/timthumb.php 1 -
+/wp-content/themes/swift/includes/thumb.php 1 -
+/wp-content/themes/conceditor-wp-strict/scripts/timthumb.php 1 -
+/wp-content/themes/dieselclothings/thumb.php 1 -
+/dump.gz 1 andreduvoisin.com
+/wp-content/themes/eStore/timthumb.php 1 -
+/wp-config.orig 1 -
+/wp-content/plugins/wwc-amz-aff/aa-framework/js/admin.js 1 -
+/wp-content/plugins/wp-handy-lightbox/readme.txt 3 -
+/wp-content/plugins/user-avatar/readme.txt 2 -
+/wp-content/themes/fresh-blu/scripts/timthumb.php 1 -
+/wp-content/themes/new-green-natural-living-ngnl/scripts/timthumb.php 1 -
+/wp-content/themes/kratalistic/thumb.php 1 -
+/wp-content/themes/wpapi/thumb.php 1 -
+/db.tar 1 andreduvoisin.com
+/wp-content/themes/dandelion_v2.6.4/functions/timthumb.php 1 -
+/wp-content/plugins/lisl-last-image-slider/timthumb.php 1 -
+/wp-content/plugins/ninja-forms/ninja_forms.php 2 -
+/wp-content/themes/delicate/thumb.php 1 -
+/priv.php 1 -
+/wp-content/themes/PersonalPress/timthumb.php 1 -
+/wp-content/themes/constructor/libs/timthumb.php 1 -
+/admin/login.php 1 -
+/wp-content/plugins/premium-seo-pack/aa-framework/js/admin.js 1 -
+/wp-content/themes/Magnificent/timthumb.php 1 -
+/wp-content/themes/snowblind_colbert/thumb.php 1 -
+/wp-content/plugins/portfolio-slideshow-pro/timthumb.php 1 -
+/backup.sql.bz2 1 andreduvoisin.com
+/wp-content/themes/probluezine/timthumb.php 1 -
+/wp-login.php 5 -
+/admin/HTMLEditor/editor/filemanager/connectors/php/connector.php 1 -
+/wp-includes/class-comments.php 1 http://andreduvoisin.com/wp-includes/class-comments.php
+/wp-content/themes/multidesign/scripts/timthumb.php 1 -
+/wp-content/themes/wp-perfect/js/timthumb.php 1 -
+/wp-content/themes/blogified/timthumb.php 1 -
+/wp-content/themes/make-money-online-theme-2/scripts/timthumb.php 1 -
+/wp-content/themes/insignio/images/timthumb.php 1 -
+/wp-content/themes/zcool-like/uploadify.php 1 -
+/fozi.php 1 -
+/wp-content/plugins/delete-all-comments/delete-all-comments.php 1 -
+/sql.tar 1 andreduvoisin.com
+/11m.php 2 -
+/wp-content/plugins/wpmarketplace/readme.txt 4 -
+/wp-content/uploads/wysija/themes/Gassrini/herewgo.php 1 -
+/wp-content/plugins/gallery-plugin/gallery-plugin.php 2 -
+/pagephp 1 http://andreduvoisin.com/pagephp
+/wp-content/themes/tribune/scripts/timthumb.php 1 -
+/up.php 1 http://andreduvoisin.com/up.php
+/wp-content/themes/ttnews-theme/timthumb.php 1 -
+/wp-content/themes/dark-dream-media/timthumb.php 1 -
+/wp-content/themes/zcool-like/timthumb.php 1 -
+/wp-content/themes/thrillingtheme/thumb.php 1 -
+/cv.php 1 -
+/fckeditor/editor/filemanager/connectors/uploadtest.html 2 -
+/wp/wp-content/uploads/2014/12/AndreDuvoisin-300x200.jpg%20300w,%20http:/andreduvoisin.com/wp/wp-content/uploads/2014/12/AndreDuvoisin-1024x683.jpg%201024w,%20http:/andreduvoisin.com/wp/wp-content/uploads/2014/12/AndreDuvoisin-250x167.jpg%20250w,%20http:/a 1 -
+/wp-content/ 1 -
+/ 2 -
+/wp-content/themes/aesthete/timthumb.php 1 -
+/wp-content/themes/biznizz/thumb.php 1 -
+/1337.php 1 -
+/wp-content/themes/arras/library/timthumb.php 1 -
+/coollse.php 1 -
+/wp-conten1.php 1 -
+/wp-content/plugins/nextgen-gallery/changelog.txt 2 -
+/wp-content/plugins/mobile-smart/timthumb.php 1 -
+/wp-content/plugins/dp-thumbnail/timthumb.php 1 -
+/wp-content/themes/heli-1-wordpress-theme/images/timthumb.php 1 -
+/wp-content/plugins/auto-attachments/a-a.css 2 -
+/wp-content/themes/twittplus/scripts/timthumb.php 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/wp-content/themes/unity/timthumb.php 1 -
+/adodb.class.php 1 andreduvoisin.com
+/wp-content/themes/parabola-child/404.php 1 -
+/wp-content/themes/Nova/timthumb.php 1 -
+/wp-content/themes/automotive-blog-theme/timthumb.php 1 -
+/wp-content/themes/ 1 -
+/cox.php 1 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/server/images.php 1 -
+/wp-content/themes/coverht-wp/scripts/timthumb.php 1 -
+/wp/xmlrpc.php 1 http://andreduvoisin.com/wp/xmlrpc.php
+/admin/login.asp 1 -
+/wp-content/plugins/wp-editor/readme.txt 2 -
+//wp-admin/admin-post.php 1 -
+/wp-content/themes/make-money-online-theme-1/scripts/timthumb.php 1 -
+/wp-content/themes/bloggnorge-a1/scripts/timthumb.php 1 -
+/wp-content/plugins/seo-image-galleries/timthumb.php 1 -
+/wp-content/plugins/highlighter/timthumb.php 1 -
+/wp-content/plugins/optimizepress/timthumb.php 1 -
+/wp-content/plugins/dukapress/timthumb.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 -
+/wp-content/plugins/another-wordpress-classifieds-plugin/AWPCP.po 2 -
+/wp-content/plugins/wp-image-news-slider/functions.php 2 -
+/wp-content/themes/themetiger-fashion/thumb.php 1 -
+/wp-content/plugins/front-end-upload/destination.php 4 -
+/btgfplus/flink.php 1 -
+/wp-content/themes/PureType/timthumb.php 1 -
+/wp-content/themes/purevision/scripts/timthumb.php 1 -
+/implenentation 1 http://ya.ru/
+/wp-content/plugins/db-toolkit/timthumb.php 1 -
+/wp-content/themes/synoptic/style.css 1 http://andreduvoisin.com/wp-content/themes/synoptic/style.css
+/wp-content/plugins/wp-marketplace/timthumb.php 1 -
+/wp-content/plugins/a-wp-mobile-detector/timthumb.php 1 -
+/system/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/wp-content/themes/artisan/includes/timthumb.php 1 -
+/db.sql.zip 1 andreduvoisin.com
+/wp-content/themes/flix/timthumb.php 1 -
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 1 -
+/wp-content/themes/my-heli/images/timthumb.php 1 -
+/media/mass.php 1 -
+/wp-content/themes/Event/timthumb.php 1 -
+/wp-content/themes/simplewhite/timthumb.php 1 -
+/users.sql 1 andreduvoisin.com
+/administrator/ 2 -
+/wp-content/plugins/aio-shortcodes/timthumb.php 1 -
+/403.php 1 -
+/wp-config.php_bak 1 -
+/wp-content/themes/coffeedesk/includes/timthumb.php 1 -
+/2016/08/ 1 -
+/wp-content/plugins/font-uploader/font-uploader-free.php 2 -
+/www.youtube.com/embed/d1st2DY-Z_c 1 -
+/wp-content/themes/dualshockers2/thumb.php 1 -
+/wp-content/plugins/fcchat/default.png 2 -
+/wp-content/themes/bt/includes/timthumb.php 1 -
+/wp-content/themes/muse/scripts/timthumb.php 1 -
+/wp-content/plugins/wp-property/action_hooks.php 2 -
+/wp-content/themes/albizia/includes/timthumb.php 1 -
+/wp-content/plugins/webapp-builder/server/images.php 1 -
+/wp-content/themes/wp-newsmagazine/scripts/timthumb.php 1 -
+/wp-content/plugins/LaunchPressTheme/timthumb.php 1 -
+/wss.php 1 -
+/wp/wp-content/plugins/woocommerce-catalog-enquiry/lib/jquery/upload/media-upload.js 1 http://andreasbischof.net/wp-content/plugins/woocommerce-catalog-enquiry/lib/jquery/upload/media-upload.js
+/wp-content/plugins/fluid_forms/file-upload/server/php/ 1 http://andreduvoisin.com/wp-content/plugins/fluid_forms/file-upload/server/php/
+/wp-content/themes/mTheme-Unus/css/css.php 1 -
+/wp/wp-green.php 1 http://andreasherrycreations.com/wp-green.php
+/wp-content/themes/wpbus-d4/includes/timthumb.php 1 -
+/wp-content/themes/diamond-ray/thumb.php 1 -
+/wp-content/themes/deep-blue/timthumb.php 1 -
+/wp-content/plugins/cimy-user-extra-fields/README_OFFICIAL.txt 2 -
+/wp-content/plugins/wp2android-turn-wp-site-into-android-app/server/images.php 1 -
+/utility/convert/data/config.inc.php 2 -
+/wp-content/plugins/wp-e-commerce/license.txt 2 -
+/wp-content/themes/Memoir/timthumb.php 1 -
+/wp-content/plugins/woozone/aa-framework/js/admin.js 1 -
+/wp-content/themes/aranovo/scripts/timthumb.php 1 -
+/wp-content/themes/a-supercms/timthumb.php 1 -
+/wrm.php 1 -
+/wp-content/themes/bueno/thumb.php 1 -
+/wp-content/plugins/mobile-app-builder-by-wappress/server/images.php 1 -
+/wp-content/themes/shaan/timthumb.php 1 -
+/sql.tar.gz 1 andreduvoisin.com
+/wp-content/themes/8q/scripts/timthumb.php 1 -
+/wp-content/plugins/stats-wp/readme.txt 3 -
+/wp-admin/admin.php 2 -
+/wp-config.bak 1 -
+/wp-content/plugins/gravityforms/css/preview.css 1 -
+/wp-content/themes/simplenews_premium/scripts/timthumb.php 1 -
+/wp-content/themes/go-green/modules/timthumb.php 1 -
+/wp-content/plugins/resume-submissions-job-postings/installer.php 2 -
+/wp-content/themes/techozoic-fluid/options/thumb.php 1 -
+/wp-content/plugins/wp-filemanager/fm.php 2 -
+/wp-content/plugins/estatik/readme.txt 1 http://andreduvoisin.com/wp-content/plugins/estatik/readme.txt
+/wp-content/themes/vulcan/timthumb.php 1 -
+/wp-content/themes/optimize/thumb.php 1 -
+/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php 1 -
+/wp-content/themes/premium-violet/thumb.php 1 -
+/wp-content/themes/neo_wdl/includes/extensions/thumb.php 1 -
+/wp-content/themes/ugly/timthumb.php 1 -
+/wp-content/themes/dandelion_v2.6.3/functions/timthumb.php 1 -
+/wp-content/themes/TheSource/timthumb.php 1 -
+/wp-content/themes/coffee-lite/thumb.php 1 -
+/wordpress/wp-admin/setup-config.php 2 -
+/test/wp-admin/setup-config.php 2 -
+/wp-content/plugins/revslider/css/admin.css 1 http://andreduvoisin.com/wp-content/plugins/revslider/css/admin.css
+/.git/ 1 http://andreduvoisin.com/.git/
+/wp-content/themes/bombax/includes/timthumb.php 1 -
+/wp-content/themes/heartspotting-beta/thumb.php 1 -
+/wp-content/plugins/wp-dreamworkgallery/css/admin.css 1 -
+/wp-content/themes/comet/scripts/timthumb.php 1 -
+/wp-content/themes/fashion-style/thumb.php 1 -
+/mysql.zip 1 andreduvoisin.com
+/wp-json/wp/v2/users 1 -
+/wp-content/themes/satoshi/upload-file.php 1 http://andreduvoisin.com/wp-content/themes/satoshi/upload-file.php
+/wp-content/themes/inuit-types/thumb.php 1 -
+/wp-content/themes/eBusiness/timthumb.php 1 -
+/wp-content/themes/meintest/layouts/thumb.php 1 -
+/wp-content/themes/retreat/thumb.php 1 -
+/akiesmet.php 1 -
+/wp-content/plugins/WPFanPro/timthumb.php 1 -
+/blog/wp-admin/setup-config.php 2 -
+/HTMLEditor/editor/filemanager/connectors/php/connector.php 1 -
+/player.vimeo.com/video/90607851 1 -
+/wp-content/themes/granite-lite/scripts/timthumb.php 1 -
+/auth.php 1 -
+/wp-content/themes/arthemix-green/scripts/timthumb.php 1 -
+/wp-content/themes/calotropis/includes/timthumb.php 1 -
+/wp-content/plugins/smart-related-posts-thumbnails/timthumb.php 1 -
+/wp-config.txt 1 -
+/wp-content/themes/Basic/timthumb.php 1 -
+/wp-content/themes/isotherm-news/thumb.php 1 -
+/wp-content/plugins/meenews/timthumb.php 1 -
+/wp-content/themes/amoveo/includes/fileuploader/upload_handler.php 1 http://andreduvoisin.com/wp-content/themes/amoveo/includes/fileuploader/upload_handler.php
+/wp-content/themes/profitstheme/thumb.php 1 -
+/wp-content/themes/typographywp/timthumb.php 1 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 1 http://andreduvoisin.com/wp-content/upgrade/theme-compat/popup-pomo.php
+/wp-config.php.old 1 -
+/wp-content/plugins/wpstorecart/lgpl.txt 2 -
+/wp-content/plugins/webphysiology-portfolio/timthumb.php 1 -
+/wp-content/plugins/category-grid-view-gallery/cat_grid.php 2 -
+/wp-config.php.orig 1 -
+/wp-content/themes/spectrum/thumb.php 1 -
+/wp-content/plugins/wp-vertical-gallery/readme.txt 1 http://andreduvoisin.com/wp-content/plugins/wp-vertical-gallery/readme.txt
+/wp-content/plugins/front-slider/timthumb.php 1 -
+/wp-content/plugins/gallery-slider/readme.txt 3 -
+/wp-includes/wp-inc.php 1 http://andreduvoisin.com/wp-includes/wp-inc.php
+/dump.sql.tgz 1 andreduvoisin.com
+/wp-admin/tools.php 2 -
+/wp-content/plugins/seo-keyword-page/readme.txt 3 -
+/wp-content/plugins/revslider/release_log.txt 1 -
+/wp-content/plugins/ckeditor-for-wordpress/ckeditor.config.js 2 -
+/wp-content/themes/simple-but-great/timthumb.php 1 -
+/wp-content/themes/make-money-online-theme-3/scripts/timthumb.php 1 -
+/wp-content/themes/myjourney/thumb.php 1 -
+/wp-content/themes/famous/timthumb.php 1 -
+/wp-content/plugins/mac-dock-gallery/bugslist.txt 2 -
+/wp-content/themes/constructor/timthumb.php 1 -
+/wp-content/themes/vibefolio-teaser-10/scripts/timthumb.php 1 -
+/wp-content/themes/pronto/cjl/pronto/uploadify/check.php 1 -
+/wp-content/plugins/ 1 -
+/ewebeditor/admin_login.asp 1 -
+/wp-content/themes/SimplePress/timthumb.php 1 -
+/wp-content/themes/regal/timthumb.php 1 -
+/wp-config.old 1 -
+/Leonas.php 1 -
+/wp-content/themes/broadcast/thumb.php 1 -
+/wp-content/uploads/47002770.php 1 http://www.googlebot.com/bot.html
+/wp-content/themes/pearlie/scripts/timthumb.php 1 -
+/wso2_pack.php 1 -
+/wp-content/themes/make-money-online-theme-4/scripts/timthumb.php 1 -
+/dd.php 2 -
+/wp-content/plugins/sugar-slider/timthumb.php 1 -
+/wp-content/themes/pico/scripts/timthumb.php 1 -
+/wp/wp-version.php 1 http://andreatakacs.de/wp-version.php
+/wp-content/themes/Minimal/timthumb.php 1 -
+/wp-content/themes/blue-corporate-hyve-theme/timthumb.php 1 -
+/wp-content/plugins/revslider/images/tipsy.gif 1 -
+/baws.php 1 -
+/wp-content/plugins/Login-wall-OaWAc/login_wall.php 1 -
+/wp-config.php~ 1 -
+/wp-content/themes/introvert/thumb.php 1 -
+/wp-content/themes/autofashion/thumb.php 1 -
+/wp-json/oembed/1.0/%5C/%5C/andreduvoisin.com%5C/spirit%5C/%5C%22 1 -
+/wp-content/themes/delight/scripts/timthumb.php 1 -
+/wp-content/themes/gunungkidul/thumb.php 1 -
+/wp-content/themes/LightBright/timthumb.php 1 -
+/wp-content/themes/blex/scripts/timthumb.php 1 -
+/wp-content/themes/DeepBlue/timthumb.php 1 -
+/wp-content/themes/iwana-v10/timthumb.php 1 -
+/wp-content/themes/famous/style.css 1 http://andreduvoisin.com/wp-content/themes/famous/style.css
+/update.php 2 -
+/wp-content/themes/themorningafter/thumb.php 1 -
+/wp-content/themes/aureola/scripts/timthumb.php 1 -
+/wp-content/plugins/zen-mobile-app-native/readme.txt 1 -
+/wp-content/plugins/a-gallery/timthumb.php 1 -
+/BLL.php 1 -
+/mark.php 1 -
+/wp-content/themes/dimenzion/timthumb.php 1 -
+/wp-content/themes/postage-sydney/includes/timthumb.php 1 -
+/wp-content/themes/OptimizePress/timthumb.php 1 -
+/1.sql 1 andreduvoisin.com
+/wso.php 1 http://andreduvoisin.com/wso.php
+/wp-content/plugins/mac-dock-gallery/upload-file.php 1 -
+/wp-content/plugins/logo-management/timthumb.php 1 -
+/wp-content/plugins/igit-related-posts-with-thumb-images-after-posts/timthumb.php 1 -
+/wp-content/themes/ElegantEstate/timthumb.php 1 -
+/wp-content/themes/shadow/timthumb.php 1 -
+/wp-content/themes/simplicity/thumb.php 1 -
+/wp-json/oembed/1.0/%5C/%5C/andreduvoisin.com%5C/about%5C/%5C%22 1 -
+/wp-content/plugins/kc-related-posts-by-category/timthumb.php 1 -
+/wp-content/plugins/shortcodes-ultimate/timthumb.php 1 -
+/wp-content/themes/Bold/timthumb.php 1 -
+/0.php 1 -
+/wp-content/themes/likehacker/timthumb.php 1 -
+/form.php 1 -
+/page.php.suspected 1 -
+/wp-content/themes/thestation/thumb.php 1 -
+/wp-content/plugins/nmedia-user-file-uploader/readme.txt 2 -
+/wp-content/plugins/magic-fields/MF_Constant.php 2 -
+/wp-content/themes/squeezepage/timthumb.php 1 -
+/site.sql 1 andreduvoisin.com
+/wp-content/themes/jambo/thumb.php 1 -
+/wp-content/plugins/islidex/timthumb.php 1 -
+/wp-content/themes/breakingnewz/timthumb.php 1 -
+/wp-content/themes/DeepFocus/timthumb.php 1 -
+/plus/flink.php 2 -
+/wp-content/themes/GrungeMag/timthumb.php 1 -
+/wp-content/plugins/user-meta/readme.txt 2 -
+/wp-content/themes/aerial/lib/timthumb.php 1 -
+/wp-content/themes/duotive-three/includes/timthumb.php 1 -
+/wp-content/themes/swift/timthumb.php 1 -
+/wp-content/themes/mymag/timthumb.php 1 -
+/wp-content/themes/make-money-online-theme/scripts/timthumb.php 1 -
+/wp-content/plugins/wp-mobile-detector/timthumb.php 1 -
+/inedx.php 1 http://andreduvoisin.com/inedx.php
+/sndso.php 1 -
+/wp-content/themes/wp-clear-prem/scripts/timthumb.php 1 -
+/wp-content/plugins/simple-ads-manager/js/slider/tmpl.js 1 -
+/wp-content/themes/swift/includes/timthumb.php 1 -
+/wp-content/themes/versitility/timthumb.php 1 -
+/wp-content/themes/r755/thumb.php 1 -
+/dump.zip 1 andreduvoisin.com
+/wp-content/plugins/simple-ads-manager/readme.txt 1 -
+/wp-content/themes/freeside/thumb.php 1 -
+/wp-content/themes/nash/theme-assets/php/timthumb.php 1 -
+/wp-content/plugins/wordpress-thumbnail-slider/timthumb.php 1 -
+/wp-content/themes/parabola-child/upload.php 1 -
+/wp-content/themes/Delicate/thumb.php 1 -
+/wp-config.php.bak 1 -
+/wp-content/plugins/wysija-newsletters/readme.txt 1 -
+/wp-content/themes/cruz/scripts/timthumb.php 1 -
+/wp-content/themes/brightsky/scripts/timthumb.php 1 -
+/wp-content/themes/ePhoto/timthumb.php 1 -
+/old/wp-admin/setup-config.php 2 -
+/wp-content/plugins/download-manager/timthumb.php 1 -
+/wp-content/themes/NewsPro/timthumb.php 1 -
+/wp-content/themes/black_eve/timthumb.php 1 -
+/wp-content/themes/snapshot/thumb.php 1 -
+/wp-content/themes/wp-creativix/scripts/timthumb.php 1 -
+/wp-content/themes/vina/thumb.php 1 -
+/wp-content/themes/aurorae/timthumb.php 1 -
+/wp-content/plugins/zingiri-web-shop/admin.css 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/db.php 1 -
+/wp/wp-content/plugins/stats-counter/img/icon.png 1 -
+/wp-content/plugins/journalcrunch/timthumb.php 1 -
+/wp-content/themes/photoria/scripts/timthumb.php 1 -
+/wp-content/themes/loganpress-premium-theme-1/thumb.php 1 -
+/sql.zip 1 andreduvoisin.com
+/log.php 1 http://andreduvoisin.com/log.php
+/wp-content/themes/greydove/timthumb.php 1 -
+/wp-content/themes/ideatheme/timthumb.php 1 -
+/sittir.php 1 -
+/wp-content/plugins/sitesao-core/assets/js/admin.js 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 248
+198.54.114.240 697 697 1 20170430225104
+52.36.251.200 41 41 762952 20170413002528
+174.138.65.112 24 24 574844 20170401095514
+79.116.30.86 23 27 429131 20170410212321
+64.62.252.162 19 19 406345 20170429100302
+142.4.218.156 13 13 347337 20170414161335
+142.4.218.236 13 13 347337 20170420100029
+134.119.213.82 12 12 347328 20170428001529
+176.195.118.94 12 33 642907 20170418021834
+69.58.178.56 10 10 284715 20170419031823
+173.227.92.114 10 38 1248349 20170407142241
+194.187.170.123 9 9 255297 20170428223945
+54.227.38.39 8 30 649030 20170422163812
+109.63.232.23 8 16 285217 20170404164514
+188.244.45.91 6 15 296613 20170415140204
+5.228.104.127 6 18 346294 20170415140204
+176.31.64.186 6 6 169812 20170427231613
+12.151.6.137 5 29 621866 20170411102131
+46.105.31.30 5 5 147930 20170426161252
+62.210.80.79 5 5 117361 20170419045506
+46.183.216.205 5 5 147912 20170425223016
+123.143.201.76 4 30 963772 20170425231211
+64.62.252.164 4 4 118344 20170430010334
+109.63.251.232 4 17 357690 20170404164515
+52.32.117.98 3 3 86925 20170414142345
+85.248.227.164 1 1 29586 20170417101511
+150.107.7.221 1 1 2850 20170401070325
+54.255.163.95 1 1 29586 20170410133147
+91.195.103.151 1 1 652 20170427201012
+112.209.12.21 2 2 5700 20170427220015
+192.0.89.120 1 1 180 20170404173821
+124.104.224.231 2 2 6323 20170430063358
+103.72.190.233 1 1 3162 20170407085946
+45.243.10.105 1 1 3161 20170406191644
+49.207.176.255 2 2 6323 20170425133829
+42.114.77.229 1 1 29586 20170423221506
+31.132.79.21 1 1 28302 20170416132818
+31.132.79.66 1 1 29037 20170416132814
+81.13.156.167 0 3 415026 
+183.156.100.78 1 1 29568 20170430000435
+186.224.162.63 2 2 6322 20170421155006
+148.66.95.200 0 1 292075 
+128.199.54.156 1 1 29568 20170405133429
+62.212.68.156 1 1 29586 20170408175753
+82.76.192.86 2 2 6322 20170414134444
+192.0.113.19 1 1 180 20170420062100
+172.245.10.85 1 1 29586 20170413095648
+162.243.69.215 1 1 29586 20170410145219
+122.178.85.19 2 2 6322 20170409141258
+52.202.3.120 2 2 30422 20170401131920
+125.209.40.189 1 1 3115 20170413044828
+182.185.103.210 2 2 5700 20170406101044
+31.32.137.17 1 1 2850 20170411155911
+66.249.93.220 1 1 29586 20170415123037
+95.47.138.212 1 1 29037 20170416132816
+34.209.68.195 3 3 86925 20170413173452
+39.48.31.38 2 2 6322 20170427064409
+112.137.177.216 2 2 6322 20170409071347
+46.118.156.191 1 1 29586 20170429174434
+47.88.101.75 2 2 59172 20170418075552
+51.15.43.202 2 2 59172 20170426000542
+31.179.205.2 1 1 2850 20170401145527
+192.0.99.139 2 2 360 20170427174722
+41.140.111.48 2 2 6322 20170425155954
+173.208.46.165 1 1 0 20170426195856
+46.10.65.119 2 2 6322 20170426153012
+217.182.68.186 1 1 29586 20170412080449
+64.62.252.169 1 1 29586 20170427211449
+202.63.112.117 2 2 6323 20170414011803
+91.243.93.145 1 1 29586 20170408044023
+205.185.209.187 1 1 28419 20170411090408
+185.13.156.124 1 1 28419 20170423031619
+86.110.117.20 1 1 29586 20170429003605
+14.228.75.210 2 2 32436 20170406040625
+173.239.198.195 2 2 6324 20170423215135
+178.223.114.82 2 2 5700 20170405033904
+51.15.59.54 1 1 29586 20170411175501
+123.125.67.162 1 1 29586 20170420234916
+148.101.118.219 2 2 6322 20170408224636
+77.121.248.91 3 3 58189 20170423134039
+196.16.9.139 1 1 2850 20170427071444
+46.161.9.29 1 1 29586 20170415033500
+216.55.182.109 1 1 29586 20170430030822
+5.151.221.192 1 1 3115 20170401054810
+163.172.191.54 1 1 29593 20170426221926
+103.218.134.169 2 2 6322 20170411225055
+192.36.27.6 2 2 59172 20170417091611
+109.236.82.177 1 1 836 20170420181749
+103.10.28.11 2 2 6323 20170414232439
+112.134.67.36 2 2 6322 20170410093839
+68.37.55.17 1 1 3115 20170411112324
+109.236.8.8 1 1 29586 20170427035908
+2.91.226.91 2 2 6322 20170403140503
+162.243.72.231 1 1 29586 20170412234026
+216.34.241.34 1 1 29586 20170412114704
+110.44.124.108 2 2 6322 20170402124641
+186.214.148.126 2 2 6322 20170410095823
+103.61.10.239 2 2 5700 20170424081550
+109.230.220.216 1 1 3161 20170430044220
+41.96.185.134 2 2 5700 20170421080253
+197.226.156.53 2 2 6322 20170423054626
+93.41.3.142 2 2 32436 20170413192148
+1.22.251.66 2 2 6322 20170424133450
+193.6.61.60 2 2 5700 20170405093002
+193.201.224.72 2 2 59172 20170420225546
+185.86.149.186 1 1 29586 20170418004635
+122.176.39.76 2 2 6322 20170401015025
+119.195.167.9 1 1 3115 20170406140826
+104.198.7.244 1 1 29586 20170401140748
+178.137.83.166 2 2 59172 20170403215511
+92.233.174.40 2 2 5700 20170413001931
+95.128.188.206 2 2 6323 20170414080630
+93.115.95.206 1 1 29586 20170406011403
+198.46.238.15 1 1 29586 20170427153906
+45.249.49.10 2 2 6322 20170417053339
+191.255.121.134 2 2 6322 20170409125750
+185.41.84.131 2 2 6322 20170416193936
+51.255.33.0 1 1 29586 20170414232216
+188.255.23.130 3 24 455039 20170404004913
+66.102.6.150 1 1 29586 20170407190639
+195.154.122.54 1 1 29586 20170423022439
+5.157.14.51 1 1 29586 20170427071437
+172.98.67.115 1 1 29586 20170421172351
+144.217.80.113 3 3 88758 20170424221254
+109.163.234.5 3 3 88740 20170426000552
+78.187.127.173 2 2 5700 20170425085044
+185.56.163.162 2 2 6322 20170423101758
+181.114.182.126 2 2 6322 20170414084544
+118.137.122.20 2 2 5700 20170408101626
+23.229.31.99 1 1 29586 20170424020705
+46.19.230.3 2 2 6322 20170406110058
+31.217.181.55 2 2 6322 20170418120435
+176.9.50.43 1 1 29586 20170421072617
+85.71.247.35 1 1 29586 20170408183211
+94.102.49.33 1 1 29586 20170420033741
+173.208.141.74 1 1 29586 20170410001047
+112.134.46.55 2 2 5700 20170408112906
+109.236.84.203 1 1 836 20170408010330
+103.72.190.136 1 1 3163 20170407085913
+94.242.246.24 1 1 29586 20170416182217
+79.134.149.123 2 2 6322 20170412085005
+216.151.180.127 1 1 28419 20170416111603
+198.204.225.114 2 2 59172 20170430225140
+111.94.92.121 2 2 5700 20170424054846
+202.159.137.55 2 2 6322 20170413071019
+128.52.128.105 1 1 29586 20170410222626
+217.10.248.129 2 2 6323 20170407131040
+194.187.170.105 1 1 29586 20170426013324
+159.203.81.93 1 1 977 20170410145220
+105.247.190.163 2 2 5700 20170419075636
+193.15.16.4 1 1 29586 20170427231646
+216.55.138.211 1 1 0 20170430030825
+64.113.32.29 2 2 59172 20170425235349
+89.211.211.188 2 2 6323 20170427042751
+91.210.164.233 1 1 29586 20170424042204
+220.233.104.28 2 2 6323 20170411064333
+119.42.154.17 2 2 5700 20170405064631
+37.156.47.82 2 2 5700 20170425064219
+23.253.174.185 1 1 29586 20170413073401
+34.209.3.235 0 1 843 
+93.146.124.125 2 2 6322 20170415020646
+41.111.113.125 2 2 6322 20170426085559
+163.172.223.200 3 3 88740 20170425235356
+219.93.48.21 3 3 88704 20170409232246
+51.140.119.50 1 1 29586 20170419215700
+45.124.144.174 1 1 2850 20170409041327
+39.44.69.59 2 2 5700 20170424094545
+103.2.133.121 2 2 6322 20170414094337
+51.15.63.229 1 1 29586 20170426000003
+191.241.32.12 1 1 2850 20170428211418
+171.25.193.20 1 1 29586 20170425235959
+114.125.29.16 2 2 6322 20170428192535
+91.200.14.171 1 1 29586 20170427073418
+109.201.133.100 1 1 29586 20170418091140
+52.36.200.252 3 3 86925 20170422140534
+111.118.242.148 2 2 5700 20170428021720
+162.243.203.87 1 1 29586 20170413112914
+91.219.236.163 1 1 28419 20170405020008
+165.231.0.242 1 1 29586 20170425235957
+194.187.170.124 1 1 28302 20170428151842
+2.183.24.174 1 1 3115 20170411112330
+189.183.90.230 1 1 3115 20170406141131
+94.228.207.119 1 1 29568 20170416095224
+185.86.5.212 1 1 2850 20170425124931
+89.248.172.48 2 2 59172 20170429134604
+195.154.255.195 2 2 28604 20170428093843
+5.232.185.116 1 1 29586 20170411161152
+121.138.223.134 1 1 3115 20170402205030
+123.125.67.218 1 1 29586 20170415070336
+5.188.136.101 1 1 29586 20170420042436
+118.89.178.170 1 1 29586 20170429174551
+87.67.159.0 2 2 5700 20170410150225
+86.110.118.142 2 2 59172 20170410165125
+34.209.82.179 0 1 843 
+114.134.184.53 2 2 6322 20170402133010
+195.154.251.209 2 2 59154 20170426000007
+54.89.95.24 3 29 944762 20170416111300
+176.42.63.226 2 2 5700 20170425073142
+162.243.121.207 1 1 29586 20170429090225
+31.30.63.105 2 2 6322 20170414162119
+217.23.12.100 1 1 29586 20170426123201
+178.239.50.60 1 1 29586 20170415183127
+88.251.125.145 2 2 6323 20170413121914
+173.232.219.22 1 1 3161 20170427050137
+108.251.233.95 2 2 5700 20170407162321
+195.242.80.15 1 1 25442 20170411130624
+54.218.211.208 1 1 29586 20170408205447
+118.100.158.244 1 1 3162 20170412080429
+94.142.242.84 1 1 29586 20170401163857
+97.123.163.225 2 2 5700 20170425081416
+159.203.196.79 1 1 2850 20170410145219
+185.156.179.225 1 1 25442 20170426120425
+92.113.3.70 2 2 5700 20170413153716
+109.65.1.80 2 2 6322 20170412095252
+117.208.11.25 2 2 5700 20170419014244
+109.236.8.6 1 1 29586 20170427035910
+42.115.71.250 1 1 2850 20170401070347
+186.19.195.21 2 2 6323 20170415113718
+192.40.95.18 1 1 28419 20170419004431
+122.52.111.61 2 2 6322 20170420053515
+117.202.204.144 2 2 6323 20170408102638
+103.204.244.17 1 1 2913 20170428123657
+203.106.177.205 2 2 5700 20170427223621
+47.11.194.48 2 2 6322 20170412022214
+193.201.224.222 1 1 29586 20170424140212
+31.131.21.175 1 1 29586 20170420195228
+5.230.31.120 1 1 28419 20170427231617
+206.180.171.149 1 1 29586 20170413010402
+122.173.38.174 2 2 5700 20170425120450
+118.210.245.55 2 2 6322 20170408203118
+103.255.254.122 1 1 29586 20170402040836
+49.148.66.179 2 2 5700 20170404053643
+122.53.164.105 2 2 6323 20170409025809
+41.218.222.8 2 2 6322 20170410143057
+45.32.131.61 1 1 29586 20170401094102
+37.187.78.81 1 1 29586 20170425122836
+153.127.199.124 1 1 29586 20170404000403
+181.1.101.254 2 2 5700 20170412052747
+41.96.205.108 2 2 6322 20170422175131
+146.120.166.248 1 1 28302 20170416132817
+81.228.150.160 2 2 6322 20170426000259
+126.5.109.78 1 1 3115 20170404103100
+54.212.29.151 1 1 836 20170430160924
+85.6.255.206 0 3 393848 
+185.186.82.139 2 2 6322 20170406091327
+125.119.236.178 1 1 29568 20170428003536
+104.162.129.160 2 2 6322 20170401151300
+121.182.121.126 1 1 3115 20170401054807
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170401 64 64 751034 28
+20170402 31 31 103233 19
+20170403 31 31 154252 15
+20170404 45 87 1136527 17
+20170405 32 32 103389 17
+20170406 35 35 89757 19
+20170407 45 73 1354171 19
+20170408 39 39 149547 21
+20170409 38 38 176015 21
+20170410 66 70 664726 28
+20170411 40 66 953877 23
+20170412 41 41 233646 25
+20170413 84 84 1027817 23
+20170414 54 57 931539 23
+20170415 44 65 833068 23
+20170416 36 62 1181637 24
+20170417 27 28 66337 15
+20170418 44 65 825461 17
+20170419 47 47 470197 18
+20170420 42 42 502606 20
+20170421 32 32 100780 18
+20170422 32 54 742277 14
+20170423 38 38 280524 23
+20170424 33 33 141766 19
+20170425 57 84 1684424 25
+20170426 45 45 399411 26
+20170427 48 49 462639 30
+20170428 45 45 417444 24
+20170429 40 40 495103 20
+20170430 27 28 266988 18
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 383
+2mn-5mn 4
+5mn-15mn 3
+1h+ 71
+30s-2mn 35
+15mn-30mn 31
+30mn-1h 105
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 52
+/wp/wp-cron.php 696 0 358 359
+/wp/wp-login.php 188 574032 108 104
+/ 160 4640717 131 110
+/contact/ 35 991272 15 24
+/about/ 19 551703 3 4
+/polyseum/ 12 371808 0 0
+/chambara/ 10 279360 1 0
+/the-maestros/ 10 287250 0 0
+/game-engine/ 10 270230 0 1
+/spirit/ 10 279460 0 1
+/simcity201/ 9 256230 0 0
+/feed/ 9 7524 4 4
+/super-smash-skyrim/ 8 220608 0 0
+/starfox-65/ 8 220800 0 0
+/wp/xmlrpc.php 6 2416 4 4
+/wp/wp-content/themes/parabola/fonts/Oswald-Stencil-webfont.eot 5 136520 0 3
+/wp-json/ 5 4885 1 2
+/wp/wp-content/themes/parabola/fonts/OpenSans-Regular-webfont.eot 5 104390 1 0
+/author/admin/ 4 101768 1 4
+/wp-json/oembed/1.0/embed 4 8736 0 2
+/comments/feed/ 3 2088 0 0
+/wp/wp-content/themes/parabola/fonts/Oswald-Stencil-webfont.woff 3 45552 0 1
+/wp/wp-content/themes/parabola/fonts/yanonekaffeesatz-light-webfont.eot 3 85203 0 0
+/wp/wp-content/themes/parabola/fonts/yanonekaffeesatz-regular-webfont.eot 3 84540 1 0
+/wp/wp-content/themes/parabola/fonts/BebasNeue-webfont.eot 3 56520 0 0
+/wp/wp-content/themes/parabola/fonts/BebasNeue-webfont.ttf 1 54648 0 0
+/game-engine/feed/ 2 1392 0 0
+/sitemap.xml 2 5146 0 0
+/wp/wp-content/themes/parabola/fonts/yanonekaffeesatz-regular-webfont.woff 2 62360 0 0
+/wp/feed/ 1 652 1 1
+/starfox-65/feed/ 2 1388 0 0
+/wp/wp-admin/upgrade.php 1 1 1 0
+/wp/wp-content/themes/parabola/fonts/OpenSans-Regular-webfont.woff 3 41964 0 0
+/polyseum/feed/ 2 1380 0 0
+/wp/wp-content/themes/parabola/fonts/Oswald-Regular-webfont.eot 3 96252 0 0
+/wp/wp-content/themes/parabola/fonts/square-webfont.eot 3 28062 0 2
+/wp/wp-content/themes/parabola/fonts/OpenSans-Regular-webfont.ttf 1 20688 0 0
+/the-maestros/feed/ 2 1396 0 0
+//index.php 2 59136 2 2
+/about/feed/ 2 1368 0 0
+/wp/wp-content/themes/parabola/fonts/BebasNeue-webfont.woff 2 41048 0 1
+/wp/wp-content/themes/parabola/fonts/elusive.eot 3 72456 0 1
+/wp/wp-content/themes/parabola/fonts/elusive.ttf 1 23988 0 0
+/wp/wp-content/themes/parabola/fonts/yanonekaffeesatz-regular-webfont.ttf 1 57324 0 1
+/wp/wp-content/themes/parabola/fonts/Oswald-Light-webfont.eot 3 66132 0 0
+/contact/feed/ 2 1376 0 0
+/wp/wp-content/themes/parabola/fonts/Oswald-Stencil-webfont.ttf 1 27108 0 0
+/wp/wp-content/themes/parabola/fonts/OpenSans-Light-webfont.eot 3 62658 0 0
+/simcity201/feed/ 2 1388 0 0
+/spirit/feed/ 2 1372 0 0
+/wp/wp-content/themes/parabola/fonts/propaganda-webfont.eot 3 11781 0 1
+/wp/wp-includes/wlwmanifest.xml 2 2090 0 0
+END_SIDER

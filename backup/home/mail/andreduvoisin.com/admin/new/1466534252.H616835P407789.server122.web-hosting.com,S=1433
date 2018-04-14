@@ -1,0 +1,33 @@
+Return-path: <andrygzc@server122.web-hosting.com>
+Envelope-to: admin@andreduvoisin.com
+Delivery-date: Tue, 21 Jun 2016 14:37:32 -0400
+Received: from andrygzc by server122.web-hosting.com with local (Exim 4.86_1)
+	(envelope-from <andrygzc@server122.web-hosting.com>)
+	id 1bFQYG-001i57-Ca
+	for admin@andreduvoisin.com; Tue, 21 Jun 2016 14:37:32 -0400
+To: admin@andreduvoisin.com
+Subject: [Andre Duvoisin] Your site has updated to WordPress 4.4.4
+Date: Tue, 21 Jun 2016 18:37:32 +0000
+From: WordPress <wordpress@andreduvoisin.com>
+Message-ID: <b98404ac342c8c5290f6eb8ad3bfb9c9@andreduvoisin.com>
+X-Mailer: PHPMailer 5.2.14 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Sender:  <andrygzc@server122.web-hosting.com>
+
+Howdy! Your site at http://andreduvoisin.com has been updated automatically to WordPress 4.4.4.
+
+For more on version 4.4.4, see the About WordPress screen:
+http://andreduvoisin.com/wp/wp-admin/about.php
+
+WordPress 4.5.3 is also now available. Updating is easy and only takes a few moments:
+http://andreduvoisin.com/wp/wp-admin/update-core.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+Keeping your site updated is important for security. It also makes the internet a safer place for you and your readers.
+
+The WordPress Team
+
