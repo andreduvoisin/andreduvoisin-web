@@ -5,24 +5,28 @@ services:
         image: mysql:5.7
         volumes:
             - mysql-data:/var/lib/mysql
+            - ./mysql:/docker-entrypoint-initdb.d
         restart: always
         environment:
-            MYSQL_ROOT_PASSWORD: somewordpress
-            MYSQL_DATABASE: wordpress
-            MYSQL_USER: wordpress
-            MYSQL_PASSWORD: wordpress
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_DATABASE: andrygzc_wp117
+            MYSQL_USER: andrygzc_wp117
+            MYSQL_PASSWORD: "]ZkAS24P2!"
 
     wordpress:
+        image: wordpress:4.4
+        volumes:
+            - ./wordpress:/var/www/html
         depends_on:
             - mysql
-        image: wordpress:4.9.5
-        ports:
-            - "8000:80"
         restart: always
+        ports:
+            - "80:80"
         environment:
             WORDPRESS_DB_HOST: mysql:3306
-            WORDPRESS_DB_USER: wordpress
-            WORDPRESS_DB_PASSWORD: wordpress
+            WORDPRESS_DB_NAME: andrygzc_wp117
+            WORDPRESS_DB_USER: andrygzc_wp117
+            WORDPRESS_DB_PASSWORD: "]ZkAS24P2!"
 
 volumes:
     mysql-data:
