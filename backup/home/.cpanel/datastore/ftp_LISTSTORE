@@ -1,1 +1,0 @@
-{"action":"fetch","status":1,"timeout":0,"mode":"simple","version":"2.4","error":0,"data":[{"user":"andrygzc","homedir":"/home/andrygzc","type":"main"},{"homedir":"/usr/local/apache/domlogs/andrygzc","type":"logaccess","user":"andrygzc_logs"}],"statusmsg":"Ran adminbin Cpanel/ftp/LISTSTORE","exit_code":0}
