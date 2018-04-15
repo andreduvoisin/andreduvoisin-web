@@ -1,0 +1,80 @@
+Parabola 1.5.1
+
+	fixed search double slash causing issues on some servers
+	fixed PHP notice related to browseragent check
+	fixed center multi-line menu change in 1.5 breaking submenu alignment
+	fixed text inside footer widgets not covered by general text options (and using styling defaults)
+	added theme information and settings page link in the customizer
+
+Parabola 1.5.0
+
+	preliminary WPML / Polylang support for custom theme options - presentation page content and socials (currently only tested with Polylang)
+	merged WooCommerce compatibility code and styling, including improvements provided by sjswebdesign.co.uk
+	theme now remembers the settings subsection you were on after saving (for easier navigation)
+	theme settings page is now responsive
+	added title-tag theme support (for WordPress 4.1)
+	added slide title to alt attribute
+	added presentation page column title to image alt attribute
+	fixed centred main menu alignment functionality for multi-line menus
+	removed baseline vertical alignment from styling reset to correct some weird alignment layouts
+	(re)fixed header social icons overlapped by header widget (when set)
+	shortened theme news in theme settings
+	visual changes for the import/export settings
+
+Parabola 1.4.3
+	
+    fixed wp.media issue
+    fixed a weird save issue affecting only some servers caused by an apostrophe in the sample custom footer text
+    fixed translation namespace typo in comments (thanks to Mihai)
+    improved Customizer code for latest theme test unit checks
+    corrected title tag code to adhere to latest WordPress guidelines
+    replaced wp_convert_bytes_to_hr() (deprecated) with size_format()
+    replaced get_bloginfo(‘url’) with home_url() per latest WordPress guidelines
+    fixed mobile menu placeholder not visible on RTL sites
+    fixed max-width leftovers in editor-style.css (among other things making large images appear distorted in the editor)
+    fixed layout/image border option non-clickable on IE 11
+    fixed disappearing/shrinking images inside tables issue on Chrome
+    improved two somewhat untranslatable strings (that used esc_attr__() )
+    fixed PHP notice in settings page when theme news are not available
+    fixed slides count limitation when using custom posts by ID
+    fixed header social icons overlapped by header widget (when set)
+    fixed category page with intro to follow category excerpt option, not homepage excerpt option
+    added partial Hungarian translation
+    added partial Czech translation
+    added Romanian translation
+
+Parabola 1.4.2
+
+    Removed the “template” meta tag from header
+    Removed leftover author meta function from theme-meta.php
+    Fixed theme still partially responsive after responsiveness disabled
+    Fixed header widgets positioning
+    Added option for presentation page posts column count
+    Fixed multiple mobile menu issues on iOS and Windows Phone
+
+Parabola 1.4.1
+
+    Fixed issues with main menu alignment
+    Moved some extraneous JavaScript from main.php to admin.js
+    Made all JavaScript files minify-able / Corrected JavaScript comments to handle newline removal (JS compression)
+    Added an editing notice in style.css
+    Clarified/reordered meta bar option in theme settings
+    Added link to theme settings page in customizer
+
+Parabola 1.4.0
+
+    improved responsiveness (a bit more) for the whole theme and specifically the header area
+    fixed accent colours hint non-translatable
+    added zoom option to allow up to 3x zoom on mobile devices
+    added “Contact” social icon (same icon as Email) – can be used to link to the contact page/section/form
+    added “Phone” social icon for callable phone number links on touch-enabled devices
+    added new menu right align option to correctly display the menu items in the same order as left/center; the old right align menu item was kept under a different name to better handle multi-line menus
+    added a brand new mobile menu
+    added a header widget area
+    added header widget area size (can be set to: 60%, 50%, 33%, 25%; default to 33%)
+    improved custom comments compatibility (thanks to phpcodemonkey)
+    fixed breadcrumbs not handling tag pages
+    added options to disable presentation page slider and/or columns
+
+	
+Earlier changelogs are available at http://www.cryoutcreations.eu/parabola
