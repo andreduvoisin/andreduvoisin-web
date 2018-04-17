@@ -6,6 +6,11 @@ Personal website for Andre Duvoisin.
 
 ## Setup
 
+### Local Development
+
+1. Install Docker. [How?](https://docs.docker.com/install/)
+2. Install Docker Compose. [How?](https://docs.docker.com/compose/install/)
+
 ### AWS
 
 1. SSH into instance. [How?](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html)
