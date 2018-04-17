@@ -27,7 +27,7 @@ bash ./scripts/setup-aws-instance.sh
 Start all Docker containers:
 
 ```bash
-# --build : Build images before starting containers. (You want this.)
+# --build : Build images before starting containers. (You almost definitely want this.)
 docker-compose up -d [--build]
 ```
 
@@ -36,6 +36,7 @@ Stop all Docker containers:
 ```bash
 # --volumes : Remove named volumes declared in the `volumes` section of the Compose
 #             file and anonymous volumes attached to containers.
-#             (You probably want this in development. DO NOT USE IN PRODUCTION.)
+#             (You probably want this in development. Do not use in production unless you
+#             understand what you are doing.)
 docker-compose down [--volumes]
 ```
