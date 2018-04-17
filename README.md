@@ -8,14 +8,18 @@ Personal website for Andre Duvoisin.
 
 ### Local Development
 
-1. Install Docker. [How?](https://docs.docker.com/install/)
-2. Install Docker Compose. [How?](https://docs.docker.com/compose/install/)
-3. Uncomment database commands in `mysql/localhost-migrate.sql`.
+- Install Docker. [How?](https://docs.docker.com/install/)
+
+- Install Docker Compose. [How?](https://docs.docker.com/compose/install/)
+
+- Uncomment database commands in `mysql/localhost-migrate.sql`.
 
 ### AWS
 
-1. SSH into instance. [How?](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html)
-2. Run the following commands:
+- SSH into instance. [How?](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html)
+
+- Run the following commands:
+
 ```bash
 sudo yum update -y
 sudo yum install git -y
@@ -23,17 +27,20 @@ git clone https://aduvoisin13@bitbucket.org/aduvoisin13/andreduvoisin-web.git
 cd andreduvoisin-web
 bash ./scripts/setup-aws-instance.sh
 ```
-3. Log out and back in again to pick up the new ec2-user group permissions. Note: In some cases, you may need to reboot your instance to provide permissions for the ec2-user to access the Docker daemon.
+
+- Log out and back in again to pick up the new ec2-user group permissions. Note: In some cases, you may need to reboot your instance to provide permissions for the ec2-user to access the Docker daemon.
 
 ## Run
 
 To start all Docker containers:
+
 ```bash
 # --build : Build images before starting containers. (You almost definitely want this.)
 docker-compose up -d [--build]
 ```
 
 To stop all Docker containers:
+
 ```bash
 # --volumes : Remove named volumes declared in the `volumes` section of the Compose
 #             file and anonymous volumes attached to containers.
