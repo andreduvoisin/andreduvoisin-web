@@ -27,11 +27,11 @@ services:
             WORDPRESS_DB_PASSWORD: "]ZkAS24P2!"
 
     nginx:
-        image: nginx:1.13
+        build: ./nginx
         depends_on:
             - wordpress
         volumes:
-            - ./nginx:/etc/nginx/conf.d
+            - ./nginx/conf.d:/etc/nginx/conf.d
         restart: always
         ports:
             - "80:80"
