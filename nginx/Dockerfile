@@ -11,6 +11,6 @@ RUN apt-get install python3.6 -t testing -y
 RUN apt-get install python-certbot-nginx -y
 RUN apt-get autoremove -y
 
-# RUN certbot --nginx -d andreduvoisin.com -d *.andreduvoisin.com
+# RUN certbot --nginx --server https://acme-v02.api.letsencrypt.org/directory -d andreduvoisin.com -d *.andreduvoisin.com
 
 # RUN echo "0 12 * * * /usr/bin/certbot renew --quiet" | crontab -
