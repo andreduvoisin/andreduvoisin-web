@@ -15,18 +15,26 @@ services:
 
     wordpress:
         image: wordpress:4.4
-        volumes:
-            - ./wordpress:/var/www/html
         depends_on:
             - mysql
+        volumes:
+            - ./wordpress:/var/www/html
         restart: always
-        ports:
-            - "80:80"
         environment:
             WORDPRESS_DB_HOST: mysql:3306
             WORDPRESS_DB_NAME: andrygzc_wp117
             WORDPRESS_DB_USER: andrygzc_wp117
             WORDPRESS_DB_PASSWORD: "]ZkAS24P2!"
+
+    nginx:
+        image: nginx:1.13
+        depends_on:
+            - wordpress
+        volumes:
+            - ./nginx:/etc/nginx/conf.d
+        restart: always
+        ports:
+            - "80:80"
 
 volumes:
     mysql-data:
