@@ -12,8 +12,6 @@ Personal website for Andre Duvoisin.
 
 - Install Docker Compose. [How?](https://docs.docker.com/compose/install/)
 
-- Uncomment database commands in `mysql/localhost-migrate.sql`.
-
 ### AWS
 
 - SSH into instance. [How?](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html)
@@ -32,6 +30,8 @@ bash ./scripts/setup-aws-instance.sh
 
 ## Run
 
+### Development
+
 To start all Docker containers:
 
 ```bash
@@ -44,7 +44,24 @@ To stop all Docker containers:
 ```bash
 # --volumes : Remove named volumes declared in the `volumes` section of the Compose
 #             file and anonymous volumes attached to containers.
-#             (You probably want this in development. Do not use in production unless you
-#             understand what you are doing.)
+#             (You probably want this in development.)
+docker-compose down [--volumes]
+```
+
+### Production
+
+To start all Docker containers:
+
+```bash
+# --build : Build images before starting containers. (You almost definitely want this.)
+docker-compose -f docker-compose.yml -f docker-compose.production.yml up -d [--build]
+```
+
+To stop all Docker containers:
+
+```bash
+# --volumes : Remove named volumes declared in the `volumes` section of the Compose
+#             file and anonymous volumes attached to containers.
+#             (Do not use in production unless you understand what you are doing.)
 docker-compose down [--volumes]
 ```

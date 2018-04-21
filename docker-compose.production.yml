@@ -1,0 +1,20 @@
+version: '3.5'
+
+services:
+    mysql:
+        restart: always
+
+    wordpress:
+        volumes:
+            - ./wordpress:/var/www/html:ro
+        restart: always
+
+    nginx:
+        image: nginx:1.13
+        depends_on:
+            - wordpress
+        volumes:
+            - ./nginx/andreduvoisin.com.conf:/etc/nginx/conf.d/andreduvoisin.com.conf:ro
+        ports:
+            - "80:80"
+        restart: always

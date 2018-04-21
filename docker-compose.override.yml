@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+    mysql:
+        volumes:
+            - ./mysql/localhost-migrate.sql:/docker-entrypoint-initdb.d/localhost-migrate.sql:ro
+
+    wordpress:
+        volumes:
+            - ./wordpress:/var/www/html
+        ports:
+            - "8080:80"
