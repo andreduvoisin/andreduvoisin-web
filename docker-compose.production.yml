@@ -8,6 +8,7 @@ services:
         restart: always
 
     nginx:
+        container_name: andreduvoisin-web_nginx
         image: nginx:1.13
         depends_on:
             - wordpress
@@ -21,16 +22,14 @@ services:
         restart: always
 
     certbot:
-        image: certbot/dns-route53
+        container_name: andreduvoisin-web_certbot
+        build: ./certbot
         volumes:
             - /etc/letsencrypt:/etc/letsencrypt
             - /var/lib/letsencrypt:/var/lib/letsencrypt
-            - /var/log/letsencrypt:/var/log/letsencrypt
             - /var/run/docker.sock:/var/run/docker.sock
         environment:
             AWS_ACCESS_KEY_ID: AKIAJSKKVGXD4ZGKQLXQ
             AWS_SECRET_ACCESS_KEY: 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
         # command: certonly --dns-route53 --noninteractive --agree-tos --email anduv13@gmail.com --server https://acme-v02.api.letsencrypt.org/directory -d andreduvoisin.com -d *.andreduvoisin.com
-        # command: renew
-        entrypoint: docker
-        command: exec nginx echo "hi"
+        command: renew --pre-hook "docker exec andreduvoisin-web_nginx service nginx stop"
