@@ -12,7 +12,8 @@ Personal website for Andre Duvoisin.
 
 - Install Docker Compose. [How?](https://docs.docker.com/compose/install/)
 
-- Optional: Open wordpress/wp-config.php and change `WP_DEBUG` to `true`.
+- Open wordpress/wp-config.php and change `FORCE_SSL_ADMIN` to `false`.
+    - Optional: Change `WP_DEBUG` to `true`.
 
 ### AWS
 
@@ -67,4 +68,18 @@ To stop all Docker containers:
 #             file and anonymous volumes attached to containers.
 #             (Do not use in production unless you understand what you are doing.)
 docker-compose -f docker-compose.yml -f docker-compose.production.yml down [--volumes]
+```
+
+## Other
+
+To remove all Docker containers:
+
+```bash
+docker rm $(docker ps -a -q)
+```
+
+To remove all Docker images:
+
+```bash
+docker rmi $(docker images -q)
 ```
