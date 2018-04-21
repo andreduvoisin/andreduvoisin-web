@@ -13,3 +13,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 echo ""
 echo "Log out and log back in again to pick up the new ec2-user group permissions. Note: In some cases, you may need to reboot your instance to provide permissions for the ec2-user to access the Docker daemon."
+echo ""
