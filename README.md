@@ -12,8 +12,7 @@ Personal website for Andre Duvoisin.
 
 - Install Docker Compose. [How?](https://docs.docker.com/compose/install/)
 
-- Open wordpress/wp-config.php and change `FORCE_SSL_ADMIN` to `false`.
-    - Optional: Change `WP_DEBUG` to `true`.
+- Optional: Open wordpress/wp-config.php and change `WP_DEBUG` to `true`.
 
 ### AWS
 
