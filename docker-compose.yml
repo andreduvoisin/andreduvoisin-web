@@ -6,7 +6,6 @@ services:
         image: mysql:5.7
         volumes:
             - mysql-data:/var/lib/mysql
-            - ./mysql/andrygzc_wp117.sql:/docker-entrypoint-initdb.d/andrygzc_wp117.sql:ro
         environment:
             MYSQL_ROOT_PASSWORD: password
             MYSQL_DATABASE: andrygzc_wp117

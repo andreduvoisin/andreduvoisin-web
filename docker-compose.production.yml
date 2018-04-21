@@ -2,6 +2,8 @@ version: '3.5'
 
 services:
     mysql:
+        volumes:
+            - ./mysql/andrygzc_wp117.sql:/docker-entrypoint-initdb.d/andrygzc_wp117.sql:ro
         restart: always
 
     wordpress:
