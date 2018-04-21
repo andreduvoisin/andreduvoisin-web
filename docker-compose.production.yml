@@ -26,6 +26,7 @@ services:
             - /etc/letsencrypt:/etc/letsencrypt
             - /var/lib/letsencrypt:/var/lib/letsencrypt
             - /var/log/letsencrypt:/var/log/letsencrypt
+            - /var/run/docker.sock:/var/run/docker.sock
         environment:
             AWS_ACCESS_KEY_ID: AKIAJSKKVGXD4ZGKQLXQ
             AWS_SECRET_ACCESS_KEY: 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
