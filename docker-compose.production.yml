@@ -10,8 +10,6 @@ services:
     nginx:
         container_name: andreduvoisin-web_nginx
         image: nginx:1.13
-        depends_on:
-            - wordpress
         volumes:
             - ./nginx/andreduvoisin.com.conf:/etc/nginx/conf.d/andreduvoisin.com.conf:ro
             - /etc/letsencrypt:/etc/letsencrypt:ro
@@ -32,4 +30,6 @@ services:
             AWS_ACCESS_KEY_ID: AKIAJSKKVGXD4ZGKQLXQ
             AWS_SECRET_ACCESS_KEY: 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
         # command: certonly --dns-route53 --noninteractive --agree-tos --email anduv13@gmail.com --server https://acme-v02.api.letsencrypt.org/directory -d andreduvoisin.com -d *.andreduvoisin.com
-        command: renew --pre-hook "docker exec andreduvoisin-web_nginx service nginx stop"
+        # command: renew --pre-hook "docker exec andreduvoisin-web_nginx service nginx stop"
+        entrypoint: tail
+        command: -f /dev/null
