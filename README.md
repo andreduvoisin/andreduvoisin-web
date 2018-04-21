@@ -54,7 +54,8 @@ To start all Docker containers:
 
 ```bash
 # --build : Build images before starting containers. (You almost definitely want this.)
-docker-compose -f docker-compose.yml -f docker-compose.production.yml up -d [--build]
+# --no-deps : Prevents Compose from also recreating any services which `SERVICE` depends on.
+docker-compose -f docker-compose.yml -f docker-compose.production.yml up -d [--build] [--no-deps SERVICE]
 ```
 
 To stop all Docker containers:
