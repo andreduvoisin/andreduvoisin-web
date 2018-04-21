@@ -70,6 +70,9 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+/** Turn SSL on in the admin area. */
+define('FORCE_SSL_ADMIN', true);
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
