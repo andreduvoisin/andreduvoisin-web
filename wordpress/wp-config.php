@@ -70,6 +70,16 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+/** Handle SSL Reverse Proxy */
+if ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
+	$_SERVER['HTTPS'] = 'on';
+}
+if (isset($_SERVER['HTTP_X_FORWARDED_HOST'])) {
+	$_SERVER['HTTP_HOST'] = $_SERVER['HTTP_X_FORWARDED_HOST'];
+}
+// Add this if the URI on the proxy is different than the URI on the backend.
+// $_SERVER['REQUEST_URI'] = "/blog".$_SERVER['REQUEST_URI'];
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
