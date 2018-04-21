@@ -16,6 +16,8 @@ services:
         image: wordpress:4.4
         depends_on:
             - mysql
+        volumes:
+            - ./wordpress:/var/www/html
         environment:
             WORDPRESS_DB_HOST: mysql:3306
             WORDPRESS_DB_NAME: andrygzc_wp117

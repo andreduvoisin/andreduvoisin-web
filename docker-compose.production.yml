@@ -5,8 +5,6 @@ services:
         restart: always
 
     wordpress:
-        volumes:
-            - ./wordpress:/var/www/html:ro
         restart: always
 
     nginx:
@@ -30,5 +28,6 @@ services:
         environment:
             AWS_ACCESS_KEY_ID: AKIAJSKKVGXD4ZGKQLXQ
             AWS_SECRET_ACCESS_KEY: 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
+        # command: certonly --dns-route53 --noninteractive --agree-tos --email anduv13@gmail.com --server https://acme-v02.api.letsencrypt.org/directory -d andreduvoisin.com -d *.andreduvoisin.com
+        entrypoint: /bin/bash
         command: echo "0 12 * * * certbot renew" | crontab -
-        # command: certbot certonly --dns-route53 --noninteractive --agree-tos --email anduv13@gmail.com --server https://acme-v02.api.letsencrypt.org/directory -d andreduvoisin.com -d *.andreduvoisin.com

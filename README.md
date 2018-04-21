@@ -64,5 +64,5 @@ To stop all Docker containers:
 # --volumes : Remove named volumes declared in the `volumes` section of the Compose
 #             file and anonymous volumes attached to containers.
 #             (Do not use in production unless you understand what you are doing.)
-docker-compose down [--volumes]
+docker-compose -f docker-compose.yml -f docker-compose.production.yml down [--volumes]
 ```
