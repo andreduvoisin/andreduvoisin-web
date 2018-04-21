@@ -21,8 +21,6 @@ services:
 
     certbot:
         image: certbot/dns-route53
-        depends_on:
-            - nginx
         volumes:
             - /etc/letsencrypt:/etc/letsencrypt
             - /var/lib/letsencrypt:/var/lib/letsencrypt
