@@ -13,7 +13,9 @@ services:
         container_name: andreduvoisin-web_nginx
         image: nginx:1.13
         volumes:
-            - ./nginx:/etc/nginx/conf.d:ro
+            - ./nginx/andreduvoisin.com.conf:/etc/nginx/conf.d/andreduvoisin.com.conf:ro
+            - ./nginx/proxy.conf:/etc/nginx/proxy.conf:ro
+            - ./nginx/ssl.conf:/etc/nginx/ssl.conf:ro
             - /etc/letsencrypt:/etc/letsencrypt:ro
             - /var/lib/letsencrypt:/var/lib/letsencrypt:ro
         ports:
