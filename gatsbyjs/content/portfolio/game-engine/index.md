@@ -8,6 +8,8 @@ Fall 2014
 <br/>
 GitHub: [git.io/Game-Engine](https://git.io/Game-Engine)
 
+### Overview
+
 As part of a Game Engines class, I developed a game engine demo that included:
 
 - SIMD Math Library
