@@ -6,11 +6,18 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
 
+import { DiscussionEmbed } from 'disqus-react'
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+
+    const disqusConfig = {
+      identifier: post.id,
+      title: post.frontmatter.title,
+    }
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -58,6 +65,11 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+
+        <DiscussionEmbed
+          shortname={this.props.data.site.siteMetadata.disqus.shortName}
+          config={disqusConfig}
+        />
       </Layout>
     )
   }
@@ -71,6 +83,9 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        disqus {
+          shortName
+        }
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
