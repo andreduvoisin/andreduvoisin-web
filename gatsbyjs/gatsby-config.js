@@ -6,6 +6,9 @@ module.exports = {
     siteUrl: `https://andreduvoisin.com/`,
     social: {
       twitter: `andreduvoisin`,
+      linkedin: `andreduvoisin`,
+      github: `aduvoisin13`,
+      email: `anduv13@gmail.com`,
     },
     disqus: {
       shortName: `andreduvoisin`,
