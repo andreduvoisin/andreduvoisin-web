@@ -14,6 +14,8 @@ function Bio() {
           <div
             style={{
               display: `flex`,
+              alignItems: `center`,
+              // marginBottom: rhythm(0.5),
               marginBottom: rhythm(2),
             }}
           >
@@ -23,16 +25,20 @@ function Bio() {
               style={{
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
-                minWidth: 50,
+                minWidth: 75,
                 borderRadius: `100%`,
               }}
               imgStyle={{
                 borderRadius: `50%`,
               }}
             />
-            <p>
+            <p
+              style={{
+                marginBottom: 0,
+              }}
+            >
               <strong>{author}</strong> is a software engineer, video gamer,
-              flutist, skier, and boulderer hailing from Austin, TX.
+              flutist, skier, and boulderer from Austin, TX.
             </p>
           </div>
         )
@@ -45,7 +51,7 @@ const bioQuery = graphql`
   query BioQuery {
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
-        fixed(width: 50, height: 50, quality: 100) {
+        fixed(width: 75, height: 75, quality: 100) {
           ...GatsbyImageSharpFixed
         }
       }
