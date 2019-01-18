@@ -4,7 +4,7 @@ import Image from 'gatsby-image'
 
 import { rhythm } from '../utils/typography'
 
-function Bio() {
+function Bio({ style }) {
   return (
     <StaticQuery
       query={bioQuery}
@@ -15,8 +15,7 @@ function Bio() {
             style={{
               display: `flex`,
               alignItems: `center`,
-              // marginBottom: rhythm(0.5),
-              marginBottom: rhythm(2),
+              ...style,
             }}
           >
             <Image

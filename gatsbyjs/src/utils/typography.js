@@ -6,6 +6,9 @@ Wordpress2016.overrideThemeStyles = () => {
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
     },
+    'div#disqus_thread iframe': {
+      marginBottom: 0,
+    },
   }
 }
 

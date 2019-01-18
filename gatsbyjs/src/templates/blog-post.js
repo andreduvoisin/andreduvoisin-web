@@ -39,7 +39,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
+        <Bio style={{ marginBottom: rhythm(2) }} />
 
         <DiscussionEmbed
           shortname={this.props.data.site.siteMetadata.disqus.shortName}

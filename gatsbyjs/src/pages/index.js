@@ -21,7 +21,7 @@ class BlogIndex extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
 
-        <Bio />
+        <Bio style={{ marginBottom: rhythm(0.5) }} />
 
         <Socials />
 
