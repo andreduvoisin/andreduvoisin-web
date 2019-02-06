@@ -14,7 +14,7 @@ class Layout extends React.Component {
         <h1
           style={{
             ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            marginBottom: rhythm(0.5),
             marginTop: 0,
           }}
         >
@@ -32,28 +32,81 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <>
-          <h3
+        <h2
+          style={{
+            fontFamily: `Montserrat, sans-serif`,
+            marginTop: 0,
+            marginBottom: rhythm(0.5),
+          }}
+        >
+          <Link
             style={{
-              fontFamily: `Montserrat, sans-serif`,
-              marginTop: 0,
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
             }}
+            to={`/`}
           >
-            <Link
-              style={{
-                boxShadow: `none`,
-                textDecoration: `none`,
-                color: `inherit`,
-              }}
-              to={`/`}
-            >
-              {title}
-            </Link>
-          </h3>
-          <hr />
-        </>
+            {title}
+          </Link>
+        </h2>
       )
     }
+
+    const menu = (
+      <div>
+        <h4
+          style={{
+            fontFamily: `Montserrat, sans-serif`,
+            marginTop: 0,
+          }}
+        >
+          <Link
+            style={{
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
+            }}
+            to={`/blog`}
+          >
+            Blog
+          </Link>
+          {' · '}
+          <Link
+            style={{
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
+            }}
+            to={`/portfolio`}
+          >
+            Portfolio
+          </Link>
+          {' · '}
+          <Link
+            style={{
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
+            }}
+            to={`/resume`}
+          >
+            Resume
+          </Link>
+        </h4>
+      </div>
+    )
+
+    const footer = (
+      <footer
+        style={{
+          marginTop: rhythm(2),
+        }}
+      >
+        © {new Date().getFullYear()} Andre Duvoisin
+      </footer>
+    )
+
     return (
       <div
         style={{
@@ -64,14 +117,12 @@ class Layout extends React.Component {
         }}
       >
         {header}
+        {menu}
+        <hr />
+
         {children}
-        <footer
-          style={{
-            marginTop: rhythm(2),
-          }}
-        >
-          © {new Date().getFullYear()} Andre Duvoisin
-        </footer>
+
+        {footer}
       </div>
     )
   }
