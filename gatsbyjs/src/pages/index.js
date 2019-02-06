@@ -12,7 +12,6 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const blog = data.blog
-    const portfolio = data.portfolio
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -23,40 +22,24 @@ class BlogIndex extends React.Component {
 
         <Bio style={{ marginBottom: rhythm(0.5) }} />
 
-        <Socials />
+        <Socials style={{ marginBottom: rhythm(2.0) }} />
 
-        <h2
-          style={{
-            marginBottom: rhythm(1 / 4),
-          }}
-        >
-          Blog
-        </h2>
         {blog.edges.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                {title}
-              </Link>
-            </div>
-          )
-        })}
-
-        <h2
-          style={{
-            marginBottom: rhythm(1 / 4),
-          }}
-        >
-          Portfolio
-        </h2>
-        {portfolio.edges.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                {title}
-              </Link>
+              <h3
+                style={{
+                  marginBottom: rhythm(0),
+                  marginTop: rhythm(1.5),
+                }}
+              >
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  {title}
+                </Link>
+              </h3>
+              <small>{node.frontmatter.date}</small>
+              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
           )
         })}
@@ -76,23 +59,6 @@ export const pageQuery = graphql`
     }
     blog: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/.+/blog/.+/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-          }
-        }
-      }
-    }
-    portfolio: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/.+/portfolio/.+/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

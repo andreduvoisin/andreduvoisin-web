@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import { SocialIcon } from 'react-social-icons'
 
-function Socials() {
+function Socials({ style }) {
   return (
     <StaticQuery
       query={socialsQuery}
@@ -20,6 +20,7 @@ function Socials() {
           <div
             style={{
               display: `flex`,
+              ...style,
             }}
           >
             <SocialIcon

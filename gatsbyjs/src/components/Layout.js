@@ -118,7 +118,7 @@ class Layout extends React.Component {
       >
         {header}
         {menu}
-        <hr />
+        <hr style={{ marginBottom: rhythm(1.5) }} />
 
         {children}
 
