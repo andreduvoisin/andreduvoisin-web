@@ -2,8 +2,6 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import { SocialIcon } from 'react-social-icons'
 
-import { rhythm } from '../utils/typography'
-
 function Socials() {
   return (
     <StaticQuery
