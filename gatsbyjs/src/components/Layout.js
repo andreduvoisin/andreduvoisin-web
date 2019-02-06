@@ -89,7 +89,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/resume`}
+            to={`/AndreDuvoisinResume.pdf`}
           >
             Resume
           </Link>
