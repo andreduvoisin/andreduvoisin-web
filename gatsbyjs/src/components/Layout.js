@@ -7,7 +7,9 @@ class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
+
     let header
+    let menuStyle
 
     if (location.pathname === rootPath) {
       header = (
@@ -30,6 +32,9 @@ class Layout extends React.Component {
           </Link>
         </h1>
       )
+      menuStyle = {
+        marginBottom: rhythm(1.0),
+      }
     } else {
       header = (
         <h2
@@ -51,50 +56,52 @@ class Layout extends React.Component {
           </Link>
         </h2>
       )
+      menuStyle = {
+        marginBottom: rhythm(0.75),
+      }
     }
 
     const menu = (
-      <div>
-        <h4
+      <h4
+        style={{
+          fontFamily: `Montserrat, sans-serif`,
+          marginTop: 0,
+          ...menuStyle,
+        }}
+      >
+        <Link
           style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
           }}
+          to={`/`}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            Blog
-          </Link>
-          {' · '}
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/portfolio`}
-          >
-            Portfolio
-          </Link>
-          {' · '}
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/AndreDuvoisinResume.pdf`}
-          >
-            Resume
-          </Link>
-        </h4>
-      </div>
+          Blog
+        </Link>
+        {' · '}
+        <Link
+          style={{
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
+          }}
+          to={`/portfolio`}
+        >
+          Portfolio
+        </Link>
+        {' · '}
+        <Link
+          style={{
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
+          }}
+          to={`/AndreDuvoisinResume.pdf`}
+        >
+          Resume
+        </Link>
+      </h4>
     )
 
     const footer = (
