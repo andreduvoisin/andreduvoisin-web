@@ -13,6 +13,40 @@ class BlogIndex extends React.Component {
     const siteTitle = data.site.siteMetadata.title
     const blog = data.blog
 
+    let blogsList
+
+    if (blog.edges.length === 0) {
+      blogsList = (
+        <h2
+          style={{
+            fontFamily: `Montserrat, sans-serif`,
+          }}
+        >
+          Blog is coming soon. Check out my portfolio above!
+        </h2>
+      )
+    } else {
+      blogsList = blog.edges.map(({ node }) => {
+        const title = node.frontmatter.title || node.fields.slug
+        return (
+          <div key={node.fields.slug}>
+            <h3
+              style={{
+                marginBottom: rhythm(0),
+                marginTop: rhythm(1.5),
+              }}
+            >
+              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                {title}
+              </Link>
+            </h3>
+            <small>{node.frontmatter.date}</small>
+            <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+          </div>
+        )
+      })
+    }
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -24,25 +58,7 @@ class BlogIndex extends React.Component {
 
         <Socials style={{ marginBottom: rhythm(2.0) }} />
 
-        {blog.edges.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(0),
-                  marginTop: rhythm(1.5),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
-          )
-        })}
+        {blogsList}
       </Layout>
     )
   }
