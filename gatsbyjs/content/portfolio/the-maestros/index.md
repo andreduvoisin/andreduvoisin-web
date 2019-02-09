@@ -1,5 +1,6 @@
 ---
 title: The Maestros
+index: 2
 ---
 
 UI Engineer, Scaleform GFx (Unreal Development Kit)

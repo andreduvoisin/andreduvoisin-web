@@ -1,5 +1,6 @@
 ---
 title: Chambara
+index: 0
 ---
 
 Back End Engineer (Node.js with MongoDB)

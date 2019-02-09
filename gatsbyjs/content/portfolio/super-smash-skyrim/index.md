@@ -1,5 +1,6 @@
 ---
 title: Super Smash Skyrim
+index: 3
 ---
 
 Gameplay Engineer (C++)

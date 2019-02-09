@@ -6,12 +6,14 @@ import { rhythm, scale } from '../utils/typography'
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
+
     const rootPath = `${__PATH_PREFIX__}/`
+    const portfolioPath = `${__PATH_PREFIX__}/portfolio`
 
     let header
     let menuStyle
 
-    if (location.pathname === rootPath) {
+    if (location.pathname === rootPath || location.pathname === portfolioPath) {
       header = (
         <h1
           style={{
