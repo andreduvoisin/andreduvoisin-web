@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
+import gray from 'gray-percentage'
 
 class Layout extends React.Component {
   render() {
@@ -63,6 +64,14 @@ class Layout extends React.Component {
       }
     }
 
+    let selectedColor = gray(41) // same as blockquote color in typography.js theme
+    let unselectedColor = `inherit`
+
+    let blogColor =
+      location.pathname === rootPath ? selectedColor : unselectedColor
+    let portfolioColor =
+      location.pathname === portfolioPath ? selectedColor : unselectedColor
+
     const menu = (
       <h4
         style={{
@@ -75,7 +84,7 @@ class Layout extends React.Component {
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
-            color: `inherit`,
+            color: blogColor,
           }}
           to={`/`}
         >
@@ -86,7 +95,7 @@ class Layout extends React.Component {
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
-            color: `inherit`,
+            color: portfolioColor,
           }}
           to={`/portfolio`}
         >
