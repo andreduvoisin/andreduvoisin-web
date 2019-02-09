@@ -19,16 +19,23 @@ class PortfolioIndex extends React.Component {
         />
 
         {portfolio.edges.map(({ node }) => {
-          return (
-            <>
-              <h1>{node.frontmatter.title}</h1>
-              <div dangerouslySetInnerHTML={{ __html: node.html }} />
+          let thematicBreak
+          if (node.frontmatter.index != portfolio.edges.length - 1) {
+            thematicBreak = (
               <hr
                 style={{
                   marginTop: rhythm(2.0),
                   marginBottom: rhythm(2.0),
                 }}
               />
+            )
+          }
+
+          return (
+            <>
+              <h1>{node.frontmatter.title}</h1>
+              <div dangerouslySetInnerHTML={{ __html: node.html }} />
+              {thematicBreak}
             </>
           )
         })}
@@ -55,6 +62,7 @@ export const pageQuery = graphql`
           html
           frontmatter {
             title
+            index
           }
         }
       }
