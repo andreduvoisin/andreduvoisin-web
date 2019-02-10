@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Andre Duvoisin`,
     author: `Andre Duvoisin`,
-    description: `Personal website, portfolio, and blog.`,
+    description: `Andre Duvoisin's Blog and Portfolio`,
     siteUrl: `https://andreduvoisin.com/`,
     social: {
       twitter: `andreduvoisin`,
@@ -70,8 +70,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Andre Duvoisin's Blog and Portfolio`,
+        short_name: `Andre Duvoisin`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

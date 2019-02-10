@@ -17,13 +17,14 @@ class BlogIndex extends React.Component {
 
     if (blog.edges.length === 0) {
       blogsList = (
-        <h2
+        <h3
           style={{
             fontFamily: `Montserrat, sans-serif`,
           }}
         >
-          Blog is coming soon. Check out my portfolio above!
-        </h2>
+          Blog is coming soon. Check out my{' '}
+          <Link to={`/portfolio`}>portfolio</Link>!
+        </h3>
       )
     } else {
       blogsList = blog.edges.map(({ node }) => {
@@ -32,6 +33,7 @@ class BlogIndex extends React.Component {
           <div key={node.fields.slug}>
             <h3
               style={{
+                fontFamily: `Montserrat, sans-serif`,
                 marginBottom: rhythm(0),
                 marginTop: rhythm(1.5),
               }}
