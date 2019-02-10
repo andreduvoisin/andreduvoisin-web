@@ -64,13 +64,14 @@ class Layout extends React.Component {
       }
     }
 
-    let selectedColor = gray(41) // same as blockquote color in typography.js theme
-    let unselectedColor = `inherit`
+    let border = {
+      borderBottomWidth: `2px`,
+      borderBottomStyle: `solid`,
+    }
 
-    let blogColor =
-      location.pathname === rootPath ? selectedColor : unselectedColor
-    let portfolioColor =
-      location.pathname === portfolioPath ? selectedColor : unselectedColor
+    let blogBorder = location.pathname === rootPath ? border : undefined
+    let portfolioBorder =
+      location.pathname === portfolioPath ? border : undefined
 
     const menu = (
       <h4
@@ -84,7 +85,8 @@ class Layout extends React.Component {
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
-            color: blogColor,
+            color: `inherit`,
+            ...blogBorder,
           }}
           to={`/`}
         >
@@ -95,7 +97,8 @@ class Layout extends React.Component {
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
-            color: portfolioColor,
+            color: `inherit`,
+            ...portfolioBorder,
           }}
           to={`/portfolio`}
         >
