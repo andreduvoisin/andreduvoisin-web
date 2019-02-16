@@ -66,6 +66,14 @@ Remove all non-aliased deployments (to clean up):
 now rm <app> --safe
 ```
 
+## Relevant Links
+
+Zeit: https://zeit.co
+
+Disqus: https://andreduvoisin.disqus.com
+
+Google Analytics: https://analytics.google.com
+
 ## Known Issues
 
 - ZEIT Now doesn't support a custom 404 page for statically hosted websites. However, it's on their roadmap! I've decided that it isn't worth the effort to work around this problem for now. References:
