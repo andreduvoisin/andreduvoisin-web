@@ -31,13 +31,18 @@ class Layout extends React.Component {
   }
 
   isRootPath(location) {
-    const rootPath = `${__PATH_PREFIX__}/`
-    return location.pathname === rootPath
+    const rootPath = `${__PATH_PREFIX__}`
+    return (
+      location.pathname === rootPath || location.pathname === rootPath + '/'
+    )
   }
 
   isPortfolioPath(location) {
     const portfolioPath = `${__PATH_PREFIX__}/portfolio`
-    return location.pathname === portfolioPath
+    return (
+      location.pathname === portfolioPath ||
+      location.pathname === portfolioPath + '/'
+    )
   }
 
   createHeader(location, title) {
