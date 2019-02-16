@@ -1,2 +1,0 @@
-[03-Feb-2018 11:58:21 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/andrygzc/public_html/wp/wp-content/themes/twentytwelve/search.php on line 10
-[03-Feb-2018 11:58:24 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/andrygzc/public_html/wp/wp-content/themes/twentytwelve/search.php on line 10
