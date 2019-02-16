@@ -163,16 +163,16 @@ class Layout extends React.Component {
           Portfolio
         </Link>
         {' · '}
-        <Link
+        <a
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
             color: `inherit`,
           }}
-          to={`/AndreDuvoisinResume.pdf`}
+          href={`/AndreDuvoisinResume.pdf`}
         >
           Resume
-        </Link>
+        </a>
       </h4>
     )
   }
