@@ -13,6 +13,10 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
 
+    const title = this.createTitle(post.frontmatter.title)
+    const date = this.createDate(post.frontmatter.date)
+    const content = this.createContent(post.html)
+
     const disqusConfig = {
       identifier: post.id,
       title: post.frontmatter.title,
@@ -22,23 +26,10 @@ class BlogPostTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
 
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        {title}
+        {date}
+        {content}
+        <hr style={{ marginBottom: rhythm(1) }} />
         <Bio style={{ marginBottom: rhythm(2) }} />
 
         <DiscussionEmbed
@@ -47,6 +38,29 @@ class BlogPostTemplate extends React.Component {
         />
       </Layout>
     )
+  }
+
+  createTitle(title) {
+    return <h1>{title}</h1>
+  }
+
+  createDate(date) {
+    return (
+      <p
+        style={{
+          ...scale(-1 / 5),
+          display: `block`,
+          marginBottom: rhythm(1),
+          marginTop: rhythm(-1),
+        }}
+      >
+        {date}
+      </p>
+    )
+  }
+
+  createContent(html) {
+    return <div dangerouslySetInnerHTML={{ __html: html }} />
   }
 }
 
