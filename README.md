@@ -1,70 +1,83 @@
 # andreduvoisin-web
 
-Personal website for Andre Duvoisin.
+Andre Duvoisin's Blog and Portfolio.
 
 [andreduvoisin.com](https://andreduvoisin.com)
 
-## Setup
+## Development
 
-### Local Development
-
-- Install Docker. [How?](https://docs.docker.com/install/)
-
-- Install Docker Compose. [How?](https://docs.docker.com/compose/install/)
-
-- Optional: Open wordpress/wp-config.php and change `WP_DEBUG` to `true`.
-
-### AWS
-
-- SSH into instance. [How?](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html)
-
-- Run the following commands:
-
-```bash
-sudo yum update -y
-sudo yum install git -y
-git clone https://aduvoisin13@bitbucket.org/aduvoisin13/andreduvoisin-web.git
-cd andreduvoisin-web
-bash ./scripts/setup-aws-instance.sh
+```sh
+npm install
+npx gatsby develop
 ```
 
-- Log out and back in again to pick up the new ec2-user group permissions. Note: In some cases, you may need to reboot your instance to provide permissions for the ec2-user to access the Docker daemon.
+This will run the website at `http://localhost:8000`. GraphiQL is located at `http://localhost:8000/___graphql`.
 
-## Run
+This website started from boilerplate located at: https://github.com/gatsbyjs/gatsby-starter-blog
 
-### Development
+### Adding Your First Blog
 
-To start all Docker containers:
+- Search `TODO: BLOG` and follow the instructions.
+- Remove default `content/blog/*` blogs.
+- Verify Disqus settings and clear out test comments on test blogs.
+  - https://andreduvoisin.disqus.com
 
-```bash
-# --build : Build images before starting containers. (You almost definitely want this.)
-docker-compose up -d [--build]
+## Production
+
+### ZEIT Now
+
+#### Installing ZEIT Now
+
+https://zeit.co/docs/
+
+#### Deploying
+
+Deploys the current codebase to a ZEIT Now domain:
+
+```
+now
 ```
 
-To stop all Docker containers:
+The domain that is outputted can be tested against.
 
-```bash
-# --volumes : Remove named volumes declared in the `volumes` section of the Compose
-#             file and anonymous volumes attached to containers.
-#             (You probably want this in development.)
-docker-compose down [--volumes]
+Aliases the last ZEIT Now domain created to `andreduvoisin.com`:
+
+```
+now alias
 ```
 
-### Production
+Therefore, the following will create a domain and alias `andreduvoisin.com` to that domain, thus deploying to production.
 
-To start all Docker containers:
-
-```bash
-# --build : Build images before starting containers. (You almost definitely want this.)
-# --no-deps : Prevents Compose from also recreating any services which `SERVICE` depends on.
-docker-compose -f docker-compose.yml -f docker-compose.production.yml up -d [--build] [--no-deps SERVICE]
+```
+now && now alias
 ```
 
-To stop all Docker containers:
+#### Other Commands
 
-```bash
-# --volumes : Remove named volumes declared in the `volumes` section of the Compose
-#             file and anonymous volumes attached to containers.
-#             (Do not use in production unless you understand what you are doing.)
-docker-compose -f docker-compose.yml -f docker-compose.production.yml down [--volumes]
+List deployments:
+
 ```
+now ls
+```
+
+Remove all non-aliased deployments (to clean up):
+
+```
+now rm <app> --safe
+```
+
+## Relevant Links
+
+Zeit: https://zeit.co
+
+Disqus: https://andreduvoisin.disqus.com
+
+Google Analytics: https://analytics.google.com
+
+## Known Issues
+
+- ZEIT Now doesn't support a custom 404 page for statically hosted websites. However, it's on their roadmap! I've decided that it isn't worth the effort to work around this problem for now. References:
+  - https://spectrum.chat/zeit/now/questions-about-using-this-with-gatsby~e0dd2595-1167-46fc-88b2-26071deabfd2
+  - https://github.com/zeit/now-cli/issues/30
+  - https://spectrum.chat/zeit/now/custom-404-page~1f921045-60d9-477b-b23c-1626c9fa1565
+  - https://spectrum.chat/zeit/now/allow-routes-to-fall-through~2ea83669-e526-4f63-8397-c7a0e801a49b
