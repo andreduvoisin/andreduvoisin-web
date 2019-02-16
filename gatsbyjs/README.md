@@ -65,3 +65,11 @@ Remove all non-aliased deployments (to clean up):
 ```
 now rm <app> --safe
 ```
+
+## Known Issues
+
+- ZEIT Now doesn't support a custom 404 page for statically hosted websites. However, it's on their roadmap! I've decided that it isn't worth the effort to work around this problem for now. References:
+  - https://spectrum.chat/zeit/now/questions-about-using-this-with-gatsby~e0dd2595-1167-46fc-88b2-26071deabfd2
+  - https://github.com/zeit/now-cli/issues/30
+  - https://spectrum.chat/zeit/now/custom-404-page~1f921045-60d9-477b-b23c-1626c9fa1565
+  - https://spectrum.chat/zeit/now/allow-routes-to-fall-through~2ea83669-e526-4f63-8397-c7a0e801a49b
