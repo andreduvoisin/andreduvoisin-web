@@ -21,3 +21,47 @@ This website started from boilerplate located at: https://github.com/gatsbyjs/ga
 - Remove default `content/blog/*` blogs.
 - Verify Disqus settings and clear out test comments on test blogs.
   - https://andreduvoisin.disqus.com
+
+## Production
+
+### ZEIT Now
+
+#### Installing ZEIT Now
+
+https://zeit.co/docs/
+
+#### Deploying
+
+Deploys the current codebase to a ZEIT Now domain:
+
+```
+now
+```
+
+The domain that is outputted can be tested against.
+
+Aliases the last ZEIT Now domain created to `andreduvoisin.com`:
+
+```
+now alias
+```
+
+Therefore, the following will create a domain and alias `andreduvoisin.com` to that domain, thus deploying to production.
+
+```
+now && now alias
+```
+
+#### Other Commands
+
+List deployments:
+
+```
+now ls
+```
+
+Remove all non-aliased deployments (to clean up):
+
+```
+now rm <app> --safe
+```
