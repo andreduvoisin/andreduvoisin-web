@@ -19,18 +19,10 @@ class PortfolioIndex extends React.Component {
         />
 
         {portfolio.edges.map(({ node }) => {
-          let thematicBreak
-          if (node.frontmatter.index != portfolio.edges.length - 1) {
-            thematicBreak = (
-              <hr
-                style={{
-                  marginTop: rhythm(2.0),
-                  marginBottom: rhythm(2.0),
-                }}
-              />
-            )
-          }
-
+          const thematicBreak = this.createThematicBreak(
+            node.frontmatter.index,
+            portfolio.edges.length
+          )
           return (
             <>
               <h1>{node.frontmatter.title}</h1>
@@ -40,6 +32,21 @@ class PortfolioIndex extends React.Component {
           )
         })}
       </Layout>
+    )
+  }
+
+  createThematicBreak(currentIndex, numPortfolioItems) {
+    if (currentIndex == numPortfolioItems - 1) {
+      return undefined
+    }
+
+    return (
+      <hr
+        style={{
+          marginTop: rhythm(2.0),
+          marginBottom: rhythm(2.0),
+        }}
+      />
     )
   }
 }
