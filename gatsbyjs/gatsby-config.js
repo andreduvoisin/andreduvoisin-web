@@ -77,6 +77,7 @@ module.exports = {
         theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `content/assets/nade-icon.png`,
+        include_favicon: true,
       },
     },
     `gatsby-plugin-offline`,
