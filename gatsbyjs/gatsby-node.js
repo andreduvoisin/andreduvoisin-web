@@ -51,7 +51,8 @@ function createBlogPages(graphql, actions) {
 }
 
 exports.createPages = ({ graphql, actions }) => {
-  createBlogPages(graphql, actions)
+  // TODO: BLOG When you write your first blog, uncomment this.
+  // createBlogPages(graphql, actions)
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

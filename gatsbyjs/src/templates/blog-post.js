@@ -52,24 +52,25 @@ class BlogPostTemplate extends React.Component {
 
 export default BlogPostTemplate
 
-export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-        disqus {
-          shortName
-        }
-      }
-    }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt(pruneLength: 160)
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-      }
-    }
-  }
-`
+// TODO: BLOG When you write your first blog, uncomment this.
+// export const pageQuery = graphql`
+//   query BlogPostBySlug($slug: String!) {
+//     site {
+//       siteMetadata {
+//         title
+//         disqus {
+//           shortName
+//         }
+//       }
+//     }
+//     markdownRemark(fields: { slug: { eq: $slug } }) {
+//       id
+//       excerpt(pruneLength: 160)
+//       html
+//       frontmatter {
+//         title
+//         date(formatString: "MMMM DD, YYYY")
+//       }
+//     }
+//   }
+// `
