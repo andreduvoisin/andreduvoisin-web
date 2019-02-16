@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "andreduvoisin-web",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "description": "Andre Duvoisin's Blog and Portfolio",
+  "version": "1.0.0",
+  "author": "Andre Duvoisin <anduv13@gmail.com>",
   "dependencies": {
     "disqus-react": "^1.0.5",
     "gatsby": "^2.0.76",
@@ -44,15 +41,12 @@
     "gatsby-plugin-remove-trailing-slashes": "^2.0.7",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
+  "homepage": "https://bitbucket.org/aduvoisin13/andreduvoisin-web",
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "https://aduvoisin13@bitbucket.org/aduvoisin13/andreduvoisin-web.git"
   },
   "scripts": {
     "dev": "gatsby develop",
