@@ -2,78 +2,131 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
-import gray from 'gray-percentage'
 
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
 
+    const header = this.createHeader(location, title)
+    const footer = this.createFooter()
+
+    return (
+      <div
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: rhythm(24),
+          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        }}
+      >
+        {header}
+        {children}
+        {footer}
+      </div>
+    )
+  }
+
+  isPrimaryPath(location) {
+    return this.isRootPath(location) || this.isPortfolioPath(location)
+  }
+
+  isRootPath(location) {
     const rootPath = `${__PATH_PREFIX__}/`
+    return location.pathname === rootPath
+  }
+
+  isPortfolioPath(location) {
     const portfolioPath = `${__PATH_PREFIX__}/portfolio`
+    return location.pathname === portfolioPath
+  }
 
-    let header
-    let menuStyle
+  createHeader(location, title) {
+    let titleElement = this.createTitle(location, title)
+    const menuElement = this.createMenu(location)
+    return (
+      <>
+        {titleElement}
+        {menuElement}
+        <hr style={{ marginBottom: rhythm(1.5) }} />
+      </>
+    )
+  }
 
-    if (location.pathname === rootPath || location.pathname === portfolioPath) {
-      header = (
-        <h1
+  createTitle(location, title) {
+    if (this.isPrimaryPath(location)) {
+      return this.createLargeTitle(title)
+    } else {
+      return this.createSmallTitle(title)
+    }
+  }
+
+  createLargeTitle(title) {
+    return (
+      <h1
+        style={{
+          ...scale(1.5),
+          marginBottom: rhythm(0.5),
+          marginTop: 0,
+        }}
+      >
+        <Link
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(0.5),
-            marginTop: 0,
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
           }}
+          to={`/`}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h1>
-      )
+          {title}
+        </Link>
+      </h1>
+    )
+  }
+
+  createSmallTitle(title) {
+    return (
+      <h2
+        style={{
+          fontFamily: `Montserrat, sans-serif`,
+          marginTop: 0,
+          marginBottom: rhythm(0.5),
+        }}
+      >
+        <Link
+          style={{
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}
+        >
+          {title}
+        </Link>
+      </h2>
+    )
+  }
+
+  createMenu(location) {
+    let menuStyle
+    if (this.isPrimaryPath(location)) {
       menuStyle = {
         marginBottom: rhythm(1.0),
       }
     } else {
-      header = (
-        <h2
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-            marginBottom: rhythm(0.5),
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h2>
-      )
       menuStyle = {
         marginBottom: rhythm(0.75),
       }
     }
 
+    // Underline the selected menu item, if applicable.
     let border = {
       borderBottomWidth: `2px`,
       borderBottomStyle: `solid`,
     }
+    let blogBorder = this.isRootPath(location) ? border : undefined
+    let portfolioBorder = this.isPortfolioPath(location) ? border : undefined
 
-    let blogBorder = location.pathname === rootPath ? border : undefined
-    let portfolioBorder =
-      location.pathname === portfolioPath ? border : undefined
-
-    const menu = (
+    return (
       <h4
         style={{
           fontFamily: `Montserrat, sans-serif`,
@@ -117,8 +170,10 @@ class Layout extends React.Component {
         </Link>
       </h4>
     )
+  }
 
-    const footer = (
+  createFooter() {
+    return (
       <footer
         style={{
           marginTop: rhythm(2),
@@ -126,25 +181,6 @@ class Layout extends React.Component {
       >
         © {new Date().getFullYear()} Andre Duvoisin
       </footer>
-    )
-
-    return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        {header}
-        {menu}
-        <hr style={{ marginBottom: rhythm(1.5) }} />
-
-        {children}
-
-        {footer}
-      </div>
     )
   }
 }
