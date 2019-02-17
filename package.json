@@ -46,7 +46,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://aduvoisin13@bitbucket.org/aduvoisin13/andreduvoisin-web.git"
+    "url": "git+https://aduvoisin13@bitbucket.org/aduvoisin13/andreduvoisin-web.git"
   },
   "scripts": {
     "dev": "gatsby develop",
