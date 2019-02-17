@@ -1,14 +1,14 @@
 {
-    "version": 2,
-    "name": "andreduvoisin-web",
-    "alias": "andreduvoisin.com",
-    "builds": [
-        {
-            "src": "package.json",
-            "use": "@now/static-build",
-            "config": {
-                "distDir": "public"
-            }
-        }
-    ]
+  "version": 2,
+  "name": "andreduvoisin-web",
+  "alias": "andreduvoisin.com",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    }
+  ]
 }
