@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "andreduvoisin-web/www",
+  "alias": "www.andreduvoisin.com",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://andreduvoisin.com/$1"
+      }
+    }
+  ]
+}
