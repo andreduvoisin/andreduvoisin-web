@@ -7,7 +7,7 @@ module.exports = {
     social: {
       twitter: `andreduvoisin`,
       linkedin: `andreduvoisin`,
-      github: `aduvoisin13`,
+      github: `andreduvoisin`,
       email: `anduv13@gmail.com`,
     },
     disqus: {
