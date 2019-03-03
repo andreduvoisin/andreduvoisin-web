@@ -66,6 +66,12 @@ Remove all non-aliased deployments (to clean up):
 now rm <app> --safe
 ```
 
+List DNS Records (e.g. for Email Forwarding):
+
+```
+now dns ls <domain>
+```
+
 ## Relevant Links
 
 Zeit: https://zeit.co
@@ -73,6 +79,8 @@ Zeit: https://zeit.co
 Disqus: https://andreduvoisin.disqus.com
 
 Google Analytics: https://analytics.google.com
+
+Email Forwarding: https://forwardemail.net
 
 ## Known Issues
 
