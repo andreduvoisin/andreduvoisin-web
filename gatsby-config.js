@@ -8,7 +8,7 @@ module.exports = {
       twitter: `andreduvoisin`,
       linkedin: `andreduvoisin`,
       github: `andreduvoisin`,
-      email: `anduv13@gmail.com`,
+      email: `andre@andreduvoisin.com`,
     },
     disqus: {
       shortName: `andreduvoisin`,
