@@ -8,7 +8,7 @@ Andre Duvoisin's Blog and Portfolio.
 
 ```sh
 npm install
-npx gatsby develop
+npm run develop
 ```
 
 This will run the website at `http://localhost:8000`. GraphiQL is located at `http://localhost:8000/___graphql`.
