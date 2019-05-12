@@ -1,11 +1,16 @@
 import Typography from 'typography'
 import Wordpress2016 from 'typography-theme-wordpress-2016'
 
-Wordpress2016.overrideThemeStyles = () => {
+Wordpress2016.overrideThemeStyles = ({ rhythm }, options, styles) => {
+  // Removes the style pushing bullets in bulleted lists past the left text alignment.
+  delete styles['ul,ol'].marginLeft
+
   return {
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
     },
+
+    // Removes the margins at the bottom of the Disqus iframe.
     'div#disqus_thread iframe': {
       marginBottom: 0,
     },
