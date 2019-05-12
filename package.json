@@ -3,7 +3,7 @@
   "private": true,
   "description": "Andre Duvoisin's Blog and Portfolio",
   "version": "1.0.3",
-  "author": "Andre Duvoisin <anduv13@gmail.com>",
+  "author": "Andre Duvoisin <andre@andreduvoisin.com>",
   "dependencies": {
     "disqus-react": "^1.0.5",
     "gatsby": "^2.1.4",
@@ -41,12 +41,12 @@
     "gatsby-plugin-remove-trailing-slashes": "^2.0.7",
     "prettier": "^1.16.4"
   },
-  "homepage": "https://bitbucket.org/aduvoisin13/andreduvoisin-web",
+  "homepage": "https://github.com/andreduvoisin/andreduvoisin-web",
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://aduvoisin13@bitbucket.org/aduvoisin13/andreduvoisin-web.git"
+    "url": "git+https://andreduvoisin@github.com/andreduvoisin/andreduvoisin-web.git"
   },
   "scripts": {
     "dev": "gatsby develop",
