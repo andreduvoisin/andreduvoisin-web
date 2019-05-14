@@ -169,7 +169,7 @@ class Layout extends React.Component {
             textDecoration: `none`,
             color: `inherit`,
           }}
-          href={`/AndreDuvoisinResume.pdf`}
+          href={`/resume`}
         >
           Resume
         </a>

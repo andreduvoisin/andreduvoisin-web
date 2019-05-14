@@ -10,5 +10,14 @@
         "distDir": "public"
       }
     }
+  ],
+  "routes": [
+    {
+      "src": "/resume",
+      "status": 302,
+      "headers": {
+        "Location": "/AndreDuvoisinResume.pdf"
+      }
+    }
   ]
 }
