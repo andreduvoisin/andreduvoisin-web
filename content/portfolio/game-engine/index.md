@@ -1,6 +1,6 @@
 ---
 title: Game Engine
-index: 6
+index: 8
 ---
 
 Software Engineer, C++

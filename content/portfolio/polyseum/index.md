@@ -1,6 +1,6 @@
 ---
 title: Polyseum
-index: 1
+index: 3
 ---
 
 Gameplay Engineer, C++ (Unreal Engine 4)

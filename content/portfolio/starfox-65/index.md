@@ -1,6 +1,6 @@
 ---
 title: Starfox 65
-index: 5
+index: 7
 ---
 
 Gameplay Engineer, C# (Microsoft XNA)

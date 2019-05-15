@@ -1,6 +1,6 @@
 ---
 title: Spirit
-index: 4
+index: 6
 ---
 
 Gameplay Engineer, C# (Unity3D)
