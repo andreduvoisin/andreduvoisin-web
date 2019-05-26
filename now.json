@@ -20,6 +20,6 @@
       }
     },
     { "handle": "filesystem" },
-    { "src": "/.*", "status": 404, "dest": "404.html" }
+    { "src": "/.*", "dest": "404.html" }
   ]
 }
