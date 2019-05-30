@@ -32,7 +32,7 @@ The Maestros was created on a team of 35 people using Unreal Development Kit (UD
 - Victory and defeat overlays
 - Post-game score screen with final match results and statistics.
 
-### Skills Developed
+#### Skills
 
 - HTTP/TCP
 - Scaleform GFx

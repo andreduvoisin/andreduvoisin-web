@@ -36,7 +36,7 @@ As a final project for an agent-focused multithreaded programming course, our te
 - Bug Squasher
   - Fun Fact: I was nicknamed Fix-It Felix for my mad bug squashing skills!
 
-### Skills Developed
+#### Skills
 
 - Java
 - Multithreading

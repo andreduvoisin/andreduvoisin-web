@@ -25,7 +25,7 @@ Spirit was developed in a 3-person team: two engineers and a sound designer.
 - Overall game flow: traversing the level, pad input timing, and beginning/death/end states.
 - UI and Menu system
 
-### Skills Developed
+#### Skills
 
 - C#
 - Unity3D

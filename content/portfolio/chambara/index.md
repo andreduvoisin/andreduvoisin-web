@@ -27,7 +27,7 @@ Chambara was created with a team of 20 people. The front end uses Unity3D, while
 - Created a build system with Jenkins for multiple platforms (PC, Mac, Linux, PS4)
 - Fleshed out the deploy system from build servers to production Azure boxes
 
-### Skills Developed
+#### Skills
 
 - Node.js
 - MongoDB

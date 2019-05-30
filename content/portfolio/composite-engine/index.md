@@ -11,6 +11,6 @@ Composite Engine is a C++ game engine for Windows and Mac featuring OpenGL, a CM
 
 - Lorem ipsum...
 
-### Skills Developed
+#### Skills
 
 - Lorem ipsum...

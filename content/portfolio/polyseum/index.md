@@ -32,7 +32,7 @@ Polyseum was created with a 20-person team in C++ using Unreal Engine 4.
 - Handled reconnecting to the game while maintaining player stats
 - Dash formula
 
-### Skills Developed
+#### Skills
 
 - C++
 - 3D Math
