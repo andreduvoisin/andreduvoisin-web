@@ -11,6 +11,6 @@ Piston Shooty is a 2D puzzle game written in Rust.
 
 - Lorem ipsum...
 
-#### Skills
+### Skills
 
 - Lorem ipsum...

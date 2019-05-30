@@ -18,7 +18,7 @@ As part of a Game Engines class, I developed a game engine demo that included:
 - Camera - Mouse and Keyboard control
 - Memory Allocators (Stack and Pool)
 
-#### Skills
+### Skills
 
 - C++
 - 3D Math

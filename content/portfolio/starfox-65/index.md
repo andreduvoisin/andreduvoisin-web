@@ -23,7 +23,7 @@ Starfox 65 was made in a 4-person team.
 - Split Screen gameplay
 - Main Menu
 
-#### Skills
+### Skills
 
 - C#
 - 3D Vector math

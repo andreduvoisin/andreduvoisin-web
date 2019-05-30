@@ -24,7 +24,7 @@ Super Smash Skyrim was created with a team of 4 people.
 - Time syncing and client-side prediction
 - Win conditions
 
-#### Skills
+### Skills
 
 - C++
 - TCP and UDP
