@@ -9,7 +9,7 @@ Spring 2015
 
 <iframe src="https://youtube.com/embed/4ifTNHY9b8s" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-### Overview
+<br/>
 
 Super Smash Skyrim is a networked multiplayer game where the object is to attack and grab enemies in order to hurl them off the stage. It is written using Prime Engine, a custom C++ game engine, using C++ along with Maya, Lua, and Python for level editing.
 

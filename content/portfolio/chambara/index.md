@@ -11,7 +11,7 @@ Website: [chambaragame.com](http://chambaragame.com/)
 
 <iframe src="https://www.youtube.com/embed/YqIwrOV-ZnU" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-### Overview
+<br/>
 
 Chambara is a networked multiplayer stealth-deathmatch game with only two colors, allowing players to seamlessly camouflage themselves with the environment. This empowers players to sneak, search, and ambush each other in dramatic, stylish duels.
 

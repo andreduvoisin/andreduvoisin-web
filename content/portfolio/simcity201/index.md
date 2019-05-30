@@ -9,8 +9,6 @@ Fall 2013
 <br/>
 GitHub: [git.io/SimCity201](https://git.io/SimCity201)
 
-### Overview
-
 As a final project for an agent-focused multithreaded programming course, our team of 8 people created a city simulation that would run independent of human input. The city had many different facets:
 
 - Citizens who eat, sleep, pay their rent, have jobs, travel about the city, go to the market, visit the bank, and go to restaurants.
