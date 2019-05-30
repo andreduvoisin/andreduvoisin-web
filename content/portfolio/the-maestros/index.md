@@ -17,7 +17,7 @@ The Maestros is a fast-paced 3v3 real time strategy game in which killing neutr
 
 The Maestros was created on a team of 35 people using Unreal Development Kit (UDK).
 
-### Programming Contributions
+#### Contributions
 
 - Deigned and created the front-end for 3D Main Menu system.
 - Implemented front-end for a login system with session information.

@@ -17,7 +17,7 @@ As a final project for an agent-focused multithreaded programming course, our te
 - A bus system to traverse the city.
 - A control panel that controlled things like number of citizens and different real-world scenarios (e.g. a restaurant runs out of food).
 
-### Programming Contributions
+#### Contributions
 
 - Bank GUI
 - Bank Integration

@@ -15,7 +15,7 @@ Super Smash Skyrim is a networked multiplayer game where the object is to attac
 
 Super Smash Skyrim was created with a team of 4 people.
 
-### Programming Contributions
+#### Contributions
 
 - Loading assets on level start
 - Networked 4-player support
