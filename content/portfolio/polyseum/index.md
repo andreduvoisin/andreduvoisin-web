@@ -17,7 +17,7 @@ Polyseum is a team-focused first person shooter where the goal is to knock enemi
 
 Polyseum was created with a 20-person team in C++ using Unreal Engine 4.
 
-#### Contributions
+### Contributions
 
 - Architected in-game chat system
 - Added on to our status effect system

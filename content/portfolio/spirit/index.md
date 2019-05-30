@@ -15,7 +15,7 @@ Spirit is a free-flowing rhythm game created for iOS using Unity3D (C#). The pla
 
 Spirit was developed in a 3-person team: two engineers and a sound designer.
 
-#### Contributions
+### Contributions
 
 - Wrote a sound wave analyzer in order to distinguish the strong beats in a given sound file.
 - Dynamic level generation based on the timing of the beats.

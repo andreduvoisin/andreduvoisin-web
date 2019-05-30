@@ -13,7 +13,7 @@ Starfox 65 is a 4-player split-screen 3D space shooter programmed in C# using th
 
 Starfox 65 was made in a 4-person team.
 
-#### Contributions
+### Contributions
 
 - Spring camera that follow each ship
 - Shooting; regular and homing projectiles
