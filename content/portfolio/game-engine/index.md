@@ -1,28 +1,17 @@
 ---
 title: Game Engine
-index: 6
+index: 8
 ---
 
-Software Engineer, C++
-<br/>
-Fall 2014
-<br/>
+As part of a class on game engines, I developed a game engine demo in C++ that included:
+
+- SIMD math library
+- DirectX 9 graphics
+- Skeletal animation
+- Custom shaders, including phong shading
+- Camera, along with mouse and keyboard controls
+- Memory allocators (stack and pool)
+
+### Links
+
 GitHub: [git.io/Game-Engine](https://git.io/Game-Engine)
-
-### Overview
-
-As part of a Game Engines class, I developed a game engine demo that included:
-
-- SIMD Math Library
-- DirectX 9 Graphics
-- Skeletal Animation
-- Custom shaders, including implementing phong shading.
-- Camera - Mouse and Keyboard control
-- Memory Allocators (Stack and Pool)
-
-### Skills Developed
-
-- C++
-- 3D Math
-- Memory Management
-- Graphics

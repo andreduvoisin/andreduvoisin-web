@@ -1,37 +1,27 @@
 ---
 title: Chambara
-index: 0
+index: 2
 ---
-
-Back End Engineer (Node.js with MongoDB)
-<br/>
-Spring 2015 - Spring 2016
-<br/>
-Website: [chambaragame.com](http://chambaragame.com/)
 
 <iframe src="https://www.youtube.com/embed/YqIwrOV-ZnU" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-### Overview
-
 Chambara is a networked multiplayer stealth-deathmatch game with only two colors, allowing players to seamlessly camouflage themselves with the environment. This empowers players to sneak, search, and ambush each other in dramatic, stylish duels.
 
-Chambara was created with a team of 20 people. The front end uses Unity3D, while the back end consists of Node.js and MongoDB on Linux.
+Chambara was created with a team of 20 people. The game client and game server were created with Unity3D, while the platform consisted of Node.js and MongoDB on Linux.
 
-### Programming Contributions
+It was released for PC and PS4 on Steam and the PlayStation Store. See the Links section below for more details!
 
-- Designed and implemented the back end platform to communicate with both the game client and server, on both PC and PS4. Includes:
-  - Player Profiles
-  - Matchmaking
-  - Analytics
-  - Game Server Management
-- Created a build system with Jenkins for multiple platforms (PC, Mac, Linux, PS4)
+### Contributions
+
+- Designed and implemented the back end platform to communicate with both the game client (on PC and PS4) and game server (on Linux). Includes player profiles, matchmaking, analytics, and game server management
+- Ported the game to PS4 and Xbox One. Includes adding controls, handling achievements, coordinating localization, and ensuring accessibility
+- Created a build system with Jenkins for a cross-platform game (PS4, PC, Mac, Linux)
 - Fleshed out the deploy system from build servers to production Azure boxes
 
-### Skills Developed
+### Links
 
-- Node.js
-- MongoDB
-- Jenkins
-- Linux
-- TCP
-- Build and Deploy Systems
+Steam: [Chambara](https://store.steampowered.com/app/745790/Chambara/)
+<br/>
+PlayStation: [Chambara](https://www.playstation.com/en-us/games/chambara-ps4/)
+<br/>
+Website: [chambaragame.com](http://chambaragame.com/)
