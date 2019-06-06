@@ -3,7 +3,9 @@ title: Piston Shooty
 index: 1
 ---
 
-GitHub: [git.io/piston_shooty](https://git.io/piston_shooty)
+<iframe src="https://www.youtube.com/embed/JL33RTniXtU" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+<br/>
 
 Piston Shooty is a 2D puzzle game where the player shoots guns that each shoot more guns. When they're ready, the player can spend their one bullet shot - which shoots a bullet out of all guns in play at once! Can they time their bullet shot accurately to kill all enemies in one click?
 
@@ -27,6 +29,8 @@ Piston Shooty is created by [Dru Erridge](http://druerridge.com/) and me. The ga
 - Audio
 - User interface and heads-up display
 
-### Skills
+### Links
 
-- Rust
+GitHub: [git.io/piston_shooty](https://git.io/piston_shooty)
+<br/>
+Twitter: [@gamesfromrust](https://twitter.com/gamesfromrust)
