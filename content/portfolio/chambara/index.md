@@ -5,8 +5,6 @@ index: 2
 
 <iframe src="https://www.youtube.com/embed/YqIwrOV-ZnU" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-<br/>
-
 Chambara is a networked multiplayer stealth-deathmatch game with only two colors, allowing players to seamlessly camouflage themselves with the environment. This empowers players to sneak, search, and ambush each other in dramatic, stylish duels.
 
 Chambara was created with a team of 20 people. The game client and game server were created with Unity3D, while the platform consisted of Node.js and MongoDB on Linux.

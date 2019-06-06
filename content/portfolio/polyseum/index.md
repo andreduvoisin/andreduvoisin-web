@@ -5,8 +5,6 @@ index: 3
 
 <iframe src="https://youtube.com/embed/ynaGn57ZiN0" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-<br/>
-
 Polyseum is a team-focused first person shooter where the goal is to knock enemies into hazards or off of the stage in order to kill them. In a sense, it's akin to a cross between Super Smash Bros. and the first person shooter genre, with emphasis on teamwork and player roles rather than headshots and twitch reactions.
 
 Polyseum was created with a 20-person team in C++ using Unreal Engine 4.

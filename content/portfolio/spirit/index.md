@@ -5,8 +5,6 @@ index: 6
 
 <iframe src="https://youtube.com/embed/d1st2DY-Z_c" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-<br/>
-
 Spirit is a free-flowing rhythm game created for iOS. The player traverses the cosmos as Spirit and taps on the screen when Spirit comes in contact with a pad, which are laid out to the beat of the song. Keeping the rhythm is essential to maintaining your flow.
 
 Spirit was developed with Unity in a 3-person team - two engineers and a sound designer.
