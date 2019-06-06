@@ -11,6 +11,8 @@ Chambara is a networked multiplayer stealth-deathmatch game with only two colors
 
 Chambara was created with a team of 20 people. The game client and game server were created with Unity3D, while the platform consisted of Node.js and MongoDB on Linux.
 
+It was released for PC and PS4 on Steam and the PlayStation Store. See the Links section below for more details!
+
 ### Contributions
 
 - Designed and implemented the back end platform to communicate with both the game client (on PC and PS4) and game server (on Linux). Includes player profiles, matchmaking, analytics, and game server management
@@ -20,4 +22,8 @@ Chambara was created with a team of 20 people. The game client and game server w
 
 ### Links
 
+Steam: [Chambara](https://store.steampowered.com/app/745790/Chambara/)
+<br/>
+PlayStation: [Chambara](https://www.playstation.com/en-us/games/chambara-ps4/)
+<br/>
 Website: [chambaragame.com](http://chambaragame.com/)
