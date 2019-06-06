@@ -3,29 +3,20 @@ title: Starfox 65
 index: 7
 ---
 
-Gameplay Engineer, C# (Microsoft XNA)
-<br/>
-Spring 2014
-<br/>
-GitHub: [git.io/Starfox-65](https://git.io/Starfox-65)
+Starfox 65 is a 4-player split-screen 3D space shooter. The object of the game is to fly around an arena and shoot down the ships of opposing players, using either normal shots or lock-on targetting.
 
-Starfox 65 is a 4-player split-screen 3D space shooter programmed in C# using the Microsoft XNA game engine. The object of the game is to fly around an arena and shoot down the ships of opposing players, using either normal shots or lock-on targetting.
-
-Starfox 65 was made in a 4-person team.
+Starfox 65 was made in a 4-person team with C# using the Microsoft XNA game engine.
 
 ### Contributions
 
-- Spring camera that follow each ship
-- Shooting; regular and homing projectiles
-- Lock-on Targetting
+- Spring camera that follows each ship
+- Shooting, including regular and homing projectiles
+- Lock-on targetting
 - Reticle projected in front of the player's ship
-- Xbox 360 Controller input
-- Split Screen gameplay
-- Main Menu
+- Xbox 360 controller input
+- Split-screen gameplay
+- Main menu
 
-### Skills
+### Links
 
-- C#
-- 3D Vector math
-- Camera programming
-- Input support for controllers
+GitHub: [git.io/Starfox-65](https://git.io/Starfox-65)
