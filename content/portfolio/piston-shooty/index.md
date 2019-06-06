@@ -15,17 +15,10 @@ Piston Shooty is created by [Dru Erridge](http://druerridge.com/) and me. The ga
 
 ### Contributions
 
-- Gameplay, including:
-    - Gun selection
-    - Guns shooting guns
-    - Guns shooting a final bullet
-    - Basic enemy behavior
-- Game flow, including:
-    - Level selection
-    - Level advancement
-    - Win and lose states
-- Main menu
+- Gameplay, including gun selection, guns shooting guns, guns shooting a final bullet, and basic enemy behavior
+- Game flow, including level selection, level advancement, and win and lose states
 - Level editor involving a grid-based system loaded from CSV files
+- Main menu
 - Audio
 - User interface and heads-up display
 
