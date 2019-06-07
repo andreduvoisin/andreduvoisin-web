@@ -1,6 +1,6 @@
 # andreduvoisin-web
 
-Andre Duvoisin's Blog and Portfolio.
+Andre Duvoisin's Blog and Portfolio
 
 [andreduvoisin.com](https://andreduvoisin.com)
 
