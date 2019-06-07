@@ -18,7 +18,10 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={undefined} keywords={[`blog`]} />
+        <SEO
+          title={undefined}
+          keywords={[`andre duvoisin`, `software engineer`, `blog`]}
+        />
 
         <Bio style={{ marginBottom: rhythm(0.5) }} />
 

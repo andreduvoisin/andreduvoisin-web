@@ -13,7 +13,10 @@ class PortfolioIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Portfolio" keywords={[`portfolio`]} />
+        <SEO
+          title="Portfolio"
+          keywords={[`andre duvoisin`, `software engineer`, `portfolio`]}
+        />
 
         {portfolio.edges.map(({ node }) => {
           const thematicBreak = this.createThematicBreak(
