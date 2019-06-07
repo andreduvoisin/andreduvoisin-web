@@ -18,3 +18,7 @@ Spirit was developed with Unity in a 3-person team - two engineers and a sound d
   - "Sweetspotting" the pads netted more points.
 - Overall game flow: traversing the level, pad input timing, and beginning/death/end states.
 - UI and Menu system
+
+### Links
+
+GitHub: [git.io/Spirit](https://git.io/Spirit)
