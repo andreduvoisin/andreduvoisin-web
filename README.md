@@ -4,6 +4,8 @@ Andre Duvoisin's Blog and Portfolio
 
 [andreduvoisin.com](https://andreduvoisin.com)
 
+Written with GatsbyJS and deployed to ZEIT.
+
 ## Development
 
 ```sh
