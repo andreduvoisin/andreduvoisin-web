@@ -2,7 +2,7 @@
   "name": "andreduvoisin-web",
   "private": true,
   "description": "Andre Duvoisin's Blog and Portfolio",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "author": "Andre Duvoisin <andre@andreduvoisin.com>",
   "dependencies": {
     "disqus-react": "^1.0.11",
