@@ -5,7 +5,7 @@
   "version": "1.1.5",
   "author": "Andre Duvoisin <andre@andreduvoisin.com>",
   "dependencies": {
-    "disqus-react": "^1.0.5",
+    "disqus-react": "^1.0.11",
     "gatsby": "^2.7.5",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-feed": "^2.0.13",
@@ -23,7 +23,7 @@
     "gatsby-source-filesystem": "^2.0.37",
     "gatsby-transformer-remark": "^2.2.5",
     "gatsby-transformer-sharp": "^2.1.13",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.23.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-helmet": "^5.2.0",

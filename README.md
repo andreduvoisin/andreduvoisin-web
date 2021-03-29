@@ -4,9 +4,9 @@ Andre Duvoisin's Blog and Portfolio
 
 [andreduvoisin.com](https://andreduvoisin.com)
 
-Written with GatsbyJS and deployed to ZEIT.
+Written with GatsbyJS and deployed to Vercel.
 
-## Development
+## Local Development
 
 ```sh
 npm install
@@ -24,59 +24,65 @@ This website started from boilerplate located at: https://github.com/gatsbyjs/ga
 - Verify Disqus settings and clear out test comments on test blogs.
   - https://andreduvoisin.disqus.com
 
-## Production
+## Vercel
 
-### ZEIT Now
+### Installing Vercel
 
-#### Installing ZEIT Now
+https://vercel.com/docs
 
-https://zeit.co/docs/
+### Deploying
 
-#### Deploying
-
-Deploys the current codebase to a ZEIT Now domain:
+To make a preview deployment against the current codebase:
 
 ```
-now
+vercel
 ```
 
 The domain that is outputted can be tested against.
 
-Aliases the last ZEIT Now domain created to `andreduvoisin.com`:
+To make a production deployment against the current codebase:
 
 ```
-now --target production
+vercel --prod
 ```
 
-Therefore, the following will create a domain and alias `andreduvoisin.com` to that domain, thus deploying to production.
+https://vercel.com/docs/platform/deployments#vercel-cli
 
-```
-now && now --target production
-```
-
-#### Other Commands
+### Other Commands
 
 List deployments:
 
 ```
-now ls
+vercel ls
 ```
 
-Remove all non-aliased deployments (to clean up):
+List deployments for this project:
 
 ```
-now rm <app> --safe
+vercel ls andreduvoisin-web
 ```
+
+Safely remove unused deployments (to clean up):
+
+```
+vercel rm andreduvoisin-web --safe
+```
+
+Vercel will automatically keep deployments for various reasons:
+
+> NOTE: Deployments that are not actively receiving any traffic do not generate any costs nor count towards any limits.
+>
+> Deleting this deployment will prevent you from instantly reverting and might break links used in integrations, such as the ones in the pull requests of your Git provider.
 
 List DNS Records (e.g. for Email Forwarding):
 
 ```
-now dns ls <domain>
+vercel dns ls andreduvoisin.com
 ```
 
 ## Relevant Links
 
-Zeit: https://zeit.co
+Vercel: https://vercel.com
 
 Disqus: https://andreduvoisin.disqus.com
 
