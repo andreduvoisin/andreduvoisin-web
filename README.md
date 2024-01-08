@@ -48,6 +48,8 @@ vercel --prod
 
 https://vercel.com/docs/platform/deployments#vercel-cli
 
+NOTE: By default, Vercel uses a Build cache. This may cause unexpected behavior with adding, removing, or updating static content. In order to build and deploy the project without the Build cache, add the `--force` flag with Vercel CLI. For more information: https://vercel.com/docs/deployments/troubleshoot-a-build#managing-build-cache
+
 ### Other Commands
 
 List deployments:
