@@ -4,7 +4,7 @@
       "src": "/resume",
       "status": 302,
       "headers": {
-        "Location": "/AndreDuvoisinResume.pdf"
+        "Location": "https://www.linkedin.com/in/andreduvoisin"
       }
     },
     { "handle": "filesystem" },
